@@ -6,7 +6,7 @@ export const models = [
   {
     "id": "stirling",
     "name": "Stirling",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -17,7 +17,7 @@ export const models = [
   {
     "id": "prime-grand-043",
     "name": "Prime grand 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -28,7 +28,7 @@ export const models = [
   {
     "id": "stagg",
     "name": "Stagg",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -39,7 +39,7 @@ export const models = [
   {
     "id": "drake",
     "name": "Drake",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -50,7 +50,7 @@ export const models = [
   {
     "id": "prime-vertex-043",
     "name": "Prime Vertex 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -61,7 +61,7 @@ export const models = [
   {
     "id": "the-aaron",
     "name": "The Aaron",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -72,7 +72,7 @@ export const models = [
   {
     "id": "liberty",
     "name": "Liberty 2876489",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -83,7 +83,7 @@ export const models = [
   {
     "id": "the-chipper",
     "name": "The Chipper",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -94,7 +94,7 @@ export const models = [
   {
     "id": "waycross-express",
     "name": "Waycross Express 3258494",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -105,7 +105,7 @@ export const models = [
   {
     "id": "prime-manor-4523A",
     "name": "Prime Manor 4523A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -116,7 +116,7 @@ export const models = [
   {
     "id": "silver-springs-5006-the-palm",
     "name": "Silver Springs 5006 The Palm",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -127,7 +127,7 @@ export const models = [
   {
     "id": "cypress-manor-0764B",
     "name": "Cypress Manor 0764B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -138,7 +138,7 @@ export const models = [
   {
     "id": "st-croix",
     "name": "St Croix",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -149,7 +149,7 @@ export const models = [
   {
     "id": "birchwood",
     "name": "Birchwood",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -160,7 +160,7 @@ export const models = [
   {
     "id": "freedom-3276517",
     "name": "Freedom 3276517",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -171,7 +171,7 @@ export const models = [
   {
     "id": "cascade",
     "name": "Cascade",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -182,7 +182,7 @@ export const models = [
   {
     "id": "casa-grande",
     "name": "Casa Grande",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -193,7 +193,7 @@ export const models = [
   {
     "id": "big-sky",
     "name": "Big Sky",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -204,7 +204,7 @@ export const models = [
   {
     "id": "st-charles",
     "name": "St. Charles",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -215,7 +215,7 @@ export const models = [
   {
     "id": "the-justice",
     "name": "The Justice",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -226,7 +226,7 @@ export const models = [
   {
     "id": "monterey",
     "name": "Monterey",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -237,7 +237,7 @@ export const models = [
   {
     "id": "lake-manor-3260H32P03",
     "name": "Lake Manor 3260H32P03",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -248,7 +248,7 @@ export const models = [
   {
     "id": "vienna-2.0",
     "name": "Vienna 2.0",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -259,7 +259,7 @@ export const models = [
   {
     "id": "embrace-serenity-261",
     "name": "Embrace Serenity 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -270,7 +270,7 @@ export const models = [
   {
     "id": "kritzer",
     "name": "Kritzer",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -281,7 +281,7 @@ export const models = [
   {
     "id": "icon-3256",
     "name": "Icon 3256",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -292,7 +292,7 @@ export const models = [
   {
     "id": "riverview-4603A",
     "name": "Riverview 4603A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -303,7 +303,7 @@ export const models = [
   {
     "id": "legend-2860478",
     "name": "Legend 2860478",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -314,7 +314,7 @@ export const models = [
   {
     "id": "prime-ridge-043",
     "name": "Prime Ridge 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -325,7 +325,7 @@ export const models = [
   {
     "id": "prime-2856h32p01",
     "name": "Prime 2856H32P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -336,7 +336,7 @@ export const models = [
   {
     "id": "embrace-sunlight-052",
     "name": "Embrace Sunlight 052",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -347,7 +347,7 @@ export const models = [
   {
     "id": "homc-4562G",
     "name": "HOMC 4562G",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -358,7 +358,7 @@ export const models = [
   {
     "id": "homc-4563E",
     "name": "HOMC 4563E",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -369,7 +369,7 @@ export const models = [
   {
     "id": "cypress-manor-4563E",
     "name": "Cypress Manor 4563E",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -380,7 +380,7 @@ export const models = [
   {
     "id": "embrace-opportunity-261",
     "name": "Embrace Oppotunity 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -391,7 +391,7 @@ export const models = [
   {
     "id": "silver-springs-5046",
     "name": "Silver Springs 5046",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -402,7 +402,7 @@ export const models = [
   {
     "id": "naples",
     "name": "Naples",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -413,7 +413,7 @@ export const models = [
   {
     "id": "sipsey",
     "name": "Sipsey",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -424,7 +424,7 @@ export const models = [
   {
     "id": "signature-3442A",
     "name": "Signature 3442A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -435,7 +435,7 @@ export const models = [
   {
     "id": "embrace-daylight",
     "name": "Embrace Daylight",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -446,7 +446,7 @@ export const models = [
   {
     "id": "iris",
     "name": "Iris",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -457,7 +457,7 @@ export const models = [
   {
     "id": "waycross-express-3272537-cottonwood",
     "name": "Waycross Express 3272537 Cottonwood",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -468,7 +468,7 @@ export const models = [
   {
     "id": "icon-2876-talladega",
     "name": "Icon 2876 Talladega",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -479,7 +479,7 @@ export const models = [
   {
     "id": "providence-3264543-wisdom",
     "name": "Providence 3264543",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -490,7 +490,7 @@ export const models = [
   {
     "id": "prime-2860H32P01",
     "name": "Prime 2860H32P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -501,7 +501,7 @@ export const models = [
   {
     "id": "the-maddux",
     "name": "The Maddux",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -512,7 +512,7 @@ export const models = [
   {
     "id": "waycross-express-2852477",
     "name": "Waycross Express 2852477",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -523,7 +523,7 @@ export const models = [
   {
     "id": "silver-springs-5012",
     "name": "Silver Springs 5012",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -534,7 +534,7 @@ export const models = [
   {
     "id": "grand-slam-1676480",
     "name": "Grand Slam 1676480",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -545,7 +545,7 @@ export const models = [
   {
     "id": "lake-manor-2444H22036",
     "name": "Lake Manor 2444H22036",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -556,7 +556,7 @@ export const models = [
   {
     "id": "prime-1666h32p01-261",
     "name": "Prime 1666H32P01-261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -567,7 +567,7 @@ export const models = [
   {
     "id": "home-run-1466208",
     "name": "Home Run 1466208",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -578,7 +578,7 @@ export const models = [
   {
     "id": "home-run-1456194",
     "name": "Home Run 1456194",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -589,7 +589,7 @@ export const models = [
   {
     "id": "prime-daybreak",
     "name": "Prime Daybreak",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -600,7 +600,7 @@ export const models = [
   {
     "id": "prime-manor-0764D",
     "name": "Prime Manor 0764D",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -611,7 +611,7 @@ export const models = [
   {
     "id": "nexus",
     "name": "Nexus",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -622,7 +622,7 @@ export const models = [
   {
     "id": "prime-manor-0764D-2",
     "name": "Prime Manor 0764D",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -633,7 +633,7 @@ export const models = [
   {
     "id": "sydney",
     "name": "Sydney",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -644,7 +644,7 @@ export const models = [
   {
     "id": "foundation-limited-3276H43LM76",
     "name": "Foundation Limited 3276H43LM76",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -655,7 +655,7 @@ export const models = [
   {
     "id": "cypress-manor-0764B-2",
     "name": "Cypress Manor 0764E",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -666,7 +666,7 @@ export const models = [
   {
     "id": "the-big-john",
     "name": "The Big John",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -677,7 +677,7 @@ export const models = [
   {
     "id": "freedom-3276552",
     "name": "Freedom 3276552",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -688,7 +688,7 @@ export const models = [
   {
     "id": "bozeman",
     "name": "Bozeman",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -699,7 +699,7 @@ export const models = [
   {
     "id": "manchester-by-regional-homes",
     "name": "Manchester by Regional Homes",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 5,
@@ -710,7 +710,7 @@ export const models = [
   {
     "id": "stoney-pointe",
     "name": "Stoney Pointe",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -721,7 +721,7 @@ export const models = [
   {
     "id": "helicon-2-0",
     "name": "Helicon 2.0",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -732,7 +732,7 @@ export const models = [
   {
     "id": "ruby",
     "name": "Ruby",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -743,7 +743,7 @@ export const models = [
   {
     "id": "kinlock-falls",
     "name": "Kinlock Falls",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -754,7 +754,7 @@ export const models = [
   {
     "id": "lynn",
     "name": "Lynn",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -765,7 +765,7 @@ export const models = [
   {
     "id": "the-helicon-3-0-327642f",
     "name": "Helicon 3.0",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -776,7 +776,7 @@ export const models = [
   {
     "id": "vermont",
     "name": "Vermont",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -787,7 +787,7 @@ export const models = [
   {
     "id": "legend-3276502",
     "name": "Legend 3276502",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -798,7 +798,7 @@ export const models = [
   {
     "id": "liberty-2",
     "name": "Liberty 3276536",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -809,7 +809,7 @@ export const models = [
   {
     "id": "cypress-manor-5644A",
     "name": "Cypress Manor 5644A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -820,7 +820,7 @@ export const models = [
   {
     "id": "crestwood",
     "name": "Crestwood",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -831,7 +831,7 @@ export const models = [
   {
     "id": "basecamp",
     "name": "Basecamp",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -842,7 +842,7 @@ export const models = [
   {
     "id": "ravenwood-by-regional-homes",
     "name": "Ravenwood by Regional Homes",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -853,7 +853,7 @@ export const models = [
   {
     "id": "freedom-3276527",
     "name": "Freddom 3276527",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -864,7 +864,7 @@ export const models = [
   {
     "id": "silver-springs-elite-6400",
     "name": "Silver Springs Elite 6400",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -875,7 +875,7 @@ export const models = [
   {
     "id": "rory",
     "name": "Rory",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -886,7 +886,7 @@ export const models = [
   {
     "id": "home-run-3272228",
     "name": "Home Run 3272228",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 5,
@@ -897,7 +897,7 @@ export const models = [
   {
     "id": "powell",
     "name": "Powell",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -908,7 +908,7 @@ export const models = [
   {
     "id": "cypress-manor-0683B",
     "name": "Cypress Manor 0683B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -919,7 +919,7 @@ export const models = [
   {
     "id": "rio",
     "name": "Rio",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -930,7 +930,7 @@ export const models = [
   {
     "id": "upshaw",
     "name": "Upshaw",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -941,7 +941,7 @@ export const models = [
   {
     "id": "dublin",
     "name": "Dublin",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -952,7 +952,7 @@ export const models = [
   {
     "id": "pinnacle-261",
     "name": "Pinnacle 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 5,
@@ -963,7 +963,7 @@ export const models = [
   {
     "id": "prime-2876H53P01",
     "name": "Prime 2876H53P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 5,
@@ -974,7 +974,7 @@ export const models = [
   {
     "id": "cairo",
     "name": "Cairo",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -985,7 +985,7 @@ export const models = [
   {
     "id": "flagstone",
     "name": "Flagstone",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -996,7 +996,7 @@ export const models = [
   {
     "id": "lake-manor-2876H53P01",
     "name": "Lake Manor 2876H53P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 5,
@@ -1007,7 +1007,7 @@ export const models = [
   {
     "id": "lake-manor-2876H43A7D",
     "name": "Lake Manor 2876H43A7D",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1018,7 +1018,7 @@ export const models = [
   {
     "id": "driftwood-by-regional-homes",
     "name": "Driftwood by Regional Homes",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1029,7 +1029,7 @@ export const models = [
   {
     "id": "freedom-3266553",
     "name": "Freedom 3266553",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1040,7 +1040,7 @@ export const models = [
   {
     "id": "juno",
     "name": "Juno",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1051,7 +1051,7 @@ export const models = [
   {
     "id": "home-run-2876322",
     "name": "Home Run 2876322",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1062,7 +1062,7 @@ export const models = [
   {
     "id": "legend-2876526",
     "name": "Legend 2876526",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1073,7 +1073,7 @@ export const models = [
   {
     "id": "cypress-manor",
     "name": "Cypress Manor",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1084,7 +1084,7 @@ export const models = [
   {
     "id": "paris",
     "name": "Paris",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1095,7 +1095,7 @@ export const models = [
   {
     "id": "liberty-3264528-scotbilt-homes",
     "name": "Liberty 3264528",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1106,7 +1106,7 @@ export const models = [
   {
     "id": "mckenna",
     "name": "Mckenna",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1117,7 +1117,7 @@ export const models = [
   {
     "id": "cedarbrooke-c0603b",
     "name": "Cedarbrooke - C0603B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1128,7 +1128,7 @@ export const models = [
   {
     "id": "cape-town",
     "name": "Cape Town",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1139,7 +1139,7 @@ export const models = [
   {
     "id": "dudley",
     "name": "Dudley",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1150,7 +1150,7 @@ export const models = [
   {
     "id": "riverview-4684A",
     "name": "Riverview 4684A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1161,7 +1161,7 @@ export const models = [
   {
     "id": "prime-2868H42P01",
     "name": "Prime 2868H42P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1172,7 +1172,7 @@ export const models = [
   {
     "id": "crestpointe-h4684a",
     "name": "Crestpointe H4684A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1183,7 +1183,7 @@ export const models = [
   {
     "id": "grand-261",
     "name": "Grand 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1194,7 +1194,7 @@ export const models = [
   {
     "id": "cornerstone",
     "name": "Cornerstone",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1205,7 +1205,7 @@ export const models = [
   {
     "id": "rh4684a",
     "name": "RH4684A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1216,7 +1216,7 @@ export const models = [
   {
     "id": "lake-manor-2856H42383",
     "name": "Lake Manor 2856H42383",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1227,7 +1227,7 @@ export const models = [
   {
     "id": "lake-manor-2868H42P01",
     "name": "Lake Manor 2868H42P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1238,7 +1238,7 @@ export const models = [
   {
     "id": "ascent",
     "name": "Ascent",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1249,7 +1249,7 @@ export const models = [
   {
     "id": "icon-2866-rockingham",
     "name": "Icon 2866 Rockingham",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1260,7 +1260,7 @@ export const models = [
   {
     "id": "cypress-manor-4643A",
     "name": "Cypress Manor 4643A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1271,7 +1271,7 @@ export const models = [
   {
     "id": "foundation-limited-2864H42LM64",
     "name": "Foundation Limited 2864H42LM64",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1282,7 +1282,7 @@ export const models = [
   {
     "id": "vista-villa",
     "name": "Vista Villa",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1293,7 +1293,7 @@ export const models = [
   {
     "id": "blue-sky",
     "name": "Blue Sky",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1304,7 +1304,7 @@ export const models = [
   {
     "id": "pursuit-xl-261",
     "name": "Pursuit XL 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1315,7 +1315,7 @@ export const models = [
   {
     "id": "cypress-manor-0563C",
     "name": "Cypress Manor 0563C",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1326,7 +1326,7 @@ export const models = [
   {
     "id": "providence-3256542-fortune",
     "name": "Providence 3256542 Fortune",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1337,7 +1337,7 @@ export const models = [
   {
     "id": "delashaw",
     "name": "Delashaw",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1348,7 +1348,7 @@ export const models = [
   {
     "id": "utah",
     "name": "Utah",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1359,7 +1359,7 @@ export const models = [
   {
     "id": "luna",
     "name": "Luna",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1370,7 +1370,7 @@ export const models = [
   {
     "id": "silver-springs-elite-pm-6480",
     "name": "Silver Springs Elite PM 6480",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -1381,7 +1381,7 @@ export const models = [
   {
     "id": "silver-springs-5354",
     "name": "Silver Sprngs 5354",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -1392,7 +1392,7 @@ export const models = [
   {
     "id": "grand-slam-2862306",
     "name": "Grand Slam 2862306",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1403,7 +1403,7 @@ export const models = [
   {
     "id": "pursuit-021",
     "name": "Pursuit 021",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1414,7 +1414,7 @@ export const models = [
   {
     "id": "keystone",
     "name": "Keystone",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1425,7 +1425,7 @@ export const models = [
   {
     "id": "rosedale",
     "name": "Rosedale",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1436,7 +1436,7 @@ export const models = [
   {
     "id": "the-pelican",
     "name": "Pelican",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1447,7 +1447,7 @@ export const models = [
   {
     "id": "key-largo-3252H32G01",
     "name": "Key Largo 3252H32G01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1458,7 +1458,7 @@ export const models = [
   {
     "id": "freedom-2860520",
     "name": "Freedom 2860520",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1469,7 +1469,7 @@ export const models = [
   {
     "id": "liberty-2860459",
     "name": "Liberty 2860459",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1480,7 +1480,7 @@ export const models = [
   {
     "id": "nova",
     "name": "Nova",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1491,7 +1491,7 @@ export const models = [
   {
     "id": "icon-2860-bristol",
     "name": "Icon 2860 Bristol",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1502,7 +1502,7 @@ export const models = [
   {
     "id": "silver-springs-5361",
     "name": "Silver Springs 5361",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1513,7 +1513,7 @@ export const models = [
   {
     "id": "signature-4563C",
     "name": "Signature 4563C",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1524,7 +1524,7 @@ export const models = [
   {
     "id": "pursuit-261",
     "name": "Pursuit 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1535,7 +1535,7 @@ export const models = [
   {
     "id": "prime-2856H42P01",
     "name": "Prime 2856H42P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1546,7 +1546,7 @@ export const models = [
   {
     "id": "apex-261",
     "name": "Apex 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1557,7 +1557,7 @@ export const models = [
   {
     "id": "prime-crown-043",
     "name": "Prime Crown 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1568,7 +1568,7 @@ export const models = [
   {
     "id": "foundation-limited-2856H32LM56",
     "name": "Foundation Limited 2856H32LM56",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1579,7 +1579,7 @@ export const models = [
   {
     "id": "embrace-sunlight-261",
     "name": "Embrace Sunlight 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1590,7 +1590,7 @@ export const models = [
   {
     "id": "hc4563h",
     "name": "HC4563H",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1601,7 +1601,7 @@ export const models = [
   {
     "id": "prime-apex-043",
     "name": "Prime Apex 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1612,7 +1612,7 @@ export const models = [
   {
     "id": "key-largo-2856H32A1C",
     "name": "Key Largo 2856H32A1C",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1623,7 +1623,7 @@ export const models = [
   {
     "id": "key-largo-2854h32g01",
     "name": "Key Largo 2854H32G01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1634,7 +1634,7 @@ export const models = [
   {
     "id": "coral-haven",
     "name": "Coral Haven",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1645,7 +1645,7 @@ export const models = [
   {
     "id": "pine-manor-0483A",
     "name": "Pine Manor 0483A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1656,7 +1656,7 @@ export const models = [
   {
     "id": "champion-community-2856443",
     "name": "Champion Community 2856443",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1667,7 +1667,7 @@ export const models = [
   {
     "id": "grand-slam-2856256",
     "name": "Grand Slam 2856256",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1678,7 +1678,7 @@ export const models = [
   {
     "id": "home-run-2856353",
     "name": "Home Run 2856353",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1689,7 +1689,7 @@ export const models = [
   {
     "id": "freedom-2856497",
     "name": "Freedom 2856497",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1700,7 +1700,7 @@ export const models = [
   {
     "id": "waycross-express-2856492",
     "name": "Waycross Express 2856492",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1711,7 +1711,7 @@ export const models = [
   {
     "id": "rover",
     "name": "Rover",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1722,7 +1722,7 @@ export const models = [
   {
     "id": "scout",
     "name": "Scout",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1733,7 +1733,7 @@ export const models = [
   {
     "id": "silver-springs-5355",
     "name": "Silver Springs 5355",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1744,7 +1744,7 @@ export const models = [
   {
     "id": "silver-springs-5351",
     "name": "Silver Springs 5351",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1755,7 +1755,7 @@ export const models = [
   {
     "id": "silver-springs-5027-the-oak",
     "name": "Silver Springs 5027 - The Oak",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -1766,7 +1766,7 @@ export const models = [
   {
     "id": "silver-springs-5360",
     "name": "Silver Springs 5360",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1777,7 +1777,7 @@ export const models = [
   {
     "id": "legend-3248501",
     "name": "Legend 3248501",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1788,7 +1788,7 @@ export const models = [
   {
     "id": "frankfurt",
     "name": "Frankfurt",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1799,7 +1799,7 @@ export const models = [
   {
     "id": "silver-springs-5077a",
     "name": "Silver Springs 5077",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -1810,7 +1810,7 @@ export const models = [
   {
     "id": "silver-springs-5042A",
     "name": "Silver Springs 5042A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -1821,7 +1821,7 @@ export const models = [
   {
     "id": "signature-4523E",
     "name": "Signature 4523E",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1832,7 +1832,7 @@ export const models = [
   {
     "id": "homes-of-merit-community-hc4522A",
     "name": "HC4522A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -1843,7 +1843,7 @@ export const models = [
   {
     "id": "prime-corbin-261",
     "name": "Prime Corbin 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1854,7 +1854,7 @@ export const models = [
   {
     "id": "the-carlee",
     "name": "The Carlee",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1865,7 +1865,7 @@ export const models = [
   {
     "id": "silver-springs-5001A",
     "name": "Silver Springs 5001A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1876,7 +1876,7 @@ export const models = [
   {
     "id": "silver-springs-5035",
     "name": "Silver Springs 5035",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1887,7 +1887,7 @@ export const models = [
   {
     "id": "legend-2852479",
     "name": "Legend 2852479",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1898,7 +1898,7 @@ export const models = [
   {
     "id": "grand-slam-2852372",
     "name": "Grand Slam 2852372",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1909,7 +1909,7 @@ export const models = [
   {
     "id": "driftwood-cottage",
     "name": "Driftwood Cottage",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -1920,7 +1920,7 @@ export const models = [
   {
     "id": "valencia",
     "name": "Valencia",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1931,7 +1931,7 @@ export const models = [
   {
     "id": "silver-springs-5044A-bal-harbour",
     "name": "Silver Springs 5044A Bal Harbour",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1942,7 +1942,7 @@ export const models = [
   {
     "id": "silver-springs-5320",
     "name": "Silver Springs 5320",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1953,7 +1953,7 @@ export const models = [
   {
     "id": "signature-3564A",
     "name": "Signature 3564A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 4,
@@ -1964,7 +1964,7 @@ export const models = [
   {
     "id": "prime-churchill-043",
     "name": "Prime Chuchill 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1975,7 +1975,7 @@ export const models = [
   {
     "id": "foundation-limited-2848H32LM48",
     "name": "Foundation Limited 2848H32LM48",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1986,7 +1986,7 @@ export const models = [
   {
     "id": "lake-manor-2848H32P02",
     "name": "Lake Manor 2848H32P02",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -1997,7 +1997,7 @@ export const models = [
   {
     "id": "silver-springs-5000a",
     "name": "Silver Springs 5000A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2008,7 +2008,7 @@ export const models = [
   {
     "id": "grand-slam-2456341",
     "name": "Grand Slam 2456341",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2019,7 +2019,7 @@ export const models = [
   {
     "id": "champion-community-2848441",
     "name": "Champion Community 2848441",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2030,7 +2030,7 @@ export const models = [
   {
     "id": "grand-slam-2848302",
     "name": "Grand Slam 2848302",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2041,7 +2041,7 @@ export const models = [
   {
     "id": "home-run-2848229",
     "name": "Home Run 2848229",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2052,7 +2052,7 @@ export const models = [
   {
     "id": "silver-springs-4801",
     "name": "Silver Springs 4801",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2063,7 +2063,7 @@ export const models = [
   {
     "id": "onward",
     "name": "Onward",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2074,7 +2074,7 @@ export const models = [
   {
     "id": "legend-2848510",
     "name": "Legend 2848510",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2085,7 +2085,7 @@ export const models = [
   {
     "id": "prime-estill-2844H32P01",
     "name": "Prime Estill",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2096,7 +2096,7 @@ export const models = [
   {
     "id": "grand-slam-2452445",
     "name": "Grand Slam 2452445",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2107,7 +2107,7 @@ export const models = [
   {
     "id": "madison",
     "name": "Madison",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2118,7 +2118,7 @@ export const models = [
   {
     "id": "lake-manor-2844H32P01",
     "name": "Lake Manor 2844H32P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2129,7 +2129,7 @@ export const models = [
   {
     "id": "fay",
     "name": "Fay",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2140,7 +2140,7 @@ export const models = [
   {
     "id": "piton",
     "name": "Piton",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2151,7 +2151,7 @@ export const models = [
   {
     "id": "silver-springs-5029",
     "name": "Silver Springs 5029",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2162,7 +2162,7 @@ export const models = [
   {
     "id": "rainer-3.0",
     "name": "Rainer 3.0",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2173,7 +2173,7 @@ export const models = [
   {
     "id": "prime-floyd-043",
     "name": "Prime Floyd 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2184,7 +2184,7 @@ export const models = [
   {
     "id": "prime-monte-043",
     "name": "Prime Monte 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2195,7 +2195,7 @@ export const models = [
   {
     "id": "firefly",
     "name": "Firefly",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2206,7 +2206,7 @@ export const models = [
   {
     "id": "embrace-simplicity",
     "name": "Embrace Simplicity",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2217,7 +2217,7 @@ export const models = [
   {
     "id": "sierra",
     "name": "Sierra",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2228,7 +2228,7 @@ export const models = [
   {
     "id": "prime-somerset-043",
     "name": "Prime Somerset 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2239,7 +2239,7 @@ export const models = [
   {
     "id": "signature-3523b",
     "name": "Signature 3523B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2250,7 +2250,7 @@ export const models = [
   {
     "id": "home-run-2844402",
     "name": "Home Run 2844402",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2261,7 +2261,7 @@ export const models = [
   {
     "id": "eva",
     "name": "Eva",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2272,7 +2272,7 @@ export const models = [
   {
     "id": "pip",
     "name": "Pip",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2283,7 +2283,7 @@ export const models = [
   {
     "id": "hudson-by-regional-homes",
     "name": "Hudson by Regional Homes",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2294,7 +2294,7 @@ export const models = [
   {
     "id": "grand-slam-1676401",
     "name": "Grand Slam 1676401",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2305,7 +2305,7 @@ export const models = [
   {
     "id": "grand-slam",
     "name": "Grand Slam 1676406",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2316,7 +2316,7 @@ export const models = [
   {
     "id": "home-run-1676257",
     "name": "Home Run 1676257",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2327,7 +2327,7 @@ export const models = [
   {
     "id": "legend-1676496",
     "name": "Legend 1676496",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2338,7 +2338,7 @@ export const models = [
   {
     "id": "the-murphy",
     "name": "The Murphy",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2349,7 +2349,7 @@ export const models = [
   {
     "id": "icon-1676",
     "name": "Icon 1676",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2360,7 +2360,7 @@ export const models = [
   {
     "id": "home-run-1676511",
     "name": "Home Run 1676511",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2371,7 +2371,7 @@ export const models = [
   {
     "id": "waycross-express-2",
     "name": "Waycross Express 1676531",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2382,7 +2382,7 @@ export const models = [
   {
     "id": "prime-2448H32P02",
     "name": "Prime 2448H32P02",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2393,7 +2393,7 @@ export const models = [
   {
     "id": "prime-bardstown-043",
     "name": "Prime Bardstown 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2404,7 +2404,7 @@ export const models = [
   {
     "id": "winter-special",
     "name": "Winter Special",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2415,7 +2415,7 @@ export const models = [
   {
     "id": "prime-ballard-043",
     "name": "Prime Ballard 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2426,7 +2426,7 @@ export const models = [
   {
     "id": "hodges",
     "name": "Hodges",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2437,7 +2437,7 @@ export const models = [
   {
     "id": "lake-manor-2840H32P01",
     "name": "Lake Manor 2840H32P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2448,7 +2448,7 @@ export const models = [
   {
     "id": "silver-springs-4893",
     "name": "Silver Springs 4893",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2459,7 +2459,7 @@ export const models = [
   {
     "id": "champion-community-2844444",
     "name": "Champion Community 2844444",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2470,7 +2470,7 @@ export const models = [
   {
     "id": "rh26282a",
     "name": "RH26282A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2481,7 +2481,7 @@ export const models = [
   {
     "id": "rh2683b",
     "name": "RH2683B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2492,7 +2492,7 @@ export const models = [
   {
     "id": "ace-2.0",
     "name": "Ace 2.0",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2503,7 +2503,7 @@ export const models = [
   {
     "id": "lake-manor-2846H22140",
     "name": "Lake Manor 2846H22140",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2514,7 +2514,7 @@ export const models = [
   {
     "id": "hc4522B",
     "name": "HC4522B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2525,7 +2525,7 @@ export const models = [
   {
     "id": "prime-vertex-043-2",
     "name": "Vertex 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2536,7 +2536,7 @@ export const models = [
   {
     "id": "prime-hickman-043",
     "name": "Prime Hickman 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2547,7 +2547,7 @@ export const models = [
   {
     "id": "lake-manor-1666H32P01",
     "name": "Lake Manor 1666H32P01",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2558,7 +2558,7 @@ export const models = [
   {
     "id": "champion-community-2444437",
     "name": "Champion Community 2444437",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2569,7 +2569,7 @@ export const models = [
   {
     "id": "henson",
     "name": "Henson",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2580,7 +2580,7 @@ export const models = [
   {
     "id": "grand-slam-1666323",
     "name": "Grand Slam 1666323",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2591,7 +2591,7 @@ export const models = [
   {
     "id": "grand-slam-1666354",
     "name": "Grand Slam 1666354",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2602,7 +2602,7 @@ export const models = [
   {
     "id": "champion-community-2836447",
     "name": "Champion Community 2836447",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2613,7 +2613,7 @@ export const models = [
   {
     "id": "silver-springs-5011",
     "name": "Silver Springs 5011",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2624,7 +2624,7 @@ export const models = [
   {
     "id": "lake-manor-2440H22036",
     "name": "Lake Manor 2440H22036",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2635,7 +2635,7 @@ export const models = [
   {
     "id": "prime-spire-043",
     "name": "Prime Spire 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2646,7 +2646,7 @@ export const models = [
   {
     "id": "legend-1660390",
     "name": "Legend 1660390",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2657,7 +2657,7 @@ export const models = [
   {
     "id": "home-run-1660304",
     "name": "Home Run 1660304",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2668,7 +2668,7 @@ export const models = [
   {
     "id": "legend-1660522",
     "name": "Legend 1660522",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2679,7 +2679,7 @@ export const models = [
   {
     "id": "zenith-261",
     "name": "Zenith 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2690,7 +2690,7 @@ export const models = [
   {
     "id": "prime-zenith-043",
     "name": "Prime Zenith 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2701,7 +2701,7 @@ export const models = [
   {
     "id": "silver-springs-4800",
     "name": "Silver Springs 4800",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2712,7 +2712,7 @@ export const models = [
   {
     "id": "marco",
     "name": "Marco",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 3,
@@ -2723,7 +2723,7 @@ export const models = [
   {
     "id": "prime-barkley",
     "name": "Prime Barkley",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2734,7 +2734,7 @@ export const models = [
   {
     "id": "hc3362a",
     "name": "HC3362A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2745,7 +2745,7 @@ export const models = [
   {
     "id": "home-run-1656280",
     "name": "Home Run 1656280",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2756,7 +2756,7 @@ export const models = [
   {
     "id": "rh2542B",
     "name": "RH2542B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2767,7 +2767,7 @@ export const models = [
   {
     "id": "champion-community-2436456",
     "name": "Champion Community 2436456",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2778,7 +2778,7 @@ export const models = [
   {
     "id": "crest-261",
     "name": "Crest 261",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2789,7 +2789,7 @@ export const models = [
   {
     "id": "silver-springs-4301n",
     "name": "Silver Springs 4301N",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2800,7 +2800,7 @@ export const models = [
   {
     "id": "prime-crest-043",
     "name": "Prime Crest 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2811,7 +2811,7 @@ export const models = [
   {
     "id": "palm-bay-2714B",
     "name": "Palm Bay 2714B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2822,7 +2822,7 @@ export const models = [
   {
     "id": "lewis",
     "name": "Lewis",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2833,7 +2833,7 @@ export const models = [
   {
     "id": "prime-peak-043",
     "name": "Prime Peak 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2844,7 +2844,7 @@ export const models = [
   {
     "id": "legend-1456503",
     "name": "Legend 1456503",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2855,7 +2855,7 @@ export const models = [
   {
     "id": "rh1522A",
     "name": "RH1522A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 2,
@@ -2866,7 +2866,7 @@ export const models = [
   {
     "id": "palm-bay-2665b",
     "name": "Palm Bay 2665B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2877,7 +2877,7 @@ export const models = [
   {
     "id": "grand-slam-1640409",
     "name": "Grand Slam 1640409",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2888,7 +2888,7 @@ export const models = [
   {
     "id": "prime-pike-043",
     "name": "Prime Pike 043",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2899,7 +2899,7 @@ export const models = [
   {
     "id": "rh1381a",
     "name": "RH1381A",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2910,7 +2910,7 @@ export const models = [
   {
     "id": "palm-bay-2641C",
     "name": "Palm Bay 2641C",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2921,7 +2921,7 @@ export const models = [
   {
     "id": "palm-bay-2622c",
     "name": "Palm Bay 2622C",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2932,7 +2932,7 @@ export const models = [
   {
     "id": "palm-bay-2625",
     "name": "Palm Bay 2625",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2943,7 +2943,7 @@ export const models = [
   {
     "id": "calloway-239",
     "name": "Calloway 239",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2954,7 +2954,7 @@ export const models = [
   {
     "id": "palm-bay-2641B",
     "name": "Palm Bay 2641B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2965,7 +2965,7 @@ export const models = [
   {
     "id": "palm-bay-2632",
     "name": "Palm bay 2632",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2976,7 +2976,7 @@ export const models = [
   {
     "id": "palm-bay-2631",
     "name": "Palm Bay 2631",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2987,7 +2987,7 @@ export const models = [
   {
     "id": "lake-manor-1437h11200",
     "name": "Lake Maonr 1437H11200",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -2998,7 +2998,7 @@ export const models = [
   {
     "id": "palm-bay-2670B",
     "name": "Palm Bay 2670B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -3009,7 +3009,7 @@ export const models = [
   {
     "id": "palm-bay-2660b",
     "name": "Palm Bay 2660B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -3020,7 +3020,7 @@ export const models = [
   {
     "id": "palm-bay-2660c",
     "name": "Palm Bay 2660C",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -3031,7 +3031,7 @@ export const models = [
   {
     "id": "palm-bay-2622B",
     "name": "Palm Bay 2622B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -3042,7 +3042,7 @@ export const models = [
   {
     "id": "palm-bay-2621b",
     "name": "Palm Bay 2621B",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -3053,7 +3053,7 @@ export const models = [
   {
     "id": "palm-bay-2621C",
     "name": "Palm Bay 2621C",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
@@ -3064,7 +3064,7 @@ export const models = [
   {
     "id": "legend-1435454",
     "name": "Legend 1435454",
-    "category": "Champion Homes",
+    "category": "Native Sun Homes",
     "image": "",
     "model": "",
     "bedrooms": 1,
