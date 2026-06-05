@@ -13,38 +13,109 @@ const sizeGroups = [
   "Estate / Grand Homes",
 ];
 
+const sortOptions = [
+  "Name A-Z",
+  "Name Z-A",
+  "Smallest to Largest",
+  "Largest to Smallest",
+  "Bedrooms Low to High",
+  "Bedrooms High to Low",
+  "Bathrooms Low to High",
+  "Bathrooms High to Low",
+];
+
 function getSizeGroup(sqft) {
-  if (sqft < 1000) return "Compact Homes";
-  if (sqft < 1200) return "Efficient Homes";
-  if (sqft < 1400) return "Classic Family Homes";
-  if (sqft < 1600) return "Popular Family Homes";
-  if (sqft < 1800) return "Spacious Homes";
-  if (sqft < 2000) return "Large Family Homes";
+  const size = Number(sqft);
+
+  if (size < 1000) return "Compact Homes";
+  if (size < 1200) return "Efficient Homes";
+  if (size < 1400) return "Classic Family Homes";
+  if (size < 1600) return "Popular Family Homes";
+  if (size < 1800) return "Spacious Homes";
+  if (size < 2000) return "Large Family Homes";
   return "Estate / Grand Homes";
 }
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedSizeGroup, setSelectedSizeGroup] = useState("All Homes");
+  const [selectedBedrooms, setSelectedBedrooms] = useState("Any Bedrooms");
+  const [selectedBathrooms, setSelectedBathrooms] = useState("Any Bathrooms");
+  const [sortBy, setSortBy] = useState("Name A-Z");
 
   const modelsWithGroups = useMemo(() => {
     return models.map((home) => ({
       ...home,
+      bedrooms: Number(home.bedrooms),
+      bathrooms: Number(home.bathrooms),
+      sqft: Number(home.sqft),
       sizeGroup: getSizeGroup(home.sqft),
     }));
   }, []);
 
-  const filteredModels = modelsWithGroups.filter((home) => {
-    const matchesSearch = home.name
-      .toLowerCase()
-      .includes(searchTerm.toLowerCase());
+  const bedroomOptions = useMemo(() => {
+    const uniqueBedrooms = [...new Set(modelsWithGroups.map((home) => home.bedrooms))];
+    return uniqueBedrooms.sort((a, b) => a - b);
+  }, [modelsWithGroups]);
 
-    const matchesSizeGroup =
-      selectedSizeGroup === "All Homes" ||
-      home.sizeGroup === selectedSizeGroup;
+  const bathroomOptions = useMemo(() => {
+    const uniqueBathrooms = [...new Set(modelsWithGroups.map((home) => home.bathrooms))];
+    return uniqueBathrooms.sort((a, b) => a - b);
+  }, [modelsWithGroups]);
 
-    return matchesSearch && matchesSizeGroup;
-  });
+  const filteredModels = useMemo(() => {
+    const filtered = modelsWithGroups.filter((home) => {
+      const matchesSearch = home.name
+        .toLowerCase()
+        .includes(searchTerm.toLowerCase());
+
+      const matchesSizeGroup =
+        selectedSizeGroup === "All Homes" ||
+        home.sizeGroup === selectedSizeGroup;
+
+      const matchesBedrooms =
+        selectedBedrooms === "Any Bedrooms" ||
+        home.bedrooms === Number(selectedBedrooms);
+
+      const matchesBathrooms =
+        selectedBathrooms === "Any Bathrooms" ||
+        home.bathrooms === Number(selectedBathrooms);
+
+      return (
+        matchesSearch &&
+        matchesSizeGroup &&
+        matchesBedrooms &&
+        matchesBathrooms
+      );
+    });
+
+    return filtered.sort((a, b) => {
+      if (sortBy === "Name A-Z") return a.name.localeCompare(b.name);
+      if (sortBy === "Name Z-A") return b.name.localeCompare(a.name);
+      if (sortBy === "Smallest to Largest") return a.sqft - b.sqft;
+      if (sortBy === "Largest to Smallest") return b.sqft - a.sqft;
+      if (sortBy === "Bedrooms Low to High") return a.bedrooms - b.bedrooms;
+      if (sortBy === "Bedrooms High to Low") return b.bedrooms - a.bedrooms;
+      if (sortBy === "Bathrooms Low to High") return a.bathrooms - b.bathrooms;
+      if (sortBy === "Bathrooms High to Low") return b.bathrooms - a.bathrooms;
+      return 0;
+    });
+  }, [
+    modelsWithGroups,
+    searchTerm,
+    selectedSizeGroup,
+    selectedBedrooms,
+    selectedBathrooms,
+    sortBy,
+  ]);
+
+  function resetFilters() {
+    setSearchTerm("");
+    setSelectedSizeGroup("All Homes");
+    setSelectedBedrooms("Any Bedrooms");
+    setSelectedBathrooms("Any Bathrooms");
+    setSortBy("Name A-Z");
+  }
 
   return (
     <main className="page">
@@ -71,6 +142,45 @@ function App() {
             </option>
           ))}
         </select>
+
+        <select
+          value={selectedBedrooms}
+          onChange={(event) => setSelectedBedrooms(event.target.value)}
+        >
+          <option>Any Bedrooms</option>
+          {bedroomOptions.map((bedroom) => (
+            <option key={bedroom} value={bedroom}>
+              {bedroom} Bedroom{bedroom === 1 ? "" : "s"}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={selectedBathrooms}
+          onChange={(event) => setSelectedBathrooms(event.target.value)}
+        >
+          <option>Any Bathrooms</option>
+          {bathroomOptions.map((bathroom) => (
+            <option key={bathroom} value={bathroom}>
+              {bathroom} Bath{bathroom === 1 ? "" : "s"}
+            </option>
+          ))}
+        </select>
+
+        <select
+          value={sortBy}
+          onChange={(event) => setSortBy(event.target.value)}
+        >
+          {sortOptions.map((option) => (
+            <option key={option} value={option}>
+              {option}
+            </option>
+          ))}
+        </select>
+
+        <button className="reset-button" onClick={resetFilters}>
+          Reset Filters
+        </button>
       </section>
 
       <p className="results-count">
