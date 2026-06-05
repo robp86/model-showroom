@@ -190,7 +190,11 @@ function App() {
       <section className="model-grid">
         {filteredModels.map((home) => (
           <article className="model-card" key={home.id}>
-            <div className="model-image-placeholder">{home.name}</div>
+            {home.image ? (
+  <img className="model-image" src={home.image} alt={home.name} />
+) : (
+  <div className="model-image-placeholder">{home.name}</div>
+)}
 
             <div className="model-info">
               <h2>{home.name}</h2>
