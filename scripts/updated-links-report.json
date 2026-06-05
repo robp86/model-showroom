@@ -1,0 +1,1402 @@
+{
+  "totalModels": 279,
+  "csvRows": 279,
+  "updated": [
+    {
+      "name": "Stirling",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/stirling",
+      "newManufacturerUrl": "https://www.championhomes.com/models/stirling"
+    },
+    {
+      "name": "Prime grand 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-grand-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-grand-043"
+    },
+    {
+      "name": "Stagg",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/stagg",
+      "newManufacturerUrl": "https://www.championhomes.com/models/stagg"
+    },
+    {
+      "name": "Drake",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/drake",
+      "newManufacturerUrl": "https://www.championhomes.com/models/drake"
+    },
+    {
+      "name": "Prime Vertex 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-vertex-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-vertex-043"
+    },
+    {
+      "name": "The Aaron",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-aaron",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-aaron"
+    },
+    {
+      "name": "Liberty 2876489",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/liberty",
+      "newManufacturerUrl": "https://www.championhomes.com/models/liberty"
+    },
+    {
+      "name": "The Chipper",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-chipper",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-chipper"
+    },
+    {
+      "name": "Waycross Express 3258494",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/waycross-express",
+      "newManufacturerUrl": "https://www.championhomes.com/models/waycross-express"
+    },
+    {
+      "name": "Prime Manor 4523A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-manor-4523A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-manor-4523A"
+    },
+    {
+      "name": "Silver Springs 5006 The Palm",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5006-the-palm",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5006-the-palm"
+    },
+    {
+      "name": "Cypress Manor 0764B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0764B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0764B"
+    },
+    {
+      "name": "St Croix",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/st-croix",
+      "newManufacturerUrl": "https://www.championhomes.com/models/st-croix"
+    },
+    {
+      "name": "Birchwood",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/birchwood",
+      "newManufacturerUrl": "https://www.championhomes.com/models/birchwood"
+    },
+    {
+      "name": "Freedom 3276517",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/freedom-3276517",
+      "newManufacturerUrl": "https://www.championhomes.com/models/freedom-3276517"
+    },
+    {
+      "name": "Cascade",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cascade",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cascade"
+    },
+    {
+      "name": "Casa Grande",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/casa-grande",
+      "newManufacturerUrl": "https://www.championhomes.com/models/casa-grande"
+    },
+    {
+      "name": "Big Sky",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/big-sky",
+      "newManufacturerUrl": "https://www.championhomes.com/models/big-sky"
+    },
+    {
+      "name": "St. Charles",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/st-charles",
+      "newManufacturerUrl": "https://www.championhomes.com/models/st-charles"
+    },
+    {
+      "name": "The Justice",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-justice",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-justice"
+    },
+    {
+      "name": "Monterey",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/monterey",
+      "newManufacturerUrl": "https://www.championhomes.com/models/monterey"
+    },
+    {
+      "name": "Lake Manor 3260H32P03",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-3260H32P03",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-3260H32P03"
+    },
+    {
+      "name": "Vienna 2.0",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/vienna-2.0",
+      "newManufacturerUrl": "https://www.championhomes.com/models/vienna-2.0"
+    },
+    {
+      "name": "Embrace Serenity 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/embrace-serenity-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/embrace-serenity-261"
+    },
+    {
+      "name": "Kritzer",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/kritzer",
+      "newManufacturerUrl": "https://www.championhomes.com/models/kritzer"
+    },
+    {
+      "name": "Icon 3256",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/icon-3256",
+      "newManufacturerUrl": "https://www.championhomes.com/models/icon-3256"
+    },
+    {
+      "name": "Riverview 4603A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/riverview-4603A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/riverview-4603A"
+    },
+    {
+      "name": "Legend 2860478",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-2860478",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-2860478"
+    },
+    {
+      "name": "Prime Ridge 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-ridge-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-ridge-043"
+    },
+    {
+      "name": "Prime 2856H32P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-2856h32p01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-2856h32p01"
+    },
+    {
+      "name": "Embrace Sunlight 052",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/embrace-sunlight-052",
+      "newManufacturerUrl": "https://www.championhomes.com/models/embrace-sunlight-052"
+    },
+    {
+      "name": "HOMC 4562G",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/homc-4562G",
+      "newManufacturerUrl": "https://www.championhomes.com/models/homc-4562G"
+    },
+    {
+      "name": "HOMC 4563E",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/homc-4563E",
+      "newManufacturerUrl": "https://www.championhomes.com/models/homc-4563E"
+    },
+    {
+      "name": "Cypress Manor 4563E",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-4563E",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-4563E"
+    },
+    {
+      "name": "Embrace Oppotunity 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/embrace-opportunity-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/embrace-opportunity-261"
+    },
+    {
+      "name": "Silver Springs 5046",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5046",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5046"
+    },
+    {
+      "name": "Naples",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/naples",
+      "newManufacturerUrl": "https://www.championhomes.com/models/naples"
+    },
+    {
+      "name": "Sipsey",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/sipsey",
+      "newManufacturerUrl": "https://www.championhomes.com/models/sipsey"
+    },
+    {
+      "name": "Signature 3442A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/signature-3442A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/signature-3442A"
+    },
+    {
+      "name": "Embrace Daylight",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/embrace-daylight",
+      "newManufacturerUrl": "https://www.championhomes.com/models/embrace-daylight"
+    },
+    {
+      "name": "Iris",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/iris",
+      "newManufacturerUrl": "https://www.championhomes.com/models/iris"
+    },
+    {
+      "name": "Waycross Express 3272537 Cottonwood",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/waycross-express-3272537-cottonwood",
+      "newManufacturerUrl": "https://www.championhomes.com/models/waycross-express-3272537-cottonwood"
+    },
+    {
+      "name": "Icon 2876 Talladega",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/icon-2876-talladega",
+      "newManufacturerUrl": "https://www.championhomes.com/models/icon-2876-talladega"
+    },
+    {
+      "name": "Providence 3264543",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/providence-3264543-wisdom",
+      "newManufacturerUrl": "https://www.championhomes.com/models/providence-3264543-wisdom"
+    },
+    {
+      "name": "Prime 2860H32P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-2860H32P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-2860H32P01"
+    },
+    {
+      "name": "The Maddux",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-maddux",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-maddux"
+    },
+    {
+      "name": "Waycross Express 2852477",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/waycross-express-2852477",
+      "newManufacturerUrl": "https://www.championhomes.com/models/waycross-express-2852477"
+    },
+    {
+      "name": "Silver Springs 5012",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5012",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5012"
+    },
+    {
+      "name": "Grand Slam 1676480",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1676480",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1676480"
+    },
+    {
+      "name": "Lake Manor 2444H22036",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2444H22036",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2444H22036"
+    },
+    {
+      "name": "Prime 1666H32P01-261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-1666h32p01-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-1666h32p01-261"
+    },
+    {
+      "name": "Home Run 1466208",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-1466208",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-1466208"
+    },
+    {
+      "name": "Home Run 1456194",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-1456194",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-1456194"
+    },
+    {
+      "name": "Prime Daybreak",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-daybreak",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-daybreak"
+    },
+    {
+      "name": "Prime Manor 0764D",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-manor-0764D",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-manor-0764D"
+    },
+    {
+      "name": "Nexus",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/nexus",
+      "newManufacturerUrl": "https://www.championhomes.com/models/nexus"
+    },
+    {
+      "name": "Prime Manor 0764D",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-manor-0764D",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-manor-0764D"
+    },
+    {
+      "name": "Sydney",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/sydney",
+      "newManufacturerUrl": "https://www.championhomes.com/models/sydney"
+    },
+    {
+      "name": "Foundation Limited 3276H43LM76",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/foundation-limited-3276H43LM76",
+      "newManufacturerUrl": "https://www.championhomes.com/models/foundation-limited-3276H43LM76"
+    },
+    {
+      "name": "Cypress Manor 0764E",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0764B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0764B"
+    },
+    {
+      "name": "The Big John",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-big-john",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-big-john"
+    },
+    {
+      "name": "Freedom 3276552",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/freedom-3276552",
+      "newManufacturerUrl": "https://www.championhomes.com/models/freedom-3276552"
+    },
+    {
+      "name": "Bozeman",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/bozeman",
+      "newManufacturerUrl": "https://www.championhomes.com/models/bozeman"
+    },
+    {
+      "name": "Manchester by Regional Homes",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/manchester-by-regional-homes",
+      "newManufacturerUrl": "https://www.championhomes.com/models/manchester-by-regional-homes"
+    },
+    {
+      "name": "Stoney Pointe",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/stoney-pointe",
+      "newManufacturerUrl": "https://www.championhomes.com/models/stoney-pointe"
+    },
+    {
+      "name": "Helicon 2.0",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/helicon-2-0",
+      "newManufacturerUrl": "https://www.championhomes.com/models/helicon-2-0"
+    },
+    {
+      "name": "Ruby",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/ruby",
+      "newManufacturerUrl": "https://www.championhomes.com/models/ruby"
+    },
+    {
+      "name": "Kinlock Falls",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/kinlock-falls",
+      "newManufacturerUrl": "https://www.championhomes.com/models/kinlock-falls"
+    },
+    {
+      "name": "Lynn",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lynn",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lynn"
+    },
+    {
+      "name": "Helicon 3.0",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-helicon-3-0-327642f",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-helicon-3-0-327642f"
+    },
+    {
+      "name": "Vermont",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/vermont",
+      "newManufacturerUrl": "https://www.championhomes.com/models/vermont"
+    },
+    {
+      "name": "Legend 3276502",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-3276502",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-3276502"
+    },
+    {
+      "name": "Liberty 3276536",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/liberty",
+      "newManufacturerUrl": "https://www.championhomes.com/models/liberty"
+    },
+    {
+      "name": "Cypress Manor 5644A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-5644A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-5644A"
+    },
+    {
+      "name": "Crestwood",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/crestwood",
+      "newManufacturerUrl": "https://www.championhomes.com/models/crestwood"
+    },
+    {
+      "name": "Basecamp",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/basecamp",
+      "newManufacturerUrl": "https://www.championhomes.com/models/basecamp"
+    },
+    {
+      "name": "Ravenwood by Regional Homes",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/ravenwood-by-regional-homes",
+      "newManufacturerUrl": "https://www.championhomes.com/models/ravenwood-by-regional-homes"
+    },
+    {
+      "name": "Freddom 3276527",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/freedom-3276527",
+      "newManufacturerUrl": "https://www.championhomes.com/models/freedom-3276527"
+    },
+    {
+      "name": "Silver Springs Elite 6400",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-elite-6400",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-elite-6400"
+    },
+    {
+      "name": "Rory",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rory",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rory"
+    },
+    {
+      "name": "Home Run 3272228",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-3272228",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-3272228"
+    },
+    {
+      "name": "Powell",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/powell",
+      "newManufacturerUrl": "https://www.championhomes.com/models/powell"
+    },
+    {
+      "name": "Cypress Manor 0683B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0683B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0683B"
+    },
+    {
+      "name": "Rio",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rio",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rio"
+    },
+    {
+      "name": "Upshaw",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/upshaw",
+      "newManufacturerUrl": "https://www.championhomes.com/models/upshaw"
+    },
+    {
+      "name": "Dublin",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/dublin",
+      "newManufacturerUrl": "https://www.championhomes.com/models/dublin"
+    },
+    {
+      "name": "Pinnacle 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/pinnacle-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/pinnacle-261"
+    },
+    {
+      "name": "Prime 2876H53P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-2876H53P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-2876H53P01"
+    },
+    {
+      "name": "Cairo",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cairo",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cairo"
+    },
+    {
+      "name": "Flagstone",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/flagstone",
+      "newManufacturerUrl": "https://www.championhomes.com/models/flagstone"
+    },
+    {
+      "name": "Lake Manor 2876H53P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2876H53P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2876H53P01"
+    },
+    {
+      "name": "Lake Manor 2876H43A7D",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2876H43A7D",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2876H43A7D"
+    },
+    {
+      "name": "Driftwood by Regional Homes",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/driftwood-by-regional-homes",
+      "newManufacturerUrl": "https://www.championhomes.com/models/driftwood-by-regional-homes"
+    },
+    {
+      "name": "Freedom 3266553",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/freedom-3266553",
+      "newManufacturerUrl": "https://www.championhomes.com/models/freedom-3266553"
+    },
+    {
+      "name": "Juno",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/juno",
+      "newManufacturerUrl": "https://www.championhomes.com/models/juno"
+    },
+    {
+      "name": "Home Run 2876322",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-2876322",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-2876322"
+    },
+    {
+      "name": "Legend 2876526",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-2876526",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-2876526"
+    },
+    {
+      "name": "Cypress Manor",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cypress-manor",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cypress-manor"
+    },
+    {
+      "name": "Paris",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/paris",
+      "newManufacturerUrl": "https://www.championhomes.com/models/paris"
+    },
+    {
+      "name": "Liberty 3264528",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/liberty-3264528-scotbilt-homes",
+      "newManufacturerUrl": "https://www.championhomes.com/models/liberty-3264528-scotbilt-homes"
+    },
+    {
+      "name": "Mckenna",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/mckenna",
+      "newManufacturerUrl": "https://www.championhomes.com/models/mckenna"
+    },
+    {
+      "name": "Cedarbrooke - C0603B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cedarbrooke-c0603b",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cedarbrooke-c0603b"
+    },
+    {
+      "name": "Cape Town",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cape-town",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cape-town"
+    },
+    {
+      "name": "Dudley",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/dudley",
+      "newManufacturerUrl": "https://www.championhomes.com/models/dudley"
+    },
+    {
+      "name": "Riverview 4684A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/riverview-4684A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/riverview-4684A"
+    },
+    {
+      "name": "Prime 2868H42P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-2868H42P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-2868H42P01"
+    },
+    {
+      "name": "Crestpointe H4684A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/crestpointe-h4684a",
+      "newManufacturerUrl": "https://www.championhomes.com/models/crestpointe-h4684a"
+    },
+    {
+      "name": "Grand 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-261"
+    },
+    {
+      "name": "Cornerstone",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cornerstone",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cornerstone"
+    },
+    {
+      "name": "RH4684A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rh4684a",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rh4684a"
+    },
+    {
+      "name": "Lake Manor 2856H42383",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2856H42383",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2856H42383"
+    },
+    {
+      "name": "Lake Manor 2868H42P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2868H42P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2868H42P01"
+    },
+    {
+      "name": "Ascent",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/ascent",
+      "newManufacturerUrl": "https://www.championhomes.com/models/ascent"
+    },
+    {
+      "name": "Icon 2866 Rockingham",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/icon-2866-rockingham",
+      "newManufacturerUrl": "https://www.championhomes.com/models/icon-2866-rockingham"
+    },
+    {
+      "name": "Cypress Manor 4643A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-4643A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-4643A"
+    },
+    {
+      "name": "Foundation Limited 2864H42LM64",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/foundation-limited-2864H42LM64",
+      "newManufacturerUrl": "https://www.championhomes.com/models/foundation-limited-2864H42LM64"
+    },
+    {
+      "name": "Vista Villa",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/vista-villa",
+      "newManufacturerUrl": "https://www.championhomes.com/models/vista-villa"
+    },
+    {
+      "name": "Blue Sky",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/blue-sky",
+      "newManufacturerUrl": "https://www.championhomes.com/models/blue-sky"
+    },
+    {
+      "name": "Pursuit XL 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/pursuit-xl-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/pursuit-xl-261"
+    },
+    {
+      "name": "Cypress Manor 0563C",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0563C",
+      "newManufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0563C"
+    },
+    {
+      "name": "Providence 3256542 Fortune",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/providence-3256542-fortune",
+      "newManufacturerUrl": "https://www.championhomes.com/models/providence-3256542-fortune"
+    },
+    {
+      "name": "Delashaw",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/delashaw",
+      "newManufacturerUrl": "https://www.championhomes.com/models/delashaw"
+    },
+    {
+      "name": "Utah",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/utah",
+      "newManufacturerUrl": "https://www.championhomes.com/models/utah"
+    },
+    {
+      "name": "Luna",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/luna",
+      "newManufacturerUrl": "https://www.championhomes.com/models/luna"
+    },
+    {
+      "name": "Silver Springs Elite PM 6480",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-elite-pm-6480",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-elite-pm-6480"
+    },
+    {
+      "name": "Silver Sprngs 5354",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5354",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5354"
+    },
+    {
+      "name": "Grand Slam 2862306",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2862306",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2862306"
+    },
+    {
+      "name": "Pursuit 021",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/pursuit-021",
+      "newManufacturerUrl": "https://www.championhomes.com/models/pursuit-021"
+    },
+    {
+      "name": "Keystone",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/keystone",
+      "newManufacturerUrl": "https://www.championhomes.com/models/keystone"
+    },
+    {
+      "name": "Rosedale",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rosedale",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rosedale"
+    },
+    {
+      "name": "Pelican",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-pelican",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-pelican"
+    },
+    {
+      "name": "Key Largo 3252H32G01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/key-largo-3252H32G01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/key-largo-3252H32G01"
+    },
+    {
+      "name": "Freedom 2860520",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/freedom-2860520",
+      "newManufacturerUrl": "https://www.championhomes.com/models/freedom-2860520"
+    },
+    {
+      "name": "Liberty 2860459",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/liberty-2860459",
+      "newManufacturerUrl": "https://www.championhomes.com/models/liberty-2860459"
+    },
+    {
+      "name": "Nova",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/nova",
+      "newManufacturerUrl": "https://www.championhomes.com/models/nova"
+    },
+    {
+      "name": "Icon 2860 Bristol",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/icon-2860-bristol",
+      "newManufacturerUrl": "https://www.championhomes.com/models/icon-2860-bristol"
+    },
+    {
+      "name": "Silver Springs 5361",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5361",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5361"
+    },
+    {
+      "name": "Signature 4563C",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/signature-4563C",
+      "newManufacturerUrl": "https://www.championhomes.com/models/signature-4563C"
+    },
+    {
+      "name": "Pursuit 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/pursuit-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/pursuit-261"
+    },
+    {
+      "name": "Prime 2856H42P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-2856H42P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-2856H42P01"
+    },
+    {
+      "name": "Apex 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/apex-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/apex-261"
+    },
+    {
+      "name": "Prime Crown 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-crown-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-crown-043"
+    },
+    {
+      "name": "Foundation Limited 2856H32LM56",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/foundation-limited-2856H32LM56",
+      "newManufacturerUrl": "https://www.championhomes.com/models/foundation-limited-2856H32LM56"
+    },
+    {
+      "name": "Embrace Sunlight 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/embrace-sunlight-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/embrace-sunlight-261"
+    },
+    {
+      "name": "HC4563H",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/hc4563h",
+      "newManufacturerUrl": "https://www.championhomes.com/models/hc4563h"
+    },
+    {
+      "name": "Prime Apex 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-apex-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-apex-043"
+    },
+    {
+      "name": "Key Largo 2856H32A1C",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/key-largo-2856H32A1C",
+      "newManufacturerUrl": "https://www.championhomes.com/models/key-largo-2856H32A1C"
+    },
+    {
+      "name": "Key Largo 2854H32G01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/key-largo-2854h32g01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/key-largo-2854h32g01"
+    },
+    {
+      "name": "Coral Haven",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/coral-haven",
+      "newManufacturerUrl": "https://www.championhomes.com/models/coral-haven"
+    },
+    {
+      "name": "Pine Manor 0483A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/pine-manor-0483A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/pine-manor-0483A"
+    },
+    {
+      "name": "Champion Community 2856443",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/champion-community-2856443",
+      "newManufacturerUrl": "https://www.championhomes.com/models/champion-community-2856443"
+    },
+    {
+      "name": "Grand Slam 2856256",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2856256",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2856256"
+    },
+    {
+      "name": "Home Run 2856353",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-2856353",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-2856353"
+    },
+    {
+      "name": "Freedom 2856497",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/freedom-2856497",
+      "newManufacturerUrl": "https://www.championhomes.com/models/freedom-2856497"
+    },
+    {
+      "name": "Waycross Express 2856492",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/waycross-express-2856492",
+      "newManufacturerUrl": "https://www.championhomes.com/models/waycross-express-2856492"
+    },
+    {
+      "name": "Rover",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rover",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rover"
+    },
+    {
+      "name": "Scout",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/scout",
+      "newManufacturerUrl": "https://www.championhomes.com/models/scout"
+    },
+    {
+      "name": "Silver Springs 5355",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5355",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5355"
+    },
+    {
+      "name": "Silver Springs 5351",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5351",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5351"
+    },
+    {
+      "name": "Silver Springs 5027 - The Oak",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5027-the-oak",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5027-the-oak"
+    },
+    {
+      "name": "Silver Springs 5360",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5360",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5360"
+    },
+    {
+      "name": "Legend 3248501",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-3248501",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-3248501"
+    },
+    {
+      "name": "Frankfurt",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/frankfurt",
+      "newManufacturerUrl": "https://www.championhomes.com/models/frankfurt"
+    },
+    {
+      "name": "Silver Springs 5077",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5077a",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5077a"
+    },
+    {
+      "name": "Silver Springs 5042A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5042A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5042A"
+    },
+    {
+      "name": "Signature 4523E",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/signature-4523E",
+      "newManufacturerUrl": "https://www.championhomes.com/models/signature-4523E"
+    },
+    {
+      "name": "HC4522A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/homes-of-merit-community-hc4522A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/homes-of-merit-community-hc4522A"
+    },
+    {
+      "name": "Prime Corbin 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-corbin-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-corbin-261"
+    },
+    {
+      "name": "The Carlee",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-carlee",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-carlee"
+    },
+    {
+      "name": "Silver Springs 5001A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5001A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5001A"
+    },
+    {
+      "name": "Silver Springs 5035",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5035",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5035"
+    },
+    {
+      "name": "Legend 2852479",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-2852479",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-2852479"
+    },
+    {
+      "name": "Grand Slam 2852372",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2852372",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2852372"
+    },
+    {
+      "name": "Driftwood Cottage",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/driftwood-cottage",
+      "newManufacturerUrl": "https://www.championhomes.com/models/driftwood-cottage"
+    },
+    {
+      "name": "Valencia",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/valencia",
+      "newManufacturerUrl": "https://www.championhomes.com/models/valencia"
+    },
+    {
+      "name": "Silver Springs 5044A Bal Harbour",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5044A-bal-harbour",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5044A-bal-harbour"
+    },
+    {
+      "name": "Silver Springs 5320",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5320",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5320"
+    },
+    {
+      "name": "Signature 3564A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/signature-3564A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/signature-3564A"
+    },
+    {
+      "name": "Prime Chuchill 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-churchill-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-churchill-043"
+    },
+    {
+      "name": "Foundation Limited 2848H32LM48",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/foundation-limited-2848H32LM48",
+      "newManufacturerUrl": "https://www.championhomes.com/models/foundation-limited-2848H32LM48"
+    },
+    {
+      "name": "Lake Manor 2848H32P02",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2848H32P02",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2848H32P02"
+    },
+    {
+      "name": "Silver Springs 5000A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5000a",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5000a"
+    },
+    {
+      "name": "Grand Slam 2456341",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2456341",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2456341"
+    },
+    {
+      "name": "Champion Community 2848441",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/champion-community-2848441",
+      "newManufacturerUrl": "https://www.championhomes.com/models/champion-community-2848441"
+    },
+    {
+      "name": "Grand Slam 2848302",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2848302",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2848302"
+    },
+    {
+      "name": "Home Run 2848229",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-2848229",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-2848229"
+    },
+    {
+      "name": "Silver Springs 4801",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-4801",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-4801"
+    },
+    {
+      "name": "Onward",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/onward",
+      "newManufacturerUrl": "https://www.championhomes.com/models/onward"
+    },
+    {
+      "name": "Legend 2848510",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-2848510",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-2848510"
+    },
+    {
+      "name": "Prime Estill",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-estill-2844H32P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-estill-2844H32P01"
+    },
+    {
+      "name": "Grand Slam 2452445",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2452445",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-2452445"
+    },
+    {
+      "name": "Madison",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/madison",
+      "newManufacturerUrl": "https://www.championhomes.com/models/madison"
+    },
+    {
+      "name": "Lake Manor 2844H32P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2844H32P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2844H32P01"
+    },
+    {
+      "name": "Fay",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/fay",
+      "newManufacturerUrl": "https://www.championhomes.com/models/fay"
+    },
+    {
+      "name": "Piton",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/piton",
+      "newManufacturerUrl": "https://www.championhomes.com/models/piton"
+    },
+    {
+      "name": "Silver Springs 5029",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5029",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5029"
+    },
+    {
+      "name": "Rainer 3.0",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rainer-3.0",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rainer-3.0"
+    },
+    {
+      "name": "Prime Floyd 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-floyd-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-floyd-043"
+    },
+    {
+      "name": "Prime Monte 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-monte-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-monte-043"
+    },
+    {
+      "name": "Firefly",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/firefly",
+      "newManufacturerUrl": "https://www.championhomes.com/models/firefly"
+    },
+    {
+      "name": "Embrace Simplicity",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/embrace-simplicity",
+      "newManufacturerUrl": "https://www.championhomes.com/models/embrace-simplicity"
+    },
+    {
+      "name": "Sierra",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/sierra",
+      "newManufacturerUrl": "https://www.championhomes.com/models/sierra"
+    },
+    {
+      "name": "Prime Somerset 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-somerset-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-somerset-043"
+    },
+    {
+      "name": "Signature 3523B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/signature-3523b",
+      "newManufacturerUrl": "https://www.championhomes.com/models/signature-3523b"
+    },
+    {
+      "name": "Home Run 2844402",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-2844402",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-2844402"
+    },
+    {
+      "name": "Eva",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/eva",
+      "newManufacturerUrl": "https://www.championhomes.com/models/eva"
+    },
+    {
+      "name": "Pip",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/pip",
+      "newManufacturerUrl": "https://www.championhomes.com/models/pip"
+    },
+    {
+      "name": "Hudson by Regional Homes",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/hudson-by-regional-homes",
+      "newManufacturerUrl": "https://www.championhomes.com/models/hudson-by-regional-homes"
+    },
+    {
+      "name": "Grand Slam 1676401",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1676401",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1676401"
+    },
+    {
+      "name": "Grand Slam 1676406",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1676406"
+    },
+    {
+      "name": "Home Run 1676257",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-1676257",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-1676257"
+    },
+    {
+      "name": "Legend 1676496",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-1676496",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-1676496"
+    },
+    {
+      "name": "The Murphy",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/the-murphy",
+      "newManufacturerUrl": "https://www.championhomes.com/models/the-murphy"
+    },
+    {
+      "name": "Icon 1676",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/icon-1676",
+      "newManufacturerUrl": "https://www.championhomes.com/models/icon-1676"
+    },
+    {
+      "name": "Home Run 1676511",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-1676511",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-1676511"
+    },
+    {
+      "name": "Waycross Express 1676531",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/waycross-express",
+      "newManufacturerUrl": "https://www.championhomes.com/models/waycross-express-1676531"
+    },
+    {
+      "name": "Prime 2448H32P02",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-2448H32P02",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-2448H32P02"
+    },
+    {
+      "name": "Prime Bardstown 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-bardstown-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-bardstown-043"
+    },
+    {
+      "name": "Winter Special",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/winter-special",
+      "newManufacturerUrl": "https://www.championhomes.com/models/winter-special"
+    },
+    {
+      "name": "Prime Ballard 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-ballard-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-ballard-043"
+    },
+    {
+      "name": "Hodges",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/hodges",
+      "newManufacturerUrl": "https://www.championhomes.com/models/hodges"
+    },
+    {
+      "name": "Lake Manor 2840H32P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2840H32P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2840H32P01"
+    },
+    {
+      "name": "Silver Springs 4893",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-4893",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-4893"
+    },
+    {
+      "name": "Champion Community 2844444",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/champion-community-2844444",
+      "newManufacturerUrl": "https://www.championhomes.com/models/champion-community-2844444"
+    },
+    {
+      "name": "RH26282A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rh26282a",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rh2682a"
+    },
+    {
+      "name": "RH2683B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rh2683b",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rh2683b"
+    },
+    {
+      "name": "Ace 2.0",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/ace-2.0",
+      "newManufacturerUrl": "https://www.championhomes.com/models/ace-2-0"
+    },
+    {
+      "name": "Lake Manor 2846H22140",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2846H22140",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2846H22140"
+    },
+    {
+      "name": "HC4522B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/hc4522B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/hc4522B"
+    },
+    {
+      "name": "Vertex 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-vertex-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-vertex-043"
+    },
+    {
+      "name": "Prime Hickman 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-hickman-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-hickman-043"
+    },
+    {
+      "name": "Lake Manor 1666H32P01",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-1666H32P01",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-1666H32P01"
+    },
+    {
+      "name": "Champion Community 2444437",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/champion-community-2444437",
+      "newManufacturerUrl": "https://www.championhomes.com/models/champion-community-2444437"
+    },
+    {
+      "name": "Henson",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/henson",
+      "newManufacturerUrl": "https://www.championhomes.com/models/henson"
+    },
+    {
+      "name": "Grand Slam 1666323",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1666323",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1666323"
+    },
+    {
+      "name": "Grand Slam 1666354",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1666354",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1666354"
+    },
+    {
+      "name": "Champion Community 2836447",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/champion-community-2836447",
+      "newManufacturerUrl": "https://www.championhomes.com/models/champion-community-2836447"
+    },
+    {
+      "name": "Silver Springs 5011",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5011",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-5011"
+    },
+    {
+      "name": "Lake Manor 2440H22036",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2440H22036",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-2440H22036"
+    },
+    {
+      "name": "Prime Spire 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-spire-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-spire-043"
+    },
+    {
+      "name": "Legend 1660390",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-1660390",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-1660390"
+    },
+    {
+      "name": "Home Run 1660304",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-1660304",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-1660304"
+    },
+    {
+      "name": "Legend 1660522",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-1660522",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-1660522"
+    },
+    {
+      "name": "Zenith 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/zenith-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/zenith-261"
+    },
+    {
+      "name": "Prime Zenith 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-zenith-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-zenith-043"
+    },
+    {
+      "name": "Silver Springs 4800",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-4800",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-4800"
+    },
+    {
+      "name": "Marco",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/marco",
+      "newManufacturerUrl": "https://www.championhomes.com/models/marco"
+    },
+    {
+      "name": "Prime Barkley",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-barkley",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-barkley"
+    },
+    {
+      "name": "HC3362A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/hc3362a",
+      "newManufacturerUrl": "https://www.championhomes.com/models/hc3362a"
+    },
+    {
+      "name": "Home Run 1656280",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/home-run-1656280",
+      "newManufacturerUrl": "https://www.championhomes.com/models/home-run-1656280"
+    },
+    {
+      "name": "RH2542B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rh2542B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rh2542b"
+    },
+    {
+      "name": "Champion Community 2436456",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/champion-community-2436456",
+      "newManufacturerUrl": "https://www.championhomes.com/models/champion-community-2436456"
+    },
+    {
+      "name": "Crest 261",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/crest-261",
+      "newManufacturerUrl": "https://www.championhomes.com/models/crest-261"
+    },
+    {
+      "name": "Silver Springs 4301N",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/silver-springs-4301n",
+      "newManufacturerUrl": "https://www.championhomes.com/models/silver-springs-4301n"
+    },
+    {
+      "name": "Prime Crest 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-crest-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-crest-043"
+    },
+    {
+      "name": "Palm Bay 2714B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2714B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2714B"
+    },
+    {
+      "name": "Lewis",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lewis",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lewis"
+    },
+    {
+      "name": "Prime Peak 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-peak-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-peak-043"
+    },
+    {
+      "name": "Legend 1456503",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-1456503",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-1456503"
+    },
+    {
+      "name": "RH1522A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rh1522A",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rh1522a"
+    },
+    {
+      "name": "Palm Bay 2665B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2665b",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2665b"
+    },
+    {
+      "name": "Grand Slam 1640409",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1640409",
+      "newManufacturerUrl": "https://www.championhomes.com/models/grand-slam-1640409"
+    },
+    {
+      "name": "Prime Pike 043",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/prime-pike-043",
+      "newManufacturerUrl": "https://www.championhomes.com/models/prime-pike-043"
+    },
+    {
+      "name": "RH1381A",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/rh1381a",
+      "newManufacturerUrl": "https://www.championhomes.com/models/rh1381a"
+    },
+    {
+      "name": "Palm Bay 2641C",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2641C",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2641C"
+    },
+    {
+      "name": "Palm Bay 2622C",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2622c",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2622c"
+    },
+    {
+      "name": "Palm Bay 2625",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2625",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2625"
+    },
+    {
+      "name": "Calloway 239",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/calloway-239",
+      "newManufacturerUrl": "https://www.championhomes.com/models/calloway-239"
+    },
+    {
+      "name": "Palm Bay 2641B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2641B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2641B"
+    },
+    {
+      "name": "Palm bay 2632",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2632",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2632"
+    },
+    {
+      "name": "Palm Bay 2631",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2631",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2631"
+    },
+    {
+      "name": "Lake Maonr 1437H11200",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/lake-manor-1437h11200",
+      "newManufacturerUrl": "https://www.championhomes.com/models/lake-manor-1437h11200"
+    },
+    {
+      "name": "Palm Bay 2670B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2670B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2670B"
+    },
+    {
+      "name": "Palm Bay 2660B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2660b",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2660b"
+    },
+    {
+      "name": "Palm Bay 2660C",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2660c",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2660c"
+    },
+    {
+      "name": "Palm Bay 2622B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2622B",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2622B"
+    },
+    {
+      "name": "Palm Bay 2621B",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2621b",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2621b"
+    },
+    {
+      "name": "Palm Bay 2621C",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2621C",
+      "newManufacturerUrl": "https://www.championhomes.com/models/palm-bay-2621c"
+    },
+    {
+      "name": "Legend 1435454",
+      "oldManufacturerUrl": "https://www.championhomes.com/models/legend-1435454",
+      "newManufacturerUrl": "https://www.championhomes.com/models/legend-1435454"
+    }
+  ],
+  "missingFromCsv": []
+}

@@ -266,13 +266,6 @@
     "manufacturerUrl": "https://www.championhomes.com/models/embrace-simplicity"
   },
   {
-    "name": "Grand Slam 1676406",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1127,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam"
-  },
-  {
     "name": "The Murphy",
     "bedrooms": 3,
     "bathrooms": 2,
@@ -285,13 +278,6 @@
     "bathrooms": 2,
     "sqft": 1127,
     "manufacturerUrl": "https://www.championhomes.com/models/icon-1676"
-  },
-  {
-    "name": "Waycross Express 1676531",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1127,
-    "manufacturerUrl": "https://www.championhomes.com/models/waycross-express"
   },
   {
     "name": "Winter Special",
@@ -312,14 +298,14 @@
     "bedrooms": 2,
     "bathrooms": 2,
     "sqft": 1031,
-    "manufacturerUrl": "https://www.championhomes.com/models/rh26282a"
+    "manufacturerUrl": "https://www.championhomes.com/models/rh2682a"
   },
   {
     "name": "Ace 2.0",
     "bedrooms": 2,
     "bathrooms": 2,
     "sqft": 1020,
-    "manufacturerUrl": "https://www.championhomes.com/models/ace-2.0"
+    "manufacturerUrl": "https://www.championhomes.com/models/ace-2-0"
   },
   {
     "name": "Lake Manor 1666H32P01",
@@ -354,7 +340,7 @@
     "bedrooms": 2,
     "bathrooms": 1,
     "sqft": 694,
-    "manufacturerUrl": "https://www.championhomes.com/models/rh1522A"
+    "manufacturerUrl": "https://www.championhomes.com/models/rh1522a"
   },
   {
     "name": "Palm Bay 2641C",

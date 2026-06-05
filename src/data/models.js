@@ -1,6 +1,6 @@
 // Auto-generated model inventory
 // Existing images are preserved.
-// Missing images were filled with looser model-name matching.
+// Missing images were filled from model gallery/header image candidates.
 
 export const models = [
   {
@@ -2306,12 +2306,12 @@ export const models = [
     "id": "grand-slam",
     "name": "Grand Slam 1676406",
     "category": "Native Sun Homes",
-    "image": "",
+    "image": "https://s7d9.scene7.com/is/image/championhomes/1676406GSM-Main-Image",
     "model": "",
     "bedrooms": 3,
     "bathrooms": 2,
     "sqft": 1127,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam"
+    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-1676406"
   },
   {
     "id": "home-run-1676257",
@@ -2372,12 +2372,12 @@ export const models = [
     "id": "waycross-express-2",
     "name": "Waycross Express 1676531",
     "category": "Native Sun Homes",
-    "image": "",
+    "image": "https://s7d9.scene7.com/is/image/championhomes/050-waycross-express-1676531-main-image",
     "model": "",
     "bedrooms": 3,
     "bathrooms": 2,
     "sqft": 1127,
-    "manufacturerUrl": "https://www.championhomes.com/models/waycross-express"
+    "manufacturerUrl": "https://www.championhomes.com/models/waycross-express-1676531"
   },
   {
     "id": "prime-2448H32P02",
@@ -2476,7 +2476,7 @@ export const models = [
     "bedrooms": 2,
     "bathrooms": 2,
     "sqft": 1031,
-    "manufacturerUrl": "https://www.championhomes.com/models/rh26282a"
+    "manufacturerUrl": "https://www.championhomes.com/models/rh2682a"
   },
   {
     "id": "rh2683b",
@@ -2498,7 +2498,7 @@ export const models = [
     "bedrooms": 2,
     "bathrooms": 2,
     "sqft": 1020,
-    "manufacturerUrl": "https://www.championhomes.com/models/ace-2.0"
+    "manufacturerUrl": "https://www.championhomes.com/models/ace-2-0"
   },
   {
     "id": "lake-manor-2846H22140",
@@ -2762,7 +2762,7 @@ export const models = [
     "bedrooms": 2,
     "bathrooms": 2,
     "sqft": 819,
-    "manufacturerUrl": "https://www.championhomes.com/models/rh2542B"
+    "manufacturerUrl": "https://www.championhomes.com/models/rh2542b"
   },
   {
     "id": "champion-community-2436456",
@@ -2861,7 +2861,7 @@ export const models = [
     "bedrooms": 2,
     "bathrooms": 1,
     "sqft": 694,
-    "manufacturerUrl": "https://www.championhomes.com/models/rh1522A"
+    "manufacturerUrl": "https://www.championhomes.com/models/rh1522a"
   },
   {
     "id": "palm-bay-2665b",
@@ -3059,7 +3059,7 @@ export const models = [
     "bedrooms": 1,
     "bathrooms": 1,
     "sqft": 481,
-    "manufacturerUrl": "https://www.championhomes.com/models/palm-bay-2621C"
+    "manufacturerUrl": "https://www.championhomes.com/models/palm-bay-2621c"
   },
   {
     "id": "legend-1435454",
