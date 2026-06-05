@@ -103,3 +103,39 @@ button:hover {
     font-size: 36px;
   }
 }
+
+.controls {
+  display: flex;
+  gap: 16px;
+  margin: 0 auto 24px;
+  max-width: 800px;
+}
+
+.controls input,
+.controls select {
+  width: 100%;
+  padding: 14px 16px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  font-size: 16px;
+  background: white;
+}
+
+.results-count {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 24px;
+  color: #444;
+}
+
+.size-group {
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 700px) {
+  .controls {
+    flex-direction: column;
+  }
+}
