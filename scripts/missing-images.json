@@ -1,19 +1,5 @@
 [
   {
-    "name": "The Aaron",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 2254,
-    "manufacturerUrl": "https://www.championhomes.com/models/the-aaron"
-  },
-  {
-    "name": "Liberty 2876489",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 1976,
-    "manufacturerUrl": "https://www.championhomes.com/models/liberty"
-  },
-  {
     "name": "Waycross Express 3258494",
     "bedrooms": 3,
     "bathrooms": 2,
@@ -28,13 +14,6 @@
     "manufacturerUrl": "https://www.championhomes.com/models/prime-manor-4523A"
   },
   {
-    "name": "Freedom 3276517",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 2255,
-    "manufacturerUrl": "https://www.championhomes.com/models/freedom-3276517"
-  },
-  {
     "name": "Vienna 2.0",
     "bedrooms": 3,
     "bathrooms": 2,
@@ -47,41 +26,6 @@
     "bathrooms": 2,
     "sqft": 1661,
     "manufacturerUrl": "https://www.championhomes.com/models/icon-3256"
-  },
-  {
-    "name": "Riverview 4603A",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1600,
-    "manufacturerUrl": "https://www.championhomes.com/models/riverview-4603A"
-  },
-  {
-    "name": "Embrace Sunlight 052",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1493,
-    "manufacturerUrl": "https://www.championhomes.com/models/embrace-sunlight-052"
-  },
-  {
-    "name": "HOMC 4562G",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 1493,
-    "manufacturerUrl": "https://www.championhomes.com/models/homc-4562G"
-  },
-  {
-    "name": "HOMC 4563E",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1493,
-    "manufacturerUrl": "https://www.championhomes.com/models/homc-4563E"
-  },
-  {
-    "name": "Embrace Oppotunity 261",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1387,
-    "manufacturerUrl": "https://www.championhomes.com/models/embrace-opportunity-261"
   },
   {
     "name": "Icon 2876 Talladega",
@@ -105,20 +49,6 @@
     "manufacturerUrl": "https://www.championhomes.com/models/lake-manor-2444H22036"
   },
   {
-    "name": "Home Run 1466208",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 858,
-    "manufacturerUrl": "https://www.championhomes.com/models/home-run-1466208"
-  },
-  {
-    "name": "Home Run 1456194",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 728,
-    "manufacturerUrl": "https://www.championhomes.com/models/home-run-1456194"
-  },
-  {
     "name": "Prime Daybreak",
     "bedrooms": 1,
     "bathrooms": 1,
@@ -140,25 +70,11 @@
     "manufacturerUrl": "https://www.championhomes.com/models/prime-manor-0764D"
   },
   {
-    "name": "Foundation Limited 3276H43LM76",
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "sqft": 2305,
-    "manufacturerUrl": "https://www.championhomes.com/models/foundation-limited-3276H43LM76"
-  },
-  {
     "name": "Cypress Manor 0764E",
     "bedrooms": 4,
     "bathrooms": 2,
     "sqft": 2305,
     "manufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0764B"
-  },
-  {
-    "name": "The Big John",
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "sqft": 2305,
-    "manufacturerUrl": "https://www.championhomes.com/models/the-big-john"
   },
   {
     "name": "Bozeman",
@@ -189,34 +105,6 @@
     "manufacturerUrl": "https://www.championhomes.com/models/liberty"
   },
   {
-    "name": "Ravenwood by Regional Homes",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 2216,
-    "manufacturerUrl": "https://www.championhomes.com/models/ravenwood-by-regional-homes"
-  },
-  {
-    "name": "Freddom 3276527",
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "sqft": 2204,
-    "manufacturerUrl": "https://www.championhomes.com/models/freedom-3276527"
-  },
-  {
-    "name": "Cypress Manor 0683B",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 2071,
-    "manufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0683B"
-  },
-  {
-    "name": "Prime 2876H53P01",
-    "bedrooms": 5,
-    "bathrooms": 3,
-    "sqft": 2027,
-    "manufacturerUrl": "https://www.championhomes.com/models/prime-2876H53P01"
-  },
-  {
     "name": "Lake Manor 2876H53P01",
     "bedrooms": 5,
     "bathrooms": 3,
@@ -229,20 +117,6 @@
     "bathrooms": 3,
     "sqft": 2022,
     "manufacturerUrl": "https://www.championhomes.com/models/lake-manor-2876H43A7D"
-  },
-  {
-    "name": "Driftwood by Regional Homes",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 2016,
-    "manufacturerUrl": "https://www.championhomes.com/models/driftwood-by-regional-homes"
-  },
-  {
-    "name": "Home Run 2876322",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 1976,
-    "manufacturerUrl": "https://www.championhomes.com/models/home-run-2876322"
   },
   {
     "name": "Legend 2876526",
@@ -266,25 +140,11 @@
     "manufacturerUrl": "https://www.championhomes.com/models/liberty-3264528-scotbilt-homes"
   },
   {
-    "name": "Riverview 4684A",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 1813,
-    "manufacturerUrl": "https://www.championhomes.com/models/riverview-4684A"
-  },
-  {
     "name": "Crestpointe H4684A",
     "bedrooms": 4,
     "bathrooms": 2,
     "sqft": 1813,
     "manufacturerUrl": "https://www.championhomes.com/models/crestpointe-h4684a"
-  },
-  {
-    "name": "Lake Manor 2856H42383",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 1809,
-    "manufacturerUrl": "https://www.championhomes.com/models/lake-manor-2856H42383"
   },
   {
     "name": "Lake Manor 2868H42P01",
@@ -315,48 +175,6 @@
     "manufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0563C"
   },
   {
-    "name": "Providence 3256542 Fortune",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1698,
-    "manufacturerUrl": "https://www.championhomes.com/models/providence-3256542-fortune"
-  },
-  {
-    "name": "Silver Sprngs 5354",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 1623,
-    "manufacturerUrl": "https://www.championhomes.com/models/silver-springs-5354"
-  },
-  {
-    "name": "Grand Slam 2862306",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 1612,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-2862306"
-  },
-  {
-    "name": "Pursuit 021",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1600,
-    "manufacturerUrl": "https://www.championhomes.com/models/pursuit-021"
-  },
-  {
-    "name": "Key Largo 3252H32G01",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1577,
-    "manufacturerUrl": "https://www.championhomes.com/models/key-largo-3252H32G01"
-  },
-  {
-    "name": "Freedom 2860520",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1560,
-    "manufacturerUrl": "https://www.championhomes.com/models/freedom-2860520"
-  },
-  {
     "name": "Icon 2860 Bristol",
     "bedrooms": 3,
     "bathrooms": 2,
@@ -369,34 +187,6 @@
     "bathrooms": 2,
     "sqft": 1493,
     "manufacturerUrl": "https://www.championhomes.com/models/foundation-limited-2856H32LM56"
-  },
-  {
-    "name": "Embrace Sunlight 261",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1493,
-    "manufacturerUrl": "https://www.championhomes.com/models/embrace-sunlight-261"
-  },
-  {
-    "name": "Pine Manor 0483A",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1456,
-    "manufacturerUrl": "https://www.championhomes.com/models/pine-manor-0483A"
-  },
-  {
-    "name": "Grand Slam 2856256",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1456,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-2856256"
-  },
-  {
-    "name": "Home Run 2856353",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1456,
-    "manufacturerUrl": "https://www.championhomes.com/models/home-run-2856353"
   },
   {
     "name": "Silver Springs 5027 - The Oak",
@@ -413,25 +203,11 @@
     "manufacturerUrl": "https://www.championhomes.com/models/silver-springs-5077a"
   },
   {
-    "name": "Signature 4523E",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1387,
-    "manufacturerUrl": "https://www.championhomes.com/models/signature-4523E"
-  },
-  {
     "name": "HC4522A",
     "bedrooms": 2,
     "bathrooms": 2,
     "sqft": 1387,
     "manufacturerUrl": "https://www.championhomes.com/models/homes-of-merit-community-hc4522A"
-  },
-  {
-    "name": "Prime Corbin 261",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1387,
-    "manufacturerUrl": "https://www.championhomes.com/models/prime-corbin-261"
   },
   {
     "name": "Silver Springs 5001A",
@@ -441,25 +217,11 @@
     "manufacturerUrl": "https://www.championhomes.com/models/silver-springs-5001A"
   },
   {
-    "name": "Grand Slam 2852372",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1338,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-2852372"
-  },
-  {
     "name": "Signature 3564A",
     "bedrooms": 4,
     "bathrooms": 2,
     "sqft": 1306,
     "manufacturerUrl": "https://www.championhomes.com/models/signature-3564A"
-  },
-  {
-    "name": "Prime Chuchill 043",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1284,
-    "manufacturerUrl": "https://www.championhomes.com/models/prime-churchill-043"
   },
   {
     "name": "Foundation Limited 2848H32LM48",
@@ -476,32 +238,11 @@
     "manufacturerUrl": "https://www.championhomes.com/models/lake-manor-2848H32P02"
   },
   {
-    "name": "Grand Slam 2456341",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1260,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-2456341"
-  },
-  {
-    "name": "Home Run 2848229",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1248,
-    "manufacturerUrl": "https://www.championhomes.com/models/home-run-2848229"
-  },
-  {
     "name": "Prime Estill",
     "bedrooms": 3,
     "bathrooms": 2,
     "sqft": 1173,
     "manufacturerUrl": "https://www.championhomes.com/models/prime-estill-2844H32P01"
-  },
-  {
-    "name": "Grand Slam 2452445",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1170,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-2452445"
   },
   {
     "name": "Lake Manor 2844H32P01",
@@ -523,13 +264,6 @@
     "bathrooms": 2,
     "sqft": 1153,
     "manufacturerUrl": "https://www.championhomes.com/models/embrace-simplicity"
-  },
-  {
-    "name": "Grand Slam 1676401",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1127,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-1676401"
   },
   {
     "name": "Grand Slam 1676406",
@@ -588,39 +322,11 @@
     "manufacturerUrl": "https://www.championhomes.com/models/ace-2.0"
   },
   {
-    "name": "Vertex 261",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1001,
-    "manufacturerUrl": "https://www.championhomes.com/models/prime-vertex-043"
-  },
-  {
     "name": "Lake Manor 1666H32P01",
     "bedrooms": 3,
     "bathrooms": 2,
     "sqft": 997,
     "manufacturerUrl": "https://www.championhomes.com/models/lake-manor-1666H32P01"
-  },
-  {
-    "name": "Champion Community 2444437",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 990,
-    "manufacturerUrl": "https://www.championhomes.com/models/champion-community-2444437"
-  },
-  {
-    "name": "Grand Slam 1666323",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 979,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-1666323"
-  },
-  {
-    "name": "Grand Slam 1666354",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 979,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-1666354"
   },
   {
     "name": "Lake Manor 2440H22036",
@@ -637,13 +343,6 @@
     "manufacturerUrl": "https://www.championhomes.com/models/prime-barkley"
   },
   {
-    "name": "Home Run 1656280",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 831,
-    "manufacturerUrl": "https://www.championhomes.com/models/home-run-1656280"
-  },
-  {
     "name": "Palm Bay 2714B",
     "bedrooms": 2,
     "bathrooms": 1,
@@ -658,13 +357,6 @@
     "manufacturerUrl": "https://www.championhomes.com/models/rh1522A"
   },
   {
-    "name": "Grand Slam 1640409",
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "sqft": 593,
-    "manufacturerUrl": "https://www.championhomes.com/models/grand-slam-1640409"
-  },
-  {
     "name": "Palm Bay 2641C",
     "bedrooms": 1,
     "bathrooms": 1,
@@ -672,31 +364,10 @@
     "manufacturerUrl": "https://www.championhomes.com/models/palm-bay-2641C"
   },
   {
-    "name": "Lake Maonr 1437H11200",
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "sqft": 492,
-    "manufacturerUrl": "https://www.championhomes.com/models/lake-manor-1437h11200"
-  },
-  {
     "name": "Palm Bay 2670B",
     "bedrooms": 1,
     "bathrooms": 1,
     "sqft": 491,
     "manufacturerUrl": "https://www.championhomes.com/models/palm-bay-2670B"
-  },
-  {
-    "name": "Palm Bay 2621B",
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "sqft": 481,
-    "manufacturerUrl": "https://www.championhomes.com/models/palm-bay-2621b"
-  },
-  {
-    "name": "Legend 1435454",
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "sqft": 455,
-    "manufacturerUrl": "https://www.championhomes.com/models/legend-1435454"
   }
 ]

@@ -3,10 +3,10 @@ import { models } from "../src/data/models.js";
 
 const outputPath = new URL("../src/data/models.js", import.meta.url);
 const missingOutputPath = new URL("./missing-images.json", import.meta.url);
+const reportOutputPath = new URL("./loose-image-report.json", import.meta.url);
 
 const FILL_MISSING_ONLY = true;
 const AVOID_DUPLICATE_IMAGES = true;
-const ALLOW_MODEL_SPECIFIC_INTERIORS = true;
 
 function wait(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
@@ -34,26 +34,40 @@ function cleanImageUrl(url) {
   return String(url || "").split("?")[0].trim();
 }
 
-function imageMatchesModel(url, home) {
-  const lower = url.toLowerCase();
-  const modelSlug = slugify(home.name);
+function getNameParts(home) {
+  return slugify(home.name)
+    .split("-")
+    .filter((part) => part.length >= 3);
+}
 
-  if (lower.includes(modelSlug)) {
+function hasLooseNameMatch(url, home) {
+  const lower = url.toLowerCase();
+  const parts = getNameParts(home);
+
+  if (parts.length === 0) return false;
+
+  const exactSlug = slugify(home.name);
+
+  if (lower.includes(exactSlug)) {
     return true;
   }
 
-  const importantParts = modelSlug
-    .split("-")
-    .filter((part) => part.length >= 3);
+  const matchedParts = parts.filter((part) => lower.includes(part));
 
-  return importantParts.length > 0 && importantParts.every((part) => lower.includes(part));
+  // Looser rule:
+  // If the image URL matches at least one strong piece of the model name,
+  // we allow it as a candidate.
+  return matchedParts.length >= 1;
 }
 
 function getImageUrlsFromHtml(html) {
-  const matches =
+  const scene7Matches =
     html.match(/https:\/\/s7d9\.scene7\.com\/is\/image\/championhomes\/[^"'\\\s<)]+/g) || [];
 
-  return [...new Set(matches.map(cleanImageUrl))];
+  const metaMatches =
+    html.match(/https?:\/\/[^"'\\\s<)]+\.(jpg|jpeg|png|webp)[^"'\\\s<)]*/gi) || [];
+
+  return [...new Set([...scene7Matches, ...metaMatches].map(cleanImageUrl))];
 }
 
 function isBlockedAsset(url) {
@@ -65,12 +79,16 @@ function isBlockedAsset(url) {
     "favicon",
     "calculator",
     "video",
+    "youtube",
     "floorplan",
     "floor-plan",
     "floor_plan",
     "floor",
     "plan",
     "pdf",
+    "sprite",
+    "placeholder",
+    "dealer",
   ];
 
   return blockedWords.some((word) => lower.includes(word));
@@ -98,60 +116,56 @@ function isInteriorImage(url) {
 
 function scoreImage(url, home) {
   const lower = url.toLowerCase();
+  const exactSlug = slugify(home.name);
+  const parts = getNameParts(home);
+
   let score = 0;
 
-  if (imageMatchesModel(url, home)) score += 100;
+  if (lower.includes(exactSlug)) score += 120;
 
-  if (lower.includes("exterior")) score += 90;
-  if (lower.includes("elevation")) score += 90;
-  if (lower.includes("front")) score += 60;
-  if (lower.includes("hero")) score += 45;
-  if (lower.includes("main")) score += 35;
+  const matchedParts = parts.filter((part) => lower.includes(part));
+  score += matchedParts.length * 35;
 
-  if (isInteriorImage(url)) score -= 25;
+  if (lower.includes("exterior")) score += 100;
+  if (lower.includes("elevation")) score += 100;
+  if (lower.includes("front")) score += 75;
+  if (lower.includes("hero")) score += 55;
+  if (lower.includes("main")) score += 45;
+
+  if (isInteriorImage(url)) score += 10;
+
+  if (lower.includes("kitchen")) score -= 10;
+  if (lower.includes("bath")) score -= 20;
+  if (lower.includes("bedroom")) score -= 20;
 
   return score;
 }
 
-function findBestImage(html, home, usedImages) {
+function findLooseImage(html, home, usedImages) {
   const urls = getImageUrlsFromHtml(html);
 
   const candidates = urls
     .filter((url) => !isBlockedAsset(url))
-    .filter((url) => imageMatchesModel(url, home))
+    .filter((url) => hasLooseNameMatch(url, home))
     .filter((url) => {
       if (!AVOID_DUPLICATE_IMAGES) return true;
       return !usedImages.has(url);
-    });
-
-  const exteriorCandidates = candidates
-    .filter((url) => {
-      const lower = url.toLowerCase();
-      return (
-        lower.includes("exterior") ||
-        lower.includes("elevation") ||
-        lower.includes("front") ||
-        lower.includes("hero") ||
-        lower.includes("main")
-      );
     })
-    .sort((a, b) => scoreImage(b, home) - scoreImage(a, home));
+    .map((url) => ({
+      url,
+      score: scoreImage(url, home),
+    }))
+    .sort((a, b) => b.score - a.score);
 
-  if (exteriorCandidates.length > 0) {
-    return exteriorCandidates[0];
+  const best = candidates[0];
+
+  // This threshold is intentionally looser than before,
+  // but still prevents totally random page images.
+  if (best && best.score >= 35) {
+    return best;
   }
 
-  if (ALLOW_MODEL_SPECIFIC_INTERIORS) {
-    const fallbackCandidates = candidates.sort(
-      (a, b) => scoreImage(b, home) - scoreImage(a, home)
-    );
-
-    if (fallbackCandidates.length > 0) {
-      return fallbackCandidates[0];
-    }
-  }
-
-  return "";
+  return null;
 }
 
 async function getImageForModel(home, usedImages) {
@@ -159,7 +173,7 @@ async function getImageForModel(home, usedImages) {
 
   if (!manufacturerUrl) {
     console.log(`Skipped ${home.name}: no manufacturer URL`);
-    return "";
+    return null;
   }
 
   try {
@@ -167,22 +181,22 @@ async function getImageForModel(home, usedImages) {
 
     if (!response.ok) {
       console.log(`Skipped ${home.name}: page returned ${response.status}`);
-      return "";
+      return null;
     }
 
     const html = await response.text();
-    const image = findBestImage(html, home, usedImages);
+    const result = findLooseImage(html, home, usedImages);
 
-    if (image) {
-      console.log(`Found image for ${home.name}: ${image}`);
-    } else {
-      console.log(`No usable image found for ${home.name}`);
+    if (result?.url) {
+      console.log(`Found loose image for ${home.name}: ${result.url}`);
+      return result;
     }
 
-    return image;
+    console.log(`No loose image found for ${home.name}`);
+    return null;
   } catch (error) {
     console.log(`Skipped ${home.name}: ${error.message}`);
-    return "";
+    return null;
   }
 }
 
@@ -194,6 +208,7 @@ const usedImages = new Set(
 
 const updatedModels = [];
 const missingImages = [];
+const looseReport = [];
 
 for (let index = 0; index < models.length; index++) {
   const home = models[index];
@@ -213,10 +228,18 @@ for (let index = 0; index < models.length; index++) {
     continue;
   }
 
-  const image = await getImageForModel(home, usedImages);
+  const result = await getImageForModel(home, usedImages);
+  const image = result?.url || "";
 
   if (image) {
     usedImages.add(image);
+
+    looseReport.push({
+      name: home.name,
+      image,
+      score: result.score,
+      manufacturerUrl: getManufacturerUrl(home),
+    });
   } else {
     missingImages.push({
       name: home.name,
@@ -237,18 +260,21 @@ for (let index = 0; index < models.length; index++) {
 
 const fileContent = `// Auto-generated model inventory
 // Existing images are preserved.
-// Missing images are filled only when a model-matching image is found.
+// Missing images were filled with looser model-name matching.
 
 export const models = ${JSON.stringify(updatedModels, null, 2)};
 `;
 
 await fs.writeFile(outputPath, fileContent, "utf8");
 await fs.writeFile(missingOutputPath, JSON.stringify(missingImages, null, 2), "utf8");
+await fs.writeFile(reportOutputPath, JSON.stringify(looseReport, null, 2), "utf8");
 
 const foundCount = updatedModels.filter((home) => home.image).length;
 
 console.log("");
 console.log(`Done. Models with images: ${foundCount} of ${models.length}.`);
 console.log(`Still missing images: ${missingImages.length}.`);
+console.log(`Loose images added this run: ${looseReport.length}.`);
 console.log("Updated src/data/models.js");
-console.log("Created scripts/missing-images.json");
+console.log("Updated scripts/missing-images.json");
+console.log("Created scripts/loose-image-report.json");
