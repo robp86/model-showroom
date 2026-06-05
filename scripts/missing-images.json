@@ -1,89 +1,5 @@
 [
   {
-    "name": "Waycross Express 3258494",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1720,
-    "manufacturerUrl": "https://www.championhomes.com/models/waycross-express"
-  },
-  {
-    "name": "Prime Manor 4523A",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1387,
-    "manufacturerUrl": "https://www.championhomes.com/models/prime-manor-4523A"
-  },
-  {
-    "name": "Vienna 2.0",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1809,
-    "manufacturerUrl": "https://www.championhomes.com/models/vienna-2.0"
-  },
-  {
-    "name": "Icon 3256",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1661,
-    "manufacturerUrl": "https://www.championhomes.com/models/icon-3256"
-  },
-  {
-    "name": "Icon 2876 Talladega",
-    "bedrooms": 4,
-    "bathrooms": 3,
-    "sqft": 1976,
-    "manufacturerUrl": "https://www.championhomes.com/models/icon-2876-talladega"
-  },
-  {
-    "name": "The Maddux",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1424,
-    "manufacturerUrl": "https://www.championhomes.com/models/the-maddux"
-  },
-  {
-    "name": "Lake Manor 2444H22036",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 1025,
-    "manufacturerUrl": "https://www.championhomes.com/models/lake-manor-2444H22036"
-  },
-  {
-    "name": "Prime Daybreak",
-    "bedrooms": 1,
-    "bathrooms": 1,
-    "sqft": 493,
-    "manufacturerUrl": "https://www.championhomes.com/models/prime-daybreak"
-  },
-  {
-    "name": "Prime Manor 0764D",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 2305,
-    "manufacturerUrl": "https://www.championhomes.com/models/prime-manor-0764D"
-  },
-  {
-    "name": "Prime Manor 0764D",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 2305,
-    "manufacturerUrl": "https://www.championhomes.com/models/prime-manor-0764D"
-  },
-  {
-    "name": "Cypress Manor 0764E",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 2305,
-    "manufacturerUrl": "https://www.championhomes.com/models/cypress-manor-0764B"
-  },
-  {
-    "name": "Bozeman",
-    "bedrooms": 4,
-    "bathrooms": 2,
-    "sqft": 2282,
-    "manufacturerUrl": "https://www.championhomes.com/models/bozeman"
-  },
-  {
     "name": "Helicon 2.0",
     "bedrooms": 4,
     "bathrooms": 2,
@@ -266,13 +182,6 @@
     "manufacturerUrl": "https://www.championhomes.com/models/embrace-simplicity"
   },
   {
-    "name": "The Murphy",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1127,
-    "manufacturerUrl": "https://www.championhomes.com/models/the-murphy"
-  },
-  {
     "name": "Icon 1676",
     "bedrooms": 3,
     "bathrooms": 2,
@@ -280,25 +189,11 @@
     "manufacturerUrl": "https://www.championhomes.com/models/icon-1676"
   },
   {
-    "name": "Winter Special",
-    "bedrooms": 3,
-    "bathrooms": 2,
-    "sqft": 1092,
-    "manufacturerUrl": "https://www.championhomes.com/models/winter-special"
-  },
-  {
     "name": "Lake Manor 2840H32P01",
     "bedrooms": 3,
     "bathrooms": 2,
     "sqft": 1064,
     "manufacturerUrl": "https://www.championhomes.com/models/lake-manor-2840H32P01"
-  },
-  {
-    "name": "RH26282A",
-    "bedrooms": 2,
-    "bathrooms": 2,
-    "sqft": 1031,
-    "manufacturerUrl": "https://www.championhomes.com/models/rh2682a"
   },
   {
     "name": "Ace 2.0",
@@ -334,13 +229,6 @@
     "bathrooms": 1,
     "sqft": 786,
     "manufacturerUrl": "https://www.championhomes.com/models/palm-bay-2714B"
-  },
-  {
-    "name": "RH1522A",
-    "bedrooms": 2,
-    "bathrooms": 1,
-    "sqft": 694,
-    "manufacturerUrl": "https://www.championhomes.com/models/rh1522a"
   },
   {
     "name": "Palm Bay 2641C",
