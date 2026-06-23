@@ -5,13 +5,18 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run build:seo && vite build",
+    "build:data": "node scripts/buildModelData.mjs",
+    "build:seo": "node scripts/generateSeo.mjs",
+    "scrape:champion": "node scripts/scrapeChampionMedia.mjs",
     "lint": "eslint .",
     "preview": "vite preview"
   },
   "dependencies": {
+    "playwright": "^1.60.0",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6"
+    "react-dom": "^19.2.6",
+    "react-router-dom": "^7.18.0"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",

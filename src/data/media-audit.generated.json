@@ -1,0 +1,5249 @@
+{
+  "generatedAt": "2026-06-22T23:42:05.256Z",
+  "totalModels": 295,
+  "fromSpreadsheet": 279,
+  "fromGalleryOnly": 16,
+  "galleryFoldersScanned": 283,
+  "tierCounts": {
+    "complete": 63,
+    "partial": 83,
+    "strong": 88,
+    "minimal": 9,
+    "floor-plan-only": 51,
+    "bare": 1
+  },
+  "completeProfiles": 63,
+  "missingPhotos": 64,
+  "missingFloorPlan": 148,
+  "missingVirtualTour": 142,
+  "floorPlanOnly": 51,
+  "minimalOrBare": 10,
+  "noLocalFolder": [
+    "Providence 3264543",
+    "Prime Manor 0764D",
+    "Manchester by Regional Homes",
+    "Legend 3276502",
+    "Ravenwood by Regional Homes",
+    "Driftwood by Regional Homes",
+    "Cypress Manor",
+    "Liberty 3264528",
+    "Freedom 2860520",
+    "Prime Estill",
+    "Hudson by Regional Homes",
+    "RH26282A"
+  ],
+  "noChampionUrl": [
+    "Driftwood",
+    "Hudson",
+    "Manchester",
+    "Ravenwood",
+    "Cypress Manor 0643A",
+    "Lake Manor 2856H32P01",
+    "Legend 3276502 Sinclair",
+    "Liberty 3264528 Admiral",
+    "Prime Estill 043",
+    "Prime Pinnacle 043",
+    "Providence 3264543 Wisdom",
+    "RH1351A",
+    "RH2682A",
+    "Silver Springs 4892",
+    "Sliver Springs 5351",
+    "Waycross Express 1676531 Azalea"
+  ],
+  "possibleUrlMismatch": [
+    {
+      "name": "Prime Manor 4523A",
+      "folder": "/model-galleries/Pine%20Manor%20(3)/Pine%20Manor%204523A",
+      "quality": 0.785
+    },
+    {
+      "name": "Embrace Oppotunity 261",
+      "folder": "/model-galleries/Embrace%20(6)/Embrace%20Opputunity%20261",
+      "quality": 0.825
+    },
+    {
+      "name": "Prime Daybreak",
+      "folder": "/model-galleries/Prime%20(28)/Prime%20Daybreak%20261",
+      "quality": 0.728
+    },
+    {
+      "name": "Prime Manor 0764D",
+      "folder": "/model-galleries/Pine%20Manor%20(3)/Pine%20Manor%200764D",
+      "quality": 0.785
+    },
+    {
+      "name": "Freddom 3276527",
+      "folder": "/model-galleries/Freedom%20(6)/Freedom%203276527%20(Floor%20plan%20only)",
+      "quality": 0.738
+    },
+    {
+      "name": "Silver Sprngs 5354",
+      "folder": "/model-galleries/Silver%20Springs%20(25)/Silver%20Springs%205354",
+      "quality": 0.821
+    },
+    {
+      "name": "Silver Springs 5351",
+      "folder": "/model-galleries/Silver%20Springs%20(25)/Silver%20Springs%205011",
+      "quality": 0.792
+    },
+    {
+      "name": "Prime Chuchill 043",
+      "folder": "/model-galleries/Prime%20(28)/Prime%20Churchill%20043",
+      "quality": 0.821
+    },
+    {
+      "name": "Embrace Simplicity",
+      "folder": "/model-galleries/Embrace%20(6)/Embrace%20Simplicity%20261",
+      "quality": 0.75
+    },
+    {
+      "name": "Prime Somerset 043",
+      "folder": "/model-galleries/Prime%20(28)/Prime%20Somereset%20043",
+      "quality": 0.821
+    },
+    {
+      "name": "Silver Springs 5011",
+      "folder": "/model-galleries/Silver%20Springs%20(25)/Silver%20Springs%205081",
+      "quality": 0.821
+    },
+    {
+      "name": "Prime Barkley",
+      "folder": "/model-galleries/Prime%20(28)/Prime%20Barkley%20043",
+      "quality": 0.721
+    },
+    {
+      "name": "Palm Bay 2641B",
+      "folder": "/model-galleries/Palm%20Bay%20(14)/Palm%20Bay%202621B",
+      "quality": 0.811
+    },
+    {
+      "name": "Lake Maonr 1437H11200",
+      "folder": "/model-galleries/Lake%20Manor%20(14)/Lake%20Manor%201437H11200%20(Floor%20plan%20only)",
+      "quality": 0.798
+    },
+    {
+      "name": "Palm Bay 2621B",
+      "folder": "/model-galleries/Palm%20Bay%20(14)/Palm%20Bay%202621C",
+      "quality": 0.811
+    },
+    {
+      "name": "Palm Bay 2621C",
+      "folder": "/model-galleries/Palm%20Bay%20(14)/Palm%20Bay%202614B",
+      "quality": 0.732
+    }
+  ],
+  "duplicateNames": [
+    "Prime Manor 0764D"
+  ],
+  "orphanGalleryFolders": [
+    "Driftwood",
+    "Hudson",
+    "Manchester",
+    "Ravenwood",
+    "Cypress Manor 0643A",
+    "Lake Manor 2856H32P01 (Floor plan only)",
+    "Legend 3276502 Sinclair (Floor plan only)",
+    "Liberty 3264528 Admiral",
+    "Prime Estill 043",
+    "Prime Pinnacle 043",
+    "Providence 3264543 Wisdom",
+    "RH1351A",
+    "RH2682A",
+    "Silver Springs 4892 (Floor plan only)",
+    "Sliver Springs 5351",
+    "Waycross Express 1676531 Azalea"
+  ],
+  "models": [
+    {
+      "id": "stirling",
+      "name": "Stirling",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 28,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/stirling",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "prime-grand-043",
+      "name": "Prime grand 043",
+      "series": "Prime",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 18,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/prime-grand-043",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "stagg",
+      "name": "Stagg",
+      "series": "Foundation",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 24,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/stagg",
+      "warnings": [
+        "Flagship demo model — full gallery, floor plan and 3D tour."
+      ],
+      "missing": []
+    },
+    {
+      "id": "drake",
+      "name": "Drake",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 19,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/drake",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "prime-vertex-043",
+      "name": "Prime Vertex 043",
+      "series": "Prime",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 16,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/prime-vertex-043",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "the-aaron",
+      "name": "The Aaron",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 26,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/the-aaron",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "liberty-2876489",
+      "name": "Liberty 2876489",
+      "series": "Liberty",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 2,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/liberty",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "the-chipper",
+      "name": "The Chipper",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 21,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/the-chipper",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "waycross-express-3258494",
+      "name": "Waycross Express 3258494",
+      "series": "Waycross Express",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 26,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-manor-4523a",
+      "name": "Prime Manor 4523A",
+      "series": "Pine Manor",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 35,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-manor-4523A",
+      "warnings": [
+        "Gallery folder \"Pine Manor 4523A\" matched by similarity (0.79). Verify it is the right home."
+      ],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5006-the-palm",
+      "name": "Silver Springs 5006 The Palm",
+      "series": "Silver Springs",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 31,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5006-the-palm",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "cypress-manor-0764b",
+      "name": "Cypress Manor 0764B",
+      "series": "Cypress Manor",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-0764B",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan"
+      ]
+    },
+    {
+      "id": "st-croix",
+      "name": "St Croix",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 30,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/st-croix",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "birchwood",
+      "name": "Birchwood",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 31,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/birchwood",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "freedom-3276517",
+      "name": "Freedom 3276517",
+      "series": "Freedom",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 35,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/freedom-3276517",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "cascade",
+      "name": "Cascade",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 27,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/cascade",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "casa-grande",
+      "name": "Casa Grande",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 20,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/casa-grande",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "big-sky",
+      "name": "Big Sky",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 29,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/big-sky",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "st-charles",
+      "name": "St. Charles",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 90,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/st-charles",
+      "warnings": [],
+      "missing": [
+        "photos"
+      ]
+    },
+    {
+      "id": "the-justice",
+      "name": "The Justice",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 40,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/the-justice",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "monterey",
+      "name": "Monterey",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 19,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/monterey",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "lake-manor-3260h32p03",
+      "name": "Lake Manor 3260H32P03",
+      "series": "Lake Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 26,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-3260H32P03",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "vienna-2-0",
+      "name": "Vienna 2.0",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 24,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/vienna-2.0",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "embrace-serenity-261",
+      "name": "Embrace Serenity 261",
+      "series": "Embrace",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 20,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/embrace-serenity-261",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "kritzer",
+      "name": "Kritzer",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 19,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/kritzer",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "icon-3256",
+      "name": "Icon 3256",
+      "series": "Icon",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 27,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/icon-3256",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "riverview-4603a",
+      "name": "Riverview 4603A",
+      "series": "Riverview",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 20,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/riverview-4603A",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "legend-2860478",
+      "name": "Legend 2860478",
+      "series": "Legend",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 7,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-2860478",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-ridge-043",
+      "name": "Prime Ridge 043",
+      "series": "Prime",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 16,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-ridge-043",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "prime-2856h32p01",
+      "name": "Prime 2856H32P01",
+      "series": "Prime",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 13,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/prime-2856h32p01",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "embrace-sunlight-052",
+      "name": "Embrace Sunlight 052",
+      "series": "Embrace",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 17,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/embrace-sunlight-052",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "homc-4562g",
+      "name": "HOMC 4562G",
+      "series": "HOMC",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 26,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/homc-4562G",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "homc-4563e",
+      "name": "HOMC 4563E",
+      "series": "HOMC",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 18,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/homc-4563E",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "cypress-manor-4563e",
+      "name": "Cypress Manor 4563E",
+      "series": "Cypress Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 19,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-4563E",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "embrace-oppotunity-261",
+      "name": "Embrace Oppotunity 261",
+      "series": "Embrace",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 21,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/embrace-opportunity-261",
+      "warnings": [
+        "Gallery folder \"Embrace Opputunity 261\" matched by similarity (0.82). Verify it is the right home."
+      ],
+      "missing": []
+    },
+    {
+      "id": "silver-springs-5046",
+      "name": "Silver Springs 5046",
+      "series": "Silver Springs",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 30,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5046",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "naples",
+      "name": "Naples",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/naples",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "sipsey",
+      "name": "Sipsey",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 31,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/sipsey",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "signature-3442a",
+      "name": "Signature 3442A",
+      "series": "Signature",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 21,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/signature-3442A",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "embrace-daylight",
+      "name": "Embrace Daylight",
+      "series": "Embrace",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 23,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/embrace-daylight",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "iris",
+      "name": "Iris",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/iris",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "waycross-express-3272537-cottonwood",
+      "name": "Waycross Express 3272537 Cottonwood",
+      "series": "Waycross Express",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 22,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express-3272537-cottonwood",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "icon-2876-talladega",
+      "name": "Icon 2876 Talladega",
+      "series": "Icon",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 24,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/icon-2876-talladega",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "providence-3264543",
+      "name": "Providence 3264543",
+      "series": "Providence",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 20,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/providence-3264543-wisdom",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "prime-2860h32p01",
+      "name": "Prime 2860H32P01",
+      "series": "Prime",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 22,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-2860H32P01",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "the-maddux",
+      "name": "The Maddux",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 20,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/the-maddux",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "waycross-express-2852477",
+      "name": "Waycross Express 2852477",
+      "series": "Waycross Express",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 29,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express-2852477",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "silver-springs-5012",
+      "name": "Silver Springs 5012",
+      "series": "Silver Springs",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 20,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5012",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "grand-slam-1676480",
+      "name": "Grand Slam 1676480",
+      "series": "Grand Slam",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 8,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1676480",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "lake-manor-2444h22036",
+      "name": "Lake Manor 2444H22036",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2444H22036",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-1666h32p01-261",
+      "name": "Prime 1666H32P01-261",
+      "series": "Prime",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 13,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-1666h32p01-261",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "home-run-1466208",
+      "name": "Home Run 1466208",
+      "series": "Home Run",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1466208",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "home-run-1456194",
+      "name": "Home Run 1456194",
+      "series": "Home Run",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1456194",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-daybreak",
+      "name": "Prime Daybreak",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 20,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-daybreak",
+      "warnings": [
+        "Gallery folder \"Prime Daybreak 261\" matched by similarity (0.73). Verify it is the right home."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-manor-0764d",
+      "name": "Prime Manor 0764D",
+      "series": "Pine Manor",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 25,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-manor-0764D",
+      "warnings": [
+        "Gallery folder \"Pine Manor 0764D\" matched by similarity (0.79). Verify it is the right home."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "nexus",
+      "name": "Nexus",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 24,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/nexus",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "prime-manor-0764d-2",
+      "name": "Prime Manor 0764D",
+      "series": "Prime Manor",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 35,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-manor-0764D",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 4,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/sydney",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "foundation-limited-3276h43lm76",
+      "name": "Foundation Limited 3276H43LM76",
+      "series": "Foundation",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 27,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/foundation-limited-3276H43LM76",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "cypress-manor-0764e",
+      "name": "Cypress Manor 0764E",
+      "series": "Cypress Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 27,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-0764B",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "the-big-john",
+      "name": "The Big John",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 29,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/the-big-john",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "freedom-3276552",
+      "name": "Freedom 3276552",
+      "series": "Freedom",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/freedom-3276552",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "bozeman",
+      "name": "Bozeman",
+      "series": "Other Models",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/bozeman",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "manchester-by-regional-homes",
+      "name": "Manchester by Regional Homes",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 28,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/manchester-by-regional-homes",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "stoney-pointe",
+      "name": "Stoney Pointe",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 32,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/stoney-pointe",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "helicon-2-0",
+      "name": "Helicon 2.0",
+      "series": "Helicon",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 13,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/helicon-2-0",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby",
+      "series": "Regional Homes",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 16,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/ruby",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "kinlock-falls",
+      "name": "Kinlock Falls",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 11,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/kinlock-falls",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "lynn",
+      "name": "Lynn",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 14,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/lynn",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "helicon-3-0",
+      "name": "Helicon 3.0",
+      "series": "Helicon",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 21,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/the-helicon-3-0-327642f",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "vermont",
+      "name": "Vermont",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 19,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/vermont",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "legend-3276502",
+      "name": "Legend 3276502",
+      "series": "Legend",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 35,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-3276502",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "liberty-3276536",
+      "name": "Liberty 3276536",
+      "series": "Liberty",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 19,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/liberty",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "cypress-manor-5644a",
+      "name": "Cypress Manor 5644A",
+      "series": "Cypress Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 20,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-5644A",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "crestwood",
+      "name": "Crestwood",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 28,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/crestwood",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "basecamp",
+      "name": "Basecamp",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 39,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/basecamp",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "ravenwood-by-regional-homes",
+      "name": "Ravenwood by Regional Homes",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 38,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/ravenwood-by-regional-homes",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "freddom-3276527",
+      "name": "Freddom 3276527",
+      "series": "Freedom",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/freedom-3276527",
+      "warnings": [
+        "Gallery folder \"Freedom 3276527 (Floor plan only)\" matched by similarity (0.74). Verify it is the right home."
+      ],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-elite-6400",
+      "name": "Silver Springs Elite 6400",
+      "series": "Silver Springs",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 17,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-elite-6400",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "rory",
+      "name": "Rory",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 23,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/rory",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "home-run-3272228",
+      "name": "Home Run 3272228",
+      "series": "Home Run",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 90,
+      "photos": 22,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-3272228",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "powell",
+      "name": "Powell",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 23,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/powell",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "cypress-manor-0683b",
+      "name": "Cypress Manor 0683B",
+      "series": "Cypress Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 23,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-0683B",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "rio",
+      "name": "Rio",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 2,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/rio",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "upshaw",
+      "name": "Upshaw",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 13,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/upshaw",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 4,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/dublin",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "pinnacle-261",
+      "name": "Pinnacle 261",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 4,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/pinnacle-261",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "prime-2876h53p01",
+      "name": "Prime 2876H53P01",
+      "series": "Prime",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 12,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-2876H53P01",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "cairo",
+      "name": "Cairo",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 3,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cairo",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "flagstone",
+      "name": "Flagstone",
+      "series": "Other Models",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/flagstone",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "lake-manor-2876h53p01",
+      "name": "Lake Manor 2876H53P01",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2876H53P01",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "lake-manor-2876h43a7d",
+      "name": "Lake Manor 2876H43A7D",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2876H43A7D",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "driftwood-by-regional-homes",
+      "name": "Driftwood by Regional Homes",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 27,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/driftwood-by-regional-homes",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "freedom-3266553",
+      "name": "Freedom 3266553",
+      "series": "Freedom",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/freedom-3266553",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "juno",
+      "name": "Juno",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 23,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/juno",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "home-run-2876322",
+      "name": "Home Run 2876322",
+      "series": "Home Run",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-2876322",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "legend-2876526",
+      "name": "Legend 2876526",
+      "series": "Legend",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 35,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-2876526",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "cypress-manor",
+      "name": "Cypress Manor",
+      "series": "Cypress Manor",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 20,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 21,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/paris",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "liberty-3264528",
+      "name": "Liberty 3264528",
+      "series": "Liberty",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 20,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/liberty-3264528-scotbilt-homes",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "mckenna",
+      "name": "Mckenna",
+      "series": "Foundation",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 30,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/mckenna",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "cedarbrooke-c0603b",
+      "name": "Cedarbrooke - C0603B",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cedarbrooke-c0603b",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "cape-town",
+      "name": "Cape Town",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 4,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cape-town",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "dudley",
+      "name": "Dudley",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 26,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/dudley",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "riverview-4684a",
+      "name": "Riverview 4684A",
+      "series": "Riverview",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 18,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/riverview-4684A",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "prime-2868h42p01",
+      "name": "Prime 2868H42P01",
+      "series": "Prime",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 20,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-2868H42P01",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "crestpointe-h4684a",
+      "name": "Crestpointe H4684A",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/crestpointe-h4684a",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan"
+      ]
+    },
+    {
+      "id": "grand-261",
+      "name": "Grand 261",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 7,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-261",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "cornerstone",
+      "name": "Cornerstone",
+      "series": "Foundation",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 26,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cornerstone",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "rh4684a",
+      "name": "RH4684A",
+      "series": "RH",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 25,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/rh4684a",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "lake-manor-2856h42383",
+      "name": "Lake Manor 2856H42383",
+      "series": "Lake Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 12,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2856H42383",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "lake-manor-2868h42p01",
+      "name": "Lake Manor 2868H42P01",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2868H42P01",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "ascent",
+      "name": "Ascent",
+      "series": "Regional Homes",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 11,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/ascent",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "icon-2866-rockingham",
+      "name": "Icon 2866 Rockingham",
+      "series": "Icon",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 33,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/icon-2866-rockingham",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "cypress-manor-4643a",
+      "name": "Cypress Manor 4643A",
+      "series": "Cypress Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 7,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-4643A",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "foundation-limited-2864h42lm64",
+      "name": "Foundation Limited 2864H42LM64",
+      "series": "Foundation",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/foundation-limited-2864H42LM64",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "vista-villa",
+      "name": "Vista Villa",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 100,
+      "photos": 19,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/vista-villa",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "blue-sky",
+      "name": "Blue Sky",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 35,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/blue-sky",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "pursuit-xl-261",
+      "name": "Pursuit XL 261",
+      "series": "Pursuit",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 9,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/pursuit-xl-261",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "cypress-manor-0563c",
+      "name": "Cypress Manor 0563C",
+      "series": "Cypress Manor",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 35,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/cypress-manor-0563C",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "providence-3256542-fortune",
+      "name": "Providence 3256542 Fortune",
+      "series": "Providence",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/providence-3256542-fortune",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "delashaw",
+      "name": "Delashaw",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 90,
+      "photos": 14,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/delashaw",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "utah",
+      "name": "Utah",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 7,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/utah",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "luna",
+      "name": "Luna",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 80,
+      "photos": 11,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/luna",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-elite-pm-6480",
+      "name": "Silver Springs Elite PM 6480",
+      "series": "Silver Springs",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-elite-pm-6480",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-sprngs-5354",
+      "name": "Silver Sprngs 5354",
+      "series": "Silver Springs",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 14,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5354",
+      "warnings": [
+        "Gallery folder \"Silver Springs 5354\" matched by similarity (0.82). Verify it is the right home."
+      ],
+      "missing": []
+    },
+    {
+      "id": "grand-slam-2862306",
+      "name": "Grand Slam 2862306",
+      "series": "Grand Slam",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2862306",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "pursuit-021",
+      "name": "Pursuit 021",
+      "series": "Pursuit",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 9,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/pursuit-021",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "keystone",
+      "name": "Keystone",
+      "series": "Other Models",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/keystone",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "rosedale",
+      "name": "Rosedale",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 27,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/rosedale",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "pelican",
+      "name": "Pelican",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 17,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/the-pelican",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "key-largo-3252h32g01",
+      "name": "Key Largo 3252H32G01",
+      "series": "Key Largo",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 25,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/key-largo-3252H32G01",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "freedom-2860520",
+      "name": "Freedom 2860520",
+      "series": "Freedom",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 35,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/freedom-2860520",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "liberty-2860459",
+      "name": "Liberty 2860459",
+      "series": "Liberty",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 21,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/liberty-2860459",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "nova",
+      "name": "Nova",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 11,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/nova",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "icon-2860-bristol",
+      "name": "Icon 2860 Bristol",
+      "series": "Icon",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 29,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/icon-2860-bristol",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "silver-springs-5361",
+      "name": "Silver Springs 5361",
+      "series": "Silver Springs",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 16,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5361",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "signature-4563c",
+      "name": "Signature 4563C",
+      "series": "Signature",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/signature-4563C",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "pursuit-261",
+      "name": "Pursuit 261",
+      "series": "Pursuit",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 9,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/pursuit-261",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-2856h42p01",
+      "name": "Prime 2856H42P01",
+      "series": "Prime",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-2856H42P01",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "apex-261",
+      "name": "Apex 261",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 6,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/apex-261",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "prime-crown-043",
+      "name": "Prime Crown 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-crown-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "foundation-limited-2856h32lm56",
+      "name": "Foundation Limited 2856H32LM56",
+      "series": "Foundation",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/foundation-limited-2856H32LM56",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "embrace-sunlight-261",
+      "name": "Embrace Sunlight 261",
+      "series": "Embrace",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 19,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/embrace-sunlight-261",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "hc4563h",
+      "name": "HC4563H",
+      "series": "HC",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 31,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/hc4563h",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "prime-apex-043",
+      "name": "Prime Apex 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 3,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-apex-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "key-largo-2856h32a1c",
+      "name": "Key Largo 2856H32A1C",
+      "series": "Key Largo",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 27,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/key-largo-2856H32A1C",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "key-largo-2854h32g01",
+      "name": "Key Largo 2854H32G01",
+      "series": "Key Largo",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 17,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/key-largo-2854h32g01",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "coral-haven",
+      "name": "Coral Haven",
+      "series": "Silver Springs",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 23,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/coral-haven",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "pine-manor-0483a",
+      "name": "Pine Manor 0483A",
+      "series": "Pine Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 17,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/pine-manor-0483A",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "champion-community-2856443",
+      "name": "Champion Community 2856443",
+      "series": "Champion Community",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 22,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2856443",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "grand-slam-2856256",
+      "name": "Grand Slam 2856256",
+      "series": "Grand Slam",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 12,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2856256",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "home-run-2856353",
+      "name": "Home Run 2856353",
+      "series": "Home Run",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-2856353",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "freedom-2856497",
+      "name": "Freedom 2856497",
+      "series": "Freedom",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 12,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/freedom-2856497",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "waycross-express-2856492",
+      "name": "Waycross Express 2856492",
+      "series": "Waycross Express",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express-2856492",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "rover",
+      "name": "Rover",
+      "series": "Regional Homes",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 12,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/rover",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "series": "Regional Homes",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 8,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/scout",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5355",
+      "name": "Silver Springs 5355",
+      "series": "Silver Springs",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 24,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5355",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "silver-springs-5351",
+      "name": "Silver Springs 5351",
+      "series": "Silver Springs",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 18,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5351",
+      "warnings": [
+        "Gallery folder \"Silver Springs 5011\" matched by similarity (0.79). Verify it is the right home."
+      ],
+      "missing": []
+    },
+    {
+      "id": "silver-springs-5027-the-oak",
+      "name": "Silver Springs 5027 - The Oak",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 22,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5027-the-oak",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5360",
+      "name": "Silver Springs 5360",
+      "series": "Silver Springs",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 14,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5360",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "legend-3248501",
+      "name": "Legend 3248501",
+      "series": "Legend",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 15,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-3248501",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "frankfurt",
+      "name": "Frankfurt",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 3,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/frankfurt",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5077",
+      "name": "Silver Springs 5077",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 12,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5077a",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5042a",
+      "name": "Silver Springs 5042A",
+      "series": "Silver Springs",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 24,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5042A",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "signature-4523e",
+      "name": "Signature 4523E",
+      "series": "Signature",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/signature-4523E",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "hc4522a",
+      "name": "HC4522A",
+      "series": "HC",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 16,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/homes-of-merit-community-hc4522A",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-corbin-261",
+      "name": "Prime Corbin 261",
+      "series": "Prime",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-corbin-261",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "the-carlee",
+      "name": "The Carlee",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 12,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/the-carlee",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "silver-springs-5001a",
+      "name": "Silver Springs 5001A",
+      "series": "Silver Springs",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5001A",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5035",
+      "name": "Silver Springs 5035",
+      "series": "Silver Springs",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 16,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5035",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "legend-2852479",
+      "name": "Legend 2852479",
+      "series": "Legend",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-2852479",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "grand-slam-2852372",
+      "name": "Grand Slam 2852372",
+      "series": "Grand Slam",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 3,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2852372",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "driftwood-cottage",
+      "name": "Driftwood Cottage",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 29,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/driftwood-cottage",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "valencia",
+      "name": "Valencia",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 40,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/valencia",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "silver-springs-5044a-bal-harbour",
+      "name": "Silver Springs 5044A Bal Harbour",
+      "series": "Silver Springs",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 23,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5044A-bal-harbour",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "silver-springs-5320",
+      "name": "Silver Springs 5320",
+      "series": "Silver Springs",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 23,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5320",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "signature-3564a",
+      "name": "Signature 3564A",
+      "series": "Signature",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 1,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/signature-3564A",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-chuchill-043",
+      "name": "Prime Chuchill 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 3,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-churchill-043",
+      "warnings": [
+        "Gallery folder \"Prime Churchill 043\" matched by similarity (0.82). Verify it is the right home."
+      ],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "foundation-limited-2848h32lm48",
+      "name": "Foundation Limited 2848H32LM48",
+      "series": "Foundation",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 19,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/foundation-limited-2848H32LM48",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "lake-manor-2848h32p02",
+      "name": "Lake Manor 2848H32P02",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2848H32P02",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5000a",
+      "name": "Silver Springs 5000A",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5000a",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "grand-slam-2456341",
+      "name": "Grand Slam 2456341",
+      "series": "Grand Slam",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2456341",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "champion-community-2848441",
+      "name": "Champion Community 2848441",
+      "series": "Champion Community",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 21,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2848441",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "grand-slam-2848302",
+      "name": "Grand Slam 2848302",
+      "series": "Grand Slam",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 18,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2848302",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "home-run-2848229",
+      "name": "Home Run 2848229",
+      "series": "Home Run",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-2848229",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-4801",
+      "name": "Silver Springs 4801",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4801",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "onward",
+      "name": "Onward",
+      "series": "Regional Homes",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 9,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/onward",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "legend-2848510",
+      "name": "Legend 2848510",
+      "series": "Legend",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 21,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-2848510",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "prime-estill",
+      "name": "Prime Estill",
+      "series": "Prime",
+      "mediaTier": "minimal",
+      "mediaTierLabel": "Minimal Info",
+      "mediaScore": 20,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-estill-2844H32P01",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "grand-slam-2452445",
+      "name": "Grand Slam 2452445",
+      "series": "Grand Slam",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-2452445",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "madison",
+      "name": "Madison",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 12,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/madison",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "lake-manor-2844h32p01",
+      "name": "Lake Manor 2844H32P01",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2844H32P01",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "fay",
+      "name": "Fay",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 90,
+      "photos": 17,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/fay",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "piton",
+      "name": "Piton",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 75,
+      "photos": 23,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/piton",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5029",
+      "name": "Silver Springs 5029",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 75,
+      "photos": 1,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5029",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "rainer-3-0",
+      "name": "Rainer 3.0",
+      "series": "Foundation",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/rainer-3.0",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-floyd-043",
+      "name": "Prime Floyd 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 3,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-floyd-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-monte-043",
+      "name": "Prime Monte 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 90,
+      "photos": 4,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-monte-043",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "firefly",
+      "name": "Firefly",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 17,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/firefly",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "embrace-simplicity",
+      "name": "Embrace Simplicity",
+      "series": "Embrace",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 20,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/embrace-simplicity",
+      "warnings": [
+        "Gallery folder \"Embrace Simplicity 261\" matched by similarity (0.75). Verify it is the right home."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "sierra",
+      "name": "Sierra",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 21,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/sierra",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "prime-somerset-043",
+      "name": "Prime Somerset 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-somerset-043",
+      "warnings": [
+        "Gallery folder \"Prime Somereset 043\" matched by similarity (0.82). Verify it is the right home."
+      ],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "signature-3523b",
+      "name": "Signature 3523B",
+      "series": "Signature",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/signature-3523b",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "home-run-2844402",
+      "name": "Home Run 2844402",
+      "series": "Home Run",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 12,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-2844402",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "eva",
+      "name": "Eva",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 13,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/eva",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "pip",
+      "name": "Pip",
+      "series": "Regional Homes",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 11,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/pip",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "hudson-by-regional-homes",
+      "name": "Hudson by Regional Homes",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/hudson-by-regional-homes",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "grand-slam-1676401",
+      "name": "Grand Slam 1676401",
+      "series": "Grand Slam",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 11,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1676401",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "grand-slam-1676406",
+      "name": "Grand Slam 1676406",
+      "series": "Grand Slam",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1676406",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "home-run-1676257",
+      "name": "Home Run 1676257",
+      "series": "Home Run",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 80,
+      "photos": 7,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1676257",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "legend-1676496",
+      "name": "Legend 1676496",
+      "series": "Legend",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 22,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-1676496",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "the-murphy",
+      "name": "The Murphy",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 12,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/the-murphy",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "icon-1676",
+      "name": "Icon 1676",
+      "series": "Icon",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 14,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/icon-1676",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "home-run-1676511",
+      "name": "Home Run 1676511",
+      "series": "Home Run",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1676511",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "waycross-express-1676531",
+      "name": "Waycross Express 1676531",
+      "series": "Waycross Express",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/waycross-express-1676531",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-2448h32p02",
+      "name": "Prime 2448H32P02",
+      "series": "Prime",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 14,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-2448H32P02",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "prime-bardstown-043",
+      "name": "Prime Bardstown 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-bardstown-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "winter-special",
+      "name": "Winter Special",
+      "series": "Other Models",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/winter-special",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-ballard-043",
+      "name": "Prime Ballard 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-ballard-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "hodges",
+      "name": "Hodges",
+      "series": "Other Models",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 18,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/hodges",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "lake-manor-2840h32p01",
+      "name": "Lake Manor 2840H32P01",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2840H32P01",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-4893",
+      "name": "Silver Springs 4893",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 90,
+      "photos": 3,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4893",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "champion-community-2844444",
+      "name": "Champion Community 2844444",
+      "series": "Champion Community",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 2,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2844444",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "rh26282a",
+      "name": "RH26282A",
+      "series": "RH",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 110,
+      "photos": 8,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/rh2682a",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "rh2683b",
+      "name": "RH2683B",
+      "series": "RH",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/rh2683b",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "ace-2-0",
+      "name": "Ace 2.0",
+      "series": "Regional Homes",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 12,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/ace-2-0",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "lake-manor-2846h22140",
+      "name": "Lake Manor 2846H22140",
+      "series": "Lake Manor",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 16,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2846H22140",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "hc4522b",
+      "name": "HC4522B",
+      "series": "HC",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 23,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/hc4522B",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "vertex-261",
+      "name": "Vertex 261",
+      "series": "Prime Vertex",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 19,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/prime-vertex-043",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "prime-hickman-043",
+      "name": "Prime Hickman 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 3,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-hickman-043",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "lake-manor-1666h32p01",
+      "name": "Lake Manor 1666H32P01",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-1666H32P01",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "champion-community-2444437",
+      "name": "Champion Community 2444437",
+      "series": "Champion Community",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 25,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2444437",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "henson",
+      "name": "Henson",
+      "series": "Regional Homes",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 7,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/henson",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "grand-slam-1666323",
+      "name": "Grand Slam 1666323",
+      "series": "Grand Slam",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1666323",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "grand-slam-1666354",
+      "name": "Grand Slam 1666354",
+      "series": "Grand Slam",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1666354",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "champion-community-2836447",
+      "name": "Champion Community 2836447",
+      "series": "Champion Community",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2836447",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-5011",
+      "name": "Silver Springs 5011",
+      "series": "Silver Springs",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 26,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-5011",
+      "warnings": [
+        "Gallery folder \"Silver Springs 5081\" matched by similarity (0.82). Verify it is the right home."
+      ],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "lake-manor-2440h22036",
+      "name": "Lake Manor 2440H22036",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-2440H22036",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-spire-043",
+      "name": "Prime Spire 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-spire-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "legend-1660390",
+      "name": "Legend 1660390",
+      "series": "Legend",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 18,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-1660390",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "home-run-1660304",
+      "name": "Home Run 1660304",
+      "series": "Home Run",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1660304",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "legend-1660522",
+      "name": "Legend 1660522",
+      "series": "Legend",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-1660522",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "zenith-261",
+      "name": "Zenith 261",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 5,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/zenith-261",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-zenith-043",
+      "name": "Prime Zenith 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-zenith-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "silver-springs-4800",
+      "name": "Silver Springs 4800",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4800",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "marco",
+      "name": "Marco",
+      "series": "Other Models",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 110,
+      "photos": 9,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/marco",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "prime-barkley",
+      "name": "Prime Barkley",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 2,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-barkley",
+      "warnings": [
+        "Gallery folder \"Prime Barkley 043\" matched by similarity (0.72). Verify it is the right home."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "hc3362a",
+      "name": "HC3362A",
+      "series": "HC",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 28,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/hc3362a",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "home-run-1656280",
+      "name": "Home Run 1656280",
+      "series": "Home Run",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/home-run-1656280",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "rh2542b",
+      "name": "RH2542B",
+      "series": "RH",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 16,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/rh2542b",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "champion-community-2436456",
+      "name": "Champion Community 2436456",
+      "series": "Champion Community",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/champion-community-2436456",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "crest-261",
+      "name": "Crest 261",
+      "series": "Other Models",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 65,
+      "photos": 3,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/crest-261",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "silver-springs-4301n",
+      "name": "Silver Springs 4301N",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/silver-springs-4301n",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-crest-043",
+      "name": "Prime Crest 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-crest-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "palm-bay-2714b",
+      "name": "Palm Bay 2714B",
+      "series": "Palm Bay",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2714B",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "lewis",
+      "name": "Lewis",
+      "series": "Regional Homes",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 55,
+      "photos": 9,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lewis",
+      "warnings": [],
+      "missing": [
+        "floor plan",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-peak-043",
+      "name": "Prime Peak 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-peak-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "legend-1456503",
+      "name": "Legend 1456503",
+      "series": "Legend",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-1456503",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "rh1522a",
+      "name": "RH1522A",
+      "series": "RH",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/rh1522a",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "palm-bay-2665b",
+      "name": "Palm Bay 2665B",
+      "series": "Palm Bay",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2665b",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "grand-slam-1640409",
+      "name": "Grand Slam 1640409",
+      "series": "Grand Slam",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/grand-slam-1640409",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "prime-pike-043",
+      "name": "Prime Pike 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 2,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/prime-pike-043",
+      "warnings": [],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "rh1381a",
+      "name": "RH1381A",
+      "series": "RH",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 120,
+      "photos": 12,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/rh1381a",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "palm-bay-2641c",
+      "name": "Palm Bay 2641C",
+      "series": "Palm Bay",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2641C",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "palm-bay-2622c",
+      "name": "Palm Bay 2622C",
+      "series": "Palm Bay",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2622c",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "palm-bay-2625",
+      "name": "Palm Bay 2625",
+      "series": "Palm Bay",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 20,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2625",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "calloway-239",
+      "name": "Calloway 239",
+      "series": "Palm Bay",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 20,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/calloway-239",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "palm-bay-2641b",
+      "name": "Palm Bay 2641B",
+      "series": "Palm Bay",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2641B",
+      "warnings": [
+        "Gallery folder \"Palm Bay 2621B\" matched by similarity (0.81). Verify it is the right home."
+      ],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "palm-bay-2632",
+      "name": "Palm bay 2632",
+      "series": "Palm Bay",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2632",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "palm-bay-2631",
+      "name": "Palm Bay 2631",
+      "series": "Palm Bay",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2631",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "lake-maonr-1437h11200",
+      "name": "Lake Maonr 1437H11200",
+      "series": "Lake Manor",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 60,
+      "photos": 1,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/lake-manor-1437h11200",
+      "warnings": [
+        "Gallery folder \"Lake Manor 1437H11200 (Floor plan only)\" matched by similarity (0.80). Verify it is the right home."
+      ],
+      "missing": [
+        "3D tour"
+      ]
+    },
+    {
+      "id": "palm-bay-2670b",
+      "name": "Palm Bay 2670B",
+      "series": "Palm Bay",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 60,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2670B",
+      "warnings": [],
+      "missing": [
+        "photos",
+        "3D tour"
+      ]
+    },
+    {
+      "id": "palm-bay-2660b",
+      "name": "Palm Bay 2660B",
+      "series": "Palm Bay",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 110,
+      "photos": 10,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2660b",
+      "warnings": [],
+      "missing": []
+    },
+    {
+      "id": "palm-bay-2660c",
+      "name": "Palm Bay 2660C",
+      "series": "Palm Bay",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 105,
+      "photos": 24,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2660c",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "palm-bay-2622b",
+      "name": "Palm Bay 2622B",
+      "series": "Palm Bay",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 85,
+      "photos": 11,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2622B",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "palm-bay-2621b",
+      "name": "Palm Bay 2621B",
+      "series": "Palm Bay",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 22,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2621b",
+      "warnings": [
+        "Gallery folder \"Palm Bay 2621C\" matched by similarity (0.81). Verify it is the right home."
+      ],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "palm-bay-2621c",
+      "name": "Palm Bay 2621C",
+      "series": "Palm Bay",
+      "mediaTier": "complete",
+      "mediaTierLabel": "Complete Profile",
+      "mediaScore": 130,
+      "photos": 16,
+      "hasFloorPlan": true,
+      "hasVirtualTour": true,
+      "hasVideo": true,
+      "sourceUrl": "https://www.championhomes.com/models/palm-bay-2621c",
+      "warnings": [
+        "Gallery folder \"Palm Bay 2614B\" matched by similarity (0.73). Verify it is the right home."
+      ],
+      "missing": []
+    },
+    {
+      "id": "legend-1435454",
+      "name": "Legend 1435454",
+      "series": "Legend",
+      "mediaTier": "strong",
+      "mediaTierLabel": "Strong Profile",
+      "mediaScore": 95,
+      "photos": 15,
+      "hasFloorPlan": false,
+      "hasVirtualTour": true,
+      "hasVideo": false,
+      "sourceUrl": "https://www.championhomes.com/models/legend-1435454",
+      "warnings": [],
+      "missing": [
+        "floor plan"
+      ]
+    },
+    {
+      "id": "driftwood",
+      "name": "Driftwood",
+      "series": "By Regional",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 45,
+      "photos": 25,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "hudson",
+      "name": "Hudson",
+      "series": "By Regional",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 15,
+      "photos": 2,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester",
+      "series": "By Regional",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 45,
+      "photos": 27,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "ravenwood",
+      "name": "Ravenwood",
+      "series": "By Regional",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 45,
+      "photos": 34,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "cypress-manor-0643a",
+      "name": "Cypress Manor 0643A",
+      "series": "Cypress Manor",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 45,
+      "photos": 29,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "lake-manor-2856h32p01",
+      "name": "Lake Manor 2856H32P01",
+      "series": "Lake Manor",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 40,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "photos",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "legend-3276502-sinclair",
+      "name": "Legend 3276502 Sinclair",
+      "series": "Legend",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 40,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "photos",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "liberty-3264528-admiral",
+      "name": "Liberty 3264528 Admiral",
+      "series": "Liberty",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 45,
+      "photos": 27,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "prime-estill-043",
+      "name": "Prime Estill 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 15,
+      "photos": 2,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "prime-pinnacle-043",
+      "name": "Prime Pinnacle 043",
+      "series": "Prime",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 15,
+      "photos": 2,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "providence-3264543-wisdom",
+      "name": "Providence 3264543 Wisdom",
+      "series": "Providence",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 45,
+      "photos": 18,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "rh1351a",
+      "name": "RH1351A",
+      "series": "RH",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 45,
+      "photos": 38,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "rh2682a",
+      "name": "RH2682A",
+      "series": "RH",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 35,
+      "photos": 8,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "silver-springs-4892",
+      "name": "Silver Springs 4892",
+      "series": "Silver Springs",
+      "mediaTier": "floor-plan-only",
+      "mediaTierLabel": "Floor Plan Only",
+      "mediaScore": 40,
+      "photos": 0,
+      "hasFloorPlan": true,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "photos",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "sliver-springs-5351",
+      "name": "Sliver Springs 5351",
+      "series": "Silver Springs",
+      "mediaTier": "partial",
+      "mediaTierLabel": "Partial Profile",
+      "mediaScore": 45,
+      "photos": 24,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    },
+    {
+      "id": "waycross-express-1676531-azalea",
+      "name": "Waycross Express 1676531 Azalea",
+      "series": "Waycross Express",
+      "mediaTier": "bare",
+      "mediaTierLabel": "Listing Only",
+      "mediaScore": 0,
+      "photos": 0,
+      "hasFloorPlan": false,
+      "hasVirtualTour": false,
+      "hasVideo": false,
+      "sourceUrl": "",
+      "warnings": [
+        "Added from gallery folder — no spreadsheet specs matched."
+      ],
+      "missing": [
+        "photos",
+        "floor plan",
+        "3D tour",
+        "specs"
+      ]
+    }
+  ]
+}

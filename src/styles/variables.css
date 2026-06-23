@@ -1,0 +1,45 @@
+:root {
+  /* Native Sun Homes — logo palette: royal blue + sun orange/gold on white.
+     Token names are kept from the previous theme so the whole stylesheet
+     repaints from here. */
+
+  --cream: #f4f8fc; /* page background (cool white) */
+  --cream-2: #e9f1f9; /* alternating section background */
+  --beige: #dce8f4; /* soft blue tint (image backings) */
+  --sand: #c4d8ec; /* stronger blue tint / scrollbars */
+  --paper: #ffffff; /* cards / panels */
+
+  --brown: #1366b4; /* PRIMARY brand blue */
+  --brown-dark: #0d4a87; /* darker blue — headings, hover */
+  --charcoal: #102a4c; /* deep navy — footer + dark surfaces */
+
+  --green: #ef7a1a; /* secondary CTA -> sun orange (blue/orange contrast) */
+  --green-dark: #d4640b;
+  --gold: #f3a01c; /* sun gold */
+  --gold-soft: #ffd584; /* light gold */
+  --orange: #ef7a1a;
+  --orange-dark: #d4640b;
+
+  --text: #16263c; /* main text — navy slate */
+  --muted: #5d7286; /* muted blue-gray */
+  --border: #dbe6f1;
+  --border-strong: #c2d6e8;
+
+  --ok: #2f8f6b;
+  --warn: #c5851a;
+  --info: #1366b4;
+
+  --radius-sm: 10px;
+  --radius: 16px;
+  --radius-lg: 24px;
+
+  --shadow-sm: 0 4px 14px rgba(16, 42, 76, 0.08);
+  --shadow: 0 12px 30px rgba(16, 42, 76, 0.13);
+  --shadow-lg: 0 24px 60px rgba(16, 42, 76, 0.18);
+
+  --maxw: 1200px;
+  --header-h: 68px;
+
+  --font: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --serif: "Georgia", "Times New Roman", serif;
+}
