@@ -7,23 +7,23 @@
     </linearGradient>
   </defs>
   <!-- sun rays bursting from the roof peak -->
-  <g stroke="url(#nshSun)" stroke-width="4" stroke-linecap="round">
-    <line x1="32" y1="27" x2="32" y2="6" />
-    <line x1="32" y1="27" x2="19" y2="11" />
-    <line x1="32" y1="27" x2="45" y2="11" />
-    <line x1="32" y1="27" x2="9" y2="19" />
-    <line x1="32" y1="27" x2="55" y2="19" />
+  <g stroke="url(#nshSun)" stroke-width="6" stroke-linecap="round">
+    <line x1="32" y1="27" x2="32" y2="5" />
+    <line x1="32" y1="27" x2="18" y2="10" />
+    <line x1="32" y1="27" x2="46" y2="10" />
+    <line x1="32" y1="27" x2="8" y2="19" />
+    <line x1="32" y1="27" x2="56" y2="19" />
   </g>
   <!-- roof swoosh wings -->
-  <path d="M21 35 C 14.5 35.5, 9.5 38, 5 41" fill="none" stroke="url(#nshSun)" stroke-width="4.5" stroke-linecap="round" />
-  <path d="M43 35 C 49.5 35.5, 54.5 38, 59 41" fill="none" stroke="url(#nshSun)" stroke-width="4.5" stroke-linecap="round" />
+  <path d="M20 36 C 13.5 36.5, 8.5 39, 4 42" fill="none" stroke="url(#nshSun)" stroke-width="6.5" stroke-linecap="round" />
+  <path d="M44 36 C 50.5 36.5, 55.5 39, 60 42" fill="none" stroke="url(#nshSun)" stroke-width="6.5" stroke-linecap="round" />
   <!-- house roof peak -->
-  <path d="M21 35 L32 26 L43 35" fill="none" stroke="url(#nshSun)" stroke-width="4.5" stroke-linejoin="round" stroke-linecap="round" />
+  <path d="M20 36 L32 25 L44 36" fill="none" stroke="url(#nshSun)" stroke-width="6.5" stroke-linejoin="round" stroke-linecap="round" />
   <!-- window -->
   <g fill="#11367f">
-    <rect x="29.2" y="30" width="2.5" height="2.5" rx="0.4" />
-    <rect x="32.3" y="30" width="2.5" height="2.5" rx="0.4" />
-    <rect x="29.2" y="33.1" width="2.5" height="2.5" rx="0.4" />
-    <rect x="32.3" y="33.1" width="2.5" height="2.5" rx="0.4" />
+    <rect x="28.4" y="30" width="3.2" height="3.2" rx="0.5" />
+    <rect x="32.4" y="30" width="3.2" height="3.2" rx="0.5" />
+    <rect x="28.4" y="34" width="3.2" height="3.2" rx="0.5" />
+    <rect x="32.4" y="34" width="3.2" height="3.2" rx="0.5" />
   </g>
 </svg>
