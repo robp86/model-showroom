@@ -18,6 +18,7 @@ import HowItWorksPage from "./pages/HowItWorksPage";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import AuditPage from "./pages/AuditPage";
+import MannyWidget from "./components/manny/MannyWidget";
 
 function NotFound() {
   return (
@@ -58,6 +59,7 @@ export default function App() {
         </Routes>
       </main>
       <Footer />
+      <MannyWidget />
     </BrowserRouter>
   );
 }

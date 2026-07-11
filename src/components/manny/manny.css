@@ -1,0 +1,191 @@
+/* Manny — the showroom bot. Uses the site's theme tokens so he repaints with the theme. */
+#manny-launch {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  z-index: 9990;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--brown);
+  color: #fff;
+  border: none;
+  border-radius: 999px;
+  padding: 12px 20px 12px 14px;
+  font: 600 15px/1 inherit;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+  transition: transform 0.15s;
+}
+#manny-launch:hover { transform: scale(1.05); }
+#manny-launch .manny-face { font-size: 20px; }
+
+#manny-panel {
+  position: fixed;
+  bottom: 22px;
+  right: 22px;
+  z-index: 9991;
+  width: 392px;
+  max-width: calc(100vw - 24px);
+  height: 620px;
+  max-height: calc(100vh - 44px);
+  background: var(--cream);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.manny-head {
+  background: var(--charcoal);
+  color: #fff;
+  padding: 14px 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.manny-head .manny-face {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: var(--orange);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  flex: none;
+}
+.manny-head h3 { margin: 0; font-size: 16px; }
+.manny-head p { margin: 0; font-size: 12px; opacity: 0.8; }
+.manny-close {
+  margin-left: auto;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+  line-height: 1;
+  padding: 4px;
+}
+.manny-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.manny-msg {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 12px 12px 12px 4px;
+  padding: 10px 13px;
+  font-size: 14px;
+  line-height: 1.45;
+  color: var(--text);
+  max-width: 92%;
+  align-self: flex-start;
+  box-shadow: var(--shadow-sm);
+}
+.manny-msg b { color: var(--brown-dark); }
+.manny-msg.user {
+  background: var(--brown);
+  color: #fff;
+  border: none;
+  border-radius: 12px 12px 4px 12px;
+  align-self: flex-end;
+}
+.manny-msg .manny-small {
+  display: block;
+  margin-top: 8px;
+  font-size: 11.5px;
+  color: var(--muted);
+  line-height: 1.4;
+}
+.manny-opts { display: flex; flex-wrap: wrap; gap: 8px; align-self: flex-start; max-width: 95%; }
+.manny-opts button {
+  background: var(--gold-soft);
+  border: 1.5px solid var(--gold);
+  color: var(--charcoal);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font: 600 13.5px/1.2 inherit;
+  cursor: pointer;
+}
+.manny-opts button:hover { background: var(--orange); border-color: var(--orange); color: #fff; }
+.manny-inputrow { display: flex; gap: 8px; align-self: stretch; }
+.manny-inputrow input {
+  flex: 1;
+  border: 1.5px solid var(--border-strong);
+  border-radius: 10px;
+  padding: 10px 12px;
+  font-size: 14px;
+  background: var(--paper);
+  color: var(--text);
+}
+.manny-inputrow input:focus { outline: 2px solid var(--gold); border-color: var(--gold); }
+.manny-inputrow button {
+  background: var(--orange);
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  padding: 0 16px;
+  font: 700 14px inherit;
+  cursor: pointer;
+}
+.manny-cards { display: flex; flex-direction: column; gap: 8px; align-self: stretch; }
+.manny-card {
+  display: flex;
+  gap: 10px;
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 8px;
+  text-decoration: none;
+  color: var(--text);
+  box-shadow: var(--shadow-sm);
+}
+.manny-card:hover { border-color: var(--gold); }
+.manny-card img {
+  width: 86px;
+  height: 62px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: var(--beige);
+  flex: none;
+}
+.manny-card .manny-noimg {
+  width: 86px;
+  height: 62px;
+  border-radius: 8px;
+  background: var(--beige);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  flex: none;
+}
+.manny-card h4 { margin: 0 0 3px; font-size: 14px; color: var(--brown-dark); }
+.manny-card p { margin: 0; font-size: 12.5px; color: var(--muted); }
+.manny-lead { display: flex; flex-direction: column; gap: 8px; align-self: stretch; background: var(--paper); border: 1px solid var(--border); border-radius: 12px; padding: 12px; }
+.manny-lead input {
+  border: 1.5px solid var(--border-strong);
+  border-radius: 8px;
+  padding: 9px 11px;
+  font-size: 14px;
+  background: #fff;
+  color: var(--text);
+}
+.manny-lead button {
+  background: var(--brown);
+  border: none;
+  color: #fff;
+  border-radius: 8px;
+  padding: 11px;
+  font: 700 14px inherit;
+  cursor: pointer;
+}
+.manny-lead button:hover { background: var(--brown-dark); }
+@media (max-width: 480px) {
+  #manny-panel { bottom: 0; right: 0; width: 100vw; max-width: 100vw; height: 100vh; max-height: 100vh; border-radius: 0; }
+}
