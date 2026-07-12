@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /audit
 
 # AI answer engines / LLM crawlers are welcome (AIEO)
 User-agent: GPTBot
