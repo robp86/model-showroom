@@ -129,7 +129,8 @@ export default function MannyWidget() {
   function browse() {
     say(
       `Browse away — the floor's all yours. <a href="/homes">All homes</a> · <a href="/find">Home finder</a> · <a href="/floor-plans">Floor plans</a>` +
-      `<span class="manny-small">Tip: if you tell me where your land is, I can filter out homes that won't fit your county's rules.</span>`
+      `<span class="manny-small">Tip: if you tell me where your land is, I can filter out homes that won't fit your county's rules. ` +
+      `For the full zoning check — permits, size caps, who to call — <a href="https://nativesunhomes.com/">ask my buddy Sunny ☀️</a> on our main site.</span>`
     );
     setStep({ type: "options", items: [{ label: "OK — check my county", go: () => { ans.current.product = "adu"; askCounty(); } }, { label: "↩ Start over", go: start }] });
   }

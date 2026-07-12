@@ -1,7 +1,7 @@
 // Native Sun Homes LLC — real business details (from the company site).
 // NOTE: update SITE_URL to the final production domain (used for canonical URLs,
 // sitemap, Open Graph, and structured data).
-export const SITE_URL = "https://www.nativesunhomesllc.com";
+export const SITE_URL = "https://nativesun.homes";
 
 export const BUSINESS = {
   name: "Native Sun Homes LLC",
