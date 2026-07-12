@@ -3,6 +3,10 @@
 // sitemap, Open Graph, and structured data).
 export const SITE_URL = "https://nativesun.homes";
 
+// The main company site (this showroom is the model-browsing satellite).
+export const MAIN_SITE_URL = "https://nativesunhomes.com";
+export const SERVICE_AREAS_URL = `${MAIN_SITE_URL}/service-areas`;
+
 export const BUSINESS = {
   name: "Native Sun Homes LLC",
   shortName: "Native Sun Homes",

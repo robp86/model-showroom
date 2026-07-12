@@ -253,6 +253,18 @@ button {
   color: var(--brown);
   background: var(--cream-2);
 }
+/* external escape hatch to the main .com site */
+.nav a.nav__external {
+  margin-left: 6px;
+  padding-left: 14px;
+  border-left: 1px solid var(--border-strong);
+  border-radius: 0 8px 8px 0;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.nav a.nav__external:hover {
+  color: var(--brown);
+}
 .header__cta {
   margin-left: 8px;
 }

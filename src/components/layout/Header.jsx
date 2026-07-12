@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { PRIMARY_NAV } from "./nav";
 import MobileMenu from "./MobileMenu";
+import { MAIN_SITE_URL } from "../../data/business";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -28,6 +29,9 @@ export default function Header() {
               {l.label}
             </NavLink>
           ))}
+          <a href={MAIN_SITE_URL} className="nav__external">
+            Main Site ↗
+          </a>
         </nav>
 
         <Link to="/contact" className="btn btn--gold btn--sm header__cta">

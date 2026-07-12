@@ -18,6 +18,7 @@ import { slugify, normalizeKey, similarity } from "../src/utils/slugify.js";
 import {
   parseFolderFlags,
   classifyFolderMedia,
+  pickHeroImage,
 } from "../src/utils/mediaDetection.js";
 import { buildMediaBlock, TIER_LABEL } from "../src/utils/modelScoring.js";
 import {
@@ -162,10 +163,24 @@ function assembleModel({ name, beds, baths, sqft, sourceUrl, folder, legacy, cha
 
   // Champion-scraped media fills gaps: local media wins; Champion fills what's
   // missing (the manufacturer's official photos, floor plans, 3D tours, videos).
+  // A SPARSE local folder (a couple of hand-dropped photos) supplements the
+  // Champion gallery instead of replacing it: the shots are merged, deduped by
+  // normalized filename (local file wins), and the hero is re-picked from the
+  // merged set so exterior shots stay on top.
+  const shotKey = (u) =>
+    decodeURIComponent(String(u).split("?")[0].split("/").pop() || "")
+      .toLowerCase()
+      .replace(/\.[a-z0-9]+$/, "")
+      .replace(/[^a-z0-9]/g, "");
   let externalMedia = false;
   if (champion && champion.scrapeStatus === "success") {
     if (photos.length === 0 && champion.photos?.length) {
       photos.push(...champion.photos);
+      externalMedia = true;
+    } else if (photos.length < 3 && champion.photos?.length) {
+      const local = new Set(photos.map(shotKey));
+      photos.push(...champion.photos.filter((p) => !local.has(shotKey(p))));
+      heroImage = pickHeroImage(photos);
       externalMedia = true;
     }
     if (floorPlans.length === 0 && champion.floorPlans?.length) {

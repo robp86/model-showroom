@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Logo from "./Logo";
-import { BUSINESS } from "../../data/business";
+import { BUSINESS, MAIN_SITE_URL, SERVICE_AREAS_URL } from "../../data/business";
 
 export default function Footer() {
   return (
@@ -36,6 +36,8 @@ export default function Footer() {
             <Link to="/financing">Financing</Link>
             <Link to="/about">About Us</Link>
             <Link to="/contact">Contact Us</Link>
+            <a href={SERVICE_AREAS_URL}>Service Areas ↗</a>
+            <a href={MAIN_SITE_URL}>Main Website ↗</a>
           </div>
 
           <div>
