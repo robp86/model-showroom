@@ -3,11 +3,29 @@ import { Link } from "react-router-dom";
 import Seo from "../components/Seo";
 import HeroSearch from "../components/home/HeroSearch";
 import BuyerPathCards from "../components/home/BuyerPathCards";
+import StatsBand from "../components/home/StatsBand";
 import HomeSection from "../components/home/HomeSection";
 import ModelGrid from "../components/models/ModelGrid";
 import CTASection from "../components/layout/CTASection";
 import { useModels } from "../hooks/useModels";
 import { SIZE_GROUPS } from "../utils/sizeGroups";
+import { isFloorPlanFile } from "../utils/mediaDetection";
+
+// Ticker cards must show a real photo. Models with no hero photo fall back to
+// a floor-plan drawing on the card, and plan-only folders can have a plan AS
+// the hero — both read as blueprints, not homes, so keep them out of the
+// shop-window rows.
+function hasPhotoCard(m) {
+  const hero = m.media.heroImage;
+  if (!hero) return false;
+  if (m.media.floorPlans.includes(hero)) return false;
+  try {
+    if (isFloorPlanFile(decodeURIComponent(hero))) return false;
+  } catch {
+    if (isFloorPlanFile(hero)) return false;
+  }
+  return true;
+}
 
 // Round-robin models by series so consecutive homes are from different
 // collections — showcases the breadth of the lineup instead of repeating the
@@ -61,11 +79,12 @@ export default function HomePage() {
   // section, then the rest is filled from a series round-robin with a shared
   // "used" set so no model appears in more than one section.
   const { featured, bestSellers, newArrivals } = useMemo(() => {
-    const diverse = diversifyBySeries(models);
+    const pool = models.filter(hasPhotoCard);
+    const diverse = diversifyBySeries(pool);
     const used = new Set();
     const take = (pred, n) => {
       const out = [];
-      for (const m of models) {
+      for (const m of pool) {
         if (out.length >= n) break;
         if (pred(m) && !used.has(m.id)) {
           out.push(m);
@@ -112,6 +131,7 @@ export default function HomePage() {
       />
       <HeroSearch />
       <BuyerPathCards />
+      <StatsBand />
 
       <HomeSection
         eyebrow="Showcase"
@@ -120,7 +140,7 @@ export default function HomePage() {
         viewAllTo="/homes"
         variant="cream"
       >
-        <ModelGrid models={featured} scroll />
+        <ModelGrid models={featured} ticker />
       </HomeSection>
 
       <HomeSection
@@ -129,7 +149,7 @@ export default function HomePage() {
         subtitle="The floor plans buyers love most."
         viewAllTo="/category/best-sellers"
       >
-        <ModelGrid models={bestSellers} scroll />
+        <ModelGrid models={bestSellers} ticker />
       </HomeSection>
 
       <HomeSection
@@ -139,7 +159,7 @@ export default function HomePage() {
         viewAllTo="/category/new-arrivals"
         variant="cream"
       >
-        <ModelGrid models={newArrivals} scroll />
+        <ModelGrid models={newArrivals} ticker />
       </HomeSection>
 
       <HomeSection title="Shop by Series" subtitle="Explore homes by collection." viewAllTo="/series">

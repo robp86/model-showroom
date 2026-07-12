@@ -1,9 +1,36 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import CTAButton from "../common/CTAButton";
 
+// Hand-picked exterior shots for the rotating hero backdrop. First entry is
+// the long-standing Stagg header so the initial paint doesn't change.
+const HERO_IMAGES = [
+  "/model-galleries/Stagg/00header%20021-foundation-stagg-exterior.%20header.jpg",
+  "/model-galleries/Vienna%202.0/021-ascend-vienna-2-exterior-rendering-hr.jpg",
+  "/model-galleries/Crestwood/194-farmluxe-crestwood-exterior-1.jpg",
+  "/model-galleries/Silver%20Springs%20(25)/Silver%20Springs%20Elite%206400/Silver-Springs-Elite-6400-Exterior-9.jpg",
+  "/model-galleries/Icon%20(5)/Icon%203256/050-icon-3256529-exterior-1-edit.jpg",
+];
+
 export default function HeroSearch() {
   const navigate = useNavigate();
+  // prev stays mounted so the outgoing slide can crossfade underneath.
+  const [slide, setSlide] = useState({ idx: 0, prev: null });
+
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    const t = setInterval(
+      () => setSlide((s) => ({ idx: (s.idx + 1) % HERO_IMAGES.length, prev: s.idx })),
+      7000
+    );
+    return () => clearInterval(t);
+  }, []);
+
+  // Warm the cache for the upcoming slide so the crossfade never pops.
+  useEffect(() => {
+    const img = new Image();
+    img.src = HERO_IMAGES[(slide.idx + 1) % HERO_IMAGES.length];
+  }, [slide.idx]);
   const [beds, setBeds] = useState("");
   const [baths, setBaths] = useState("");
   const [size, setSize] = useState("");
@@ -25,6 +52,18 @@ export default function HeroSearch() {
 
   return (
     <section className="hero">
+      <div className="hero__bg" aria-hidden="true">
+        {HERO_IMAGES.map((src, i) =>
+          i === slide.idx || i === slide.prev ? (
+            <div
+              key={src}
+              className={`hero__slide${i === slide.idx ? " is-active" : ""}`}
+              style={{ backgroundImage: `url("${src}")` }}
+            />
+          ) : null
+        )}
+        <div className="hero__scrim" />
+      </div>
       <div className="container hero__inner">
         <p className="eyebrow" style={{ color: "var(--gold-soft)" }}>
           Native Sun Homes • Manufactured Home Showroom
