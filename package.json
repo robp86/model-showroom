@@ -5,8 +5,9 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run build:seo && vite build",
+    "build": "npm run build:seo && vite build && node scripts/prerender.mjs",
     "build:data": "node scripts/buildModelData.mjs",
+    "prerender": "node scripts/prerender.mjs",
     "build:seo": "node scripts/generateSeo.mjs",
     "scrape:champion": "node scripts/scrapeChampionMedia.mjs",
     "lint": "eslint .",
