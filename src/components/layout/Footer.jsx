@@ -12,7 +12,7 @@ export default function Footer() {
               <Logo size={34} />
               <span style={{ color: "#fff" }}>
                 Native Sun Homes
-                <small style={{ color: "#9fb6cc" }}>{BUSINESS.tagline}</small>
+                <small style={{ color: "#a3add6" }}>{BUSINESS.tagline}</small>
               </span>
             </div>
             <p style={{ maxWidth: 300 }}>

@@ -70,8 +70,9 @@ export default function HeroSearch() {
         </p>
         <h1>Find the manufactured home that fits your life.</h1>
         <p className="lead">
-          Affordable, customizable, move-in-ready homes for families — browse
-          floor plans, tour homes, and get honest pricing from a local dealer who
+          Affordable, customizable, move-in-ready homes for families — with
+          financing, monthly payments are often comparable to rent. Browse floor
+          plans, tour homes, and get honest pricing from a local dealer who
           actually picks up the phone.
         </p>
 

@@ -4,6 +4,8 @@ import Seo from "../components/Seo";
 import HeroSearch from "../components/home/HeroSearch";
 import BuyerPathCards from "../components/home/BuyerPathCards";
 import StatsBand from "../components/home/StatsBand";
+import TrustStrip from "../components/home/TrustStrip";
+import Testimonials from "../components/home/Testimonials";
 import HomeSection from "../components/home/HomeSection";
 import ModelGrid from "../components/models/ModelGrid";
 import CTASection from "../components/layout/CTASection";
@@ -130,6 +132,7 @@ export default function HomePage() {
         description={`New manufactured & modular homes across all of Florida, in partnership with Champion Homes. Browse ${total}+ models, floor plans, and 3D tours from Native Sun Homes.`}
       />
       <HeroSearch />
+      <TrustStrip />
       <BuyerPathCards />
       <StatsBand />
 
@@ -193,6 +196,8 @@ export default function HomePage() {
           ))}
         </div>
       </HomeSection>
+
+      <Testimonials />
 
       <CTASection />
     </>

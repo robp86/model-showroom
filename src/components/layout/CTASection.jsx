@@ -32,7 +32,7 @@ function Strip() {
 export default function CTASection({
   eyebrow = "Ready when you are",
   title = "Let's find the right home for your budget and your land.",
-  text = "Tell us what you're looking for and we'll send pricing, availability, and financing options — no pressure.",
+  text = "Tell us what you're looking for and we'll send pricing, availability, and financing options — monthly payments are often comparable to rent. No pressure, no obligation.",
 }) {
   return (
     <section className="section">

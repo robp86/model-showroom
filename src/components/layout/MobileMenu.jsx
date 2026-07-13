@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { NAV_LINKS } from "./nav";
-import { MAIN_SITE_URL, SERVICE_AREAS_URL } from "../../data/business";
+import { BUSINESS, MAIN_SITE_URL, SERVICE_AREAS_URL } from "../../data/business";
 
 export default function MobileMenu({ open, onClose }) {
   return (
@@ -20,6 +20,9 @@ export default function MobileMenu({ open, onClose }) {
         <Link className="btn btn--gold" to="/contact" onClick={onClose}>
           Request Free Estimate
         </Link>
+        <a className="btn btn--green" href={BUSINESS.phoneHref} onClick={onClose}>
+          📞 Call {BUSINESS.phone}
+        </a>
       </div>
     </div>
   );

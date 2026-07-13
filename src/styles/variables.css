@@ -1,41 +1,46 @@
 :root {
-  /* Native Sun Homes — logo palette: royal blue + sun orange/gold on white.
-     Token names are kept from the previous theme so the whole stylesheet
-     repaints from here. */
+  /* Native Sun Homes — unified brand palette, matched to the main site
+     (nativesunhomes.com): deep navy + sun gold on warm white. Token names
+     are kept from the previous theme so the whole stylesheet repaints from
+     here. Companion tokens on the main site: navy #1B3A8C, navy-dk #0F2260,
+     navy-lt #2A4EBB, gold #F5A623, gold-lt #FAC75C, gold-pale #FEF3D8,
+     warm #FDFCF8, lgray #F5F4EF. */
 
-  --cream: #f4f8fc; /* page background (cool white) */
-  --cream-2: #e9f1f9; /* alternating section background */
-  --beige: #dce8f4; /* soft blue tint (image backings) */
-  --sand: #c4d8ec; /* stronger blue tint / scrollbars */
+  --cream: #fdfcf8; /* page background (warm white) */
+  --cream-2: #f5f4ef; /* alternating section background */
+  --beige: #f0ecdf; /* soft warm tint (image backings) */
+  --sand: #e3d9bd; /* stronger warm tint / scrollbars */
   --paper: #ffffff; /* cards / panels */
 
-  --brown: #1366b4; /* PRIMARY brand blue */
-  --brown-dark: #0d4a87; /* darker blue — headings, hover */
-  --charcoal: #102a4c; /* deep navy — footer + dark surfaces */
+  --brown: #1b3a8c; /* PRIMARY brand navy */
+  --brown-dark: #0f2260; /* darker navy — headings, hover */
+  --charcoal: #0f2260; /* deep navy — footer + dark surfaces */
 
-  --green: #ef7a1a; /* secondary CTA -> sun orange (blue/orange contrast) */
-  --green-dark: #d4640b;
-  --gold: #f3a01c; /* sun gold */
-  --gold-soft: #ffd584; /* light gold */
-  --orange: #ef7a1a;
-  --orange-dark: #d4640b;
+  --green: #2a4ebb; /* secondary CTA -> action navy */
+  --green-dark: #1b3a8c;
+  --gold: #f5a623; /* sun gold — the money CTA color */
+  --gold-soft: #fac75c; /* light gold */
+  --gold-pale: #fef3d8; /* gold tint backgrounds */
+  --gold-ink: #9c6300; /* gold-family TEXT on light backgrounds (5:1) */
+  --orange: #2a4ebb; /* chat/widget accent (navy family) */
+  --orange-dark: #1b3a8c;
 
-  --text: #16263c; /* main text — navy slate */
-  --muted: #5d7286; /* muted blue-gray */
-  --border: #dbe6f1;
-  --border-strong: #c2d6e8;
+  --text: #1a1a2e; /* main text — deep ink */
+  --muted: #4a4a6a; /* muted slate */
+  --border: #e7e4d8;
+  --border-strong: #d6d1bf;
 
   --ok: #2f8f6b;
-  --warn: #c5851a;
-  --info: #1366b4;
+  --warn: #9c6300;
+  --info: #1b3a8c;
 
   --radius-sm: 10px;
   --radius: 16px;
   --radius-lg: 24px;
 
-  --shadow-sm: 0 4px 14px rgba(16, 42, 76, 0.08);
-  --shadow: 0 12px 30px rgba(16, 42, 76, 0.13);
-  --shadow-lg: 0 24px 60px rgba(16, 42, 76, 0.18);
+  --shadow-sm: 0 4px 14px rgba(15, 34, 96, 0.08);
+  --shadow: 0 12px 30px rgba(15, 34, 96, 0.13);
+  --shadow-lg: 0 24px 60px rgba(15, 34, 96, 0.18);
 
   --maxw: 1200px;
   --header-h: 68px;

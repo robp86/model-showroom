@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import { PRIMARY_NAV } from "./nav";
 import MobileMenu from "./MobileMenu";
-import { MAIN_SITE_URL } from "../../data/business";
+import { BUSINESS, MAIN_SITE_URL } from "../../data/business";
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -33,6 +33,11 @@ export default function Header() {
             Main Site ↗
           </a>
         </nav>
+
+        <a href={BUSINESS.phoneHref} className="header__phone" aria-label={`Call ${BUSINESS.shortName} at ${BUSINESS.phone}`}>
+          <span aria-hidden="true">📞</span>
+          <span className="header__phone-num">{BUSINESS.phone}</span>
+        </a>
 
         <Link to="/contact" className="btn btn--gold btn--sm header__cta">
           Free Estimate
