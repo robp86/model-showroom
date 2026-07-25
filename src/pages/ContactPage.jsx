@@ -36,7 +36,7 @@ export default function ContactPage() {
             <p>
               <strong>Facebook</strong>
               <a href={BUSINESS.facebook} target="_blank" rel="noopener noreferrer">
-                facebook.com/NativeSunHomes
+                Native Sun Homes on Facebook
               </a>
             </p>
             <p>

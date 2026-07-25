@@ -15,7 +15,7 @@ export const BUSINESS = {
   phoneHref: "tel:+18632634736",
   email: "contactus@nativesunhomesllc.com",
   emailHref: "mailto:contactus@nativesunhomesllc.com",
-  facebook: "https://www.facebook.com/NativeSunHomes",
+  facebook: "https://www.facebook.com/profile.php?id=61580979725343",
   serviceArea: "Serving all of Florida",
 };
 
