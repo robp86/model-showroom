@@ -223,10 +223,18 @@ export default function MannyWidget() {
       message: `Sent by Manny (showroom bot).${a.viaSunny ? " Arrived via Sunny handoff." : ""}${a.city ? " City: " + a.city + "." : ""}${a.hoa ? " HOA: " + a.hoa + "." : ""}`,
     }).toString();
     fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body })
-      .then(done).catch(done);
+      .then((res) => (res.ok ? done() : fail()))
+      .catch(fail);
     function done() {
       said(f.name.value);
       say(`Got it, <b>${esc(f.name.value)}</b> — the team will reach out shortly. In the meantime the floor's open. 🤝`);
+      setStep({ type: "options", items: [{ label: "↩ Start over", go: start }] });
+    }
+    function fail() {
+      said(f.name.value);
+      say(
+        `Hmm — that didn't go through on my end. 😅 Call us at <a href="tel:+18632634736"><b>(863) 263-4736</b></a> or email <a href="mailto:contactus@nativesunhomesllc.com">contactus@nativesunhomesllc.com</a> and a real human will pick it up.`
+      );
       setStep({ type: "options", items: [{ label: "↩ Start over", go: start }] });
     }
     return false;
