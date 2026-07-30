@@ -5,11 +5,13 @@
 import { useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { useModels } from "../../hooks/useModels";
+import { captureAttribution, attributionFields } from "../../utils/attribution";
 import "./manny.css";
 
 const DB_URL = "/data/fl-zoning-db.json";
 
 function readCtx() {
+  captureAttribution(); // persist utm_*/lp from the handoff URL before SPA navigation loses them
   const p = new URLSearchParams(window.location.search);
   return {
     viaSunny: p.get("via") === "sunny",
@@ -221,6 +223,7 @@ export default function MannyWidget() {
       model: (step?.prevList || []).slice(0, 3).map((m) => m.name).join(", "),
       interest: `Manny bot — ${a.product === "adu" ? "ADU" : "own land"}${a.county ? " in " + a.county + " County" : ""}${a.beds ? ", " + a.beds : ""}`,
       message: `Sent by Manny (showroom bot).${a.viaSunny ? " Arrived via Sunny handoff." : ""}${a.city ? " City: " + a.city + "." : ""}${a.hoa ? " HOA: " + a.hoa + "." : ""}`,
+      ...attributionFields(),
     }).toString();
     fetch("/", { method: "POST", headers: { "Content-Type": "application/x-www-form-urlencoded" }, body })
       .then((res) => (res.ok ? done() : fail()))

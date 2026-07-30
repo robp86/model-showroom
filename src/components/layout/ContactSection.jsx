@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { BUSINESS } from "../../data/business";
+import { attributionFields } from "../../utils/attribution";
 
 // Lead-capture form wired to Netlify Forms. The hidden detection form lives in
 // index.html; on submit we POST url-encoded data to "/". When the site is
@@ -32,7 +33,7 @@ export default function ContactSection({ defaultModel = "", compact = false }) {
       const res = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...form }),
+        body: encode({ "form-name": "contact", ...form, ...attributionFields() }),
       });
       setStatus(res.ok ? "sent" : "error");
     } catch {
