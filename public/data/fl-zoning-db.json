@@ -169,8 +169,8 @@
       "owner_occupancy_required": "unknown",
       "setbacks": "Per residential district.",
       "permit_notes": "County seat: Panama City. Call the county Planning/Zoning or Building Dept to confirm current ADU rules.",
-      "zoning_dept_url": "",
-      "zoning_dept_phone": "",
+      "zoning_dept_url": "https://www.baycountyfl.gov/276/Planning-Zoning",
+      "zoning_dept_phone": "850-248-8250",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
       "manufactured_districts": null
     },
@@ -752,8 +752,8 @@
       "owner_occupancy_required": "unknown",
       "setbacks": "Per residential district.",
       "permit_notes": "County seat: Marianna. Call the county Planning/Zoning or Building Dept to confirm current ADU rules.",
-      "zoning_dept_url": "",
-      "zoning_dept_phone": "",
+      "zoning_dept_url": "https://www.jacksoncountyfl.gov/services/community-development/planning-division/",
+      "zoning_dept_phone": "850-482-9637",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
       "manufactured_districts": null
     },
