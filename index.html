@@ -11,6 +11,17 @@
       gtag("js", new Date());
       gtag("config", "G-20GTF6QSCF");
     </script>
+    <script>
+      // Conversion tracking: phone clicks, delegated to `document` so every
+      // tel: link on every route fires this without wiring each one
+      // individually (Header, Footer, MobileMenu, ContactPage, ...).
+      document.addEventListener("click", function (e) {
+        var a = e.target.closest && e.target.closest('a[href^="tel:"]');
+        if (a && window.gtag) {
+          gtag("event", "phone_click", { link_url: a.href, page_path: location.pathname });
+        }
+      });
+    </script>
 
     <link rel="icon" href="/favicon.ico" sizes="any" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
