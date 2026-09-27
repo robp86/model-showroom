@@ -7,6 +7,7 @@
     "dev": "vite",
     "build": "npm run build:seo && vite build && node scripts/prerender.mjs",
     "build:data": "node scripts/buildModelData.mjs",
+    "build:costs": "node scripts/build-cost-data.mjs",
     "prerender": "node scripts/prerender.mjs",
     "build:seo": "node scripts/generateSeo.mjs",
     "scrape:champion": "node scripts/scrapeChampionMedia.mjs",
