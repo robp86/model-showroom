@@ -46,6 +46,19 @@ export default function ModelPage() {
   const { media } = model;
   const heroSrc = media.heroImage || media.floorPlans[0] || "";
   const askLink = `/contact?model=${encodeURIComponent(model.name)}`;
+  // Site-cost calculator on the main site. Home size is only prefilled when
+  // the section count is certain ("multi-section" could be double or triple).
+  const sections = { "single-wide": "single", "double-wide": "double" }[model.sectionType];
+  const costLink =
+    "https://nativesunhomes.com/cost-calculator?" +
+    new URLSearchParams({
+      model: model.name,
+      ...(sections ? { sections } : {}),
+      utm_source: "showroom",
+      utm_medium: "model-page",
+      utm_campaign: "cost-calculator",
+      utm_content: model.id,
+    }).toString();
 
   const sqftStr = model.sqft ? model.sqft.toLocaleString() : "";
   const seriesSuffix = model.series && model.series !== "Other Models" ? ` (${model.series})` : "";
@@ -156,6 +169,14 @@ export default function ModelPage() {
                 )}
               </div>
             </div>
+
+            <a className="site-cost" href={costLink}>
+              <span className="site-cost__q">What will it cost to put the {model.name} on your land?</span>
+              <span className="site-cost__d">
+                Permits, site prep, foundation, and utilities — get a cost range in about two minutes.
+              </span>
+              <span className="btn btn--gold btn--sm">Estimate site costs →</span>
+            </a>
           </div>
         </div>
 

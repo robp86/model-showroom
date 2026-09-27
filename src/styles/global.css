@@ -871,6 +871,36 @@ button {
   flex: 1;
 }
 
+/* link card to the main site's cost calculator */
+.site-cost {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  margin-top: 14px;
+  padding: 16px 18px;
+  background: var(--gold-pale);
+  border: 1px solid #f1dfb0;
+  border-radius: var(--radius-sm);
+  color: var(--text);
+  transition: border-color 0.14s ease, transform 0.14s ease;
+}
+.site-cost:hover {
+  border-color: var(--gold);
+  transform: translateY(-2px);
+}
+.site-cost__q {
+  font-family: var(--serif);
+  font-weight: 700;
+  font-size: 1.05rem;
+  color: var(--brown-dark);
+}
+.site-cost__d {
+  font-size: 0.9rem;
+  color: var(--muted);
+  margin-bottom: 4px;
+}
+
 .tabs {
   display: flex;
   gap: 6px;
