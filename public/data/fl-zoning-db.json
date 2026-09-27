@@ -68,7 +68,8 @@
       "zoning_dept_phone": "Contact number",
       "source": "Where this data came from",
       "verified": "true | false — has a human confirmed this record?",
-      "manufactured_districts": "Zoning districts where a manufactured (HUD) home is allowed as a primary dwelling under CURRENT county code (pre-2027 law), plus placement standards (age limits, skirting, appearance). Null if not yet researched - then answer 'district-dependent, call the county'."
+      "manufactured_districts": "Zoning districts where a manufactured (HUD) home is allowed as a primary dwelling under CURRENT county code (pre-2027 law), plus placement standards (age limits, skirting, appearance). Null if not yet researched - then answer 'district-dependent, call the county'.",
+      "estimate": "Only on verified:false counties. Regional rough range from verified neighbors (see _meta.estimate_method). estimated:true always."
     },
     "statewide_baseline": {
       "note": "Florida encourages ADUs (F.S. 163.31771) but leaves adoption to local governments. Modular homes built to the Florida Building Code must be treated like site-built homes statewide. Manufactured homes must meet HUD code and are subject to local zoning district limits.",
@@ -79,7 +80,8 @@
       "effective": "2027-01-01",
       "rule": "Starting Jan 1, 2027, local governments MUST allow modular and manufactured homes BY RIGHT in ANY zoning district where single-family detached homes are allowed - including multifamily, agricultural, commercial or industrial districts that permit single-family. Local governments may apply uniform architectural/design/compatibility standards but may NOT treat factory-built homes more restrictively than site-built homes. Conflicting local regulations are void and unenforceable.",
       "chatbot_guidance": "Before Jan 1, 2027: use the county's manufactured_districts field (or say 'district-dependent, call the county'). On/after Jan 1, 2027: the default answer becomes 'a new manufactured home is allowed wherever a site-built single-family home is allowed, subject to uniform appearance standards' - counties may lag in updating their codes, but the state law controls. Wind-zone unit rating still applies regardless (see manufactured_home_wind_zones)."
-    }
+    },
+    "estimate_method": "The `estimate` object on unverified counties is a rough range derived from verified neighboring counties in the same region. It is NOT a rule for that county and must never be shown as one. Sunny and Manny do not read it; only the standalone calculator does, always labeled as an estimate. Ranges predate the Dec 1, 2026 state deadline for county ADU ordinances and should be reviewed after it."
   },
   "record_template": {
     "county": "",
@@ -153,7 +155,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Bay",
@@ -172,7 +209,39 @@
       "zoning_dept_url": "https://www.baycountyfl.gov/276/Planning-Zoning",
       "zoning_dept_phone": "850-248-8250",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Bradford",
@@ -191,7 +260,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Brevard",
@@ -282,7 +386,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Charlotte",
@@ -377,7 +513,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "DeSoto",
@@ -396,7 +567,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "South-Central",
+        "basis_counties": [
+          "Charlotte",
+          "Lee",
+          "Highlands",
+          "Okeechobee",
+          "Polk",
+          "Manatee",
+          "Sarasota",
+          "Collier"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            500,
+            1000
+          ],
+          "pct_of_primary_range": [
+            35,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 1,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Lee and Collier use 750 sq ft or 35%, Polk 50% up to 1,000 sq ft, Sarasota 500 sq ft, Okeechobee about 400 sq ft. Manatee allows up to 80% (outlier).",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Dixie",
@@ -415,7 +621,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Duval",
@@ -491,7 +732,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Gadsden",
@@ -510,7 +783,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Gilchrist",
@@ -529,7 +834,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Glades",
@@ -548,7 +888,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "South-Central",
+        "basis_counties": [
+          "Charlotte",
+          "Lee",
+          "Highlands",
+          "Okeechobee",
+          "Polk",
+          "Manatee",
+          "Sarasota",
+          "Collier"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            500,
+            1000
+          ],
+          "pct_of_primary_range": [
+            35,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 1,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Lee and Collier use 750 sq ft or 35%, Polk 50% up to 1,000 sq ft, Sarasota 500 sq ft, Okeechobee about 400 sq ft. Manatee allows up to 80% (outlier).",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Gulf",
@@ -567,7 +942,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Hamilton",
@@ -586,7 +993,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Hardee",
@@ -605,7 +1047,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "South-Central",
+        "basis_counties": [
+          "Charlotte",
+          "Lee",
+          "Highlands",
+          "Okeechobee",
+          "Polk",
+          "Manatee",
+          "Sarasota",
+          "Collier"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            500,
+            1000
+          ],
+          "pct_of_primary_range": [
+            35,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 1,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Lee and Collier use 750 sq ft or 35%, Polk 50% up to 1,000 sq ft, Sarasota 500 sq ft, Okeechobee about 400 sq ft. Manatee allows up to 80% (outlier).",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Hendry",
@@ -624,7 +1101,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "South-Central",
+        "basis_counties": [
+          "Charlotte",
+          "Lee",
+          "Highlands",
+          "Okeechobee",
+          "Polk",
+          "Manatee",
+          "Sarasota",
+          "Collier"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            500,
+            1000
+          ],
+          "pct_of_primary_range": [
+            35,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 1,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Lee and Collier use 750 sq ft or 35%, Polk 50% up to 1,000 sq ft, Sarasota 500 sq ft, Okeechobee about 400 sq ft. Manatee allows up to 80% (outlier).",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Hernando",
@@ -717,7 +1229,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Indian River",
@@ -755,7 +1299,39 @@
       "zoning_dept_url": "https://www.jacksoncountyfl.gov/services/community-development/planning-division/",
       "zoning_dept_phone": "850-482-9637",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Jefferson",
@@ -774,7 +1350,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Lafayette",
@@ -793,7 +1401,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Lake",
@@ -886,7 +1529,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Liberty",
@@ -905,7 +1583,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Madison",
@@ -924,7 +1634,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Manatee",
@@ -1476,7 +2221,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Taylor",
@@ -1495,7 +2275,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Union",
@@ -1514,7 +2329,42 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "North Florida / Big Bend",
+        "basis_counties": [
+          "Alachua",
+          "Clay",
+          "Nassau",
+          "Putnam",
+          "Marion",
+          "Citrus",
+          "Duval",
+          "Sumter"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            25,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 4,
+          "neighbors_compared": 8,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Clay, Nassau, Duval and Sumter cap at 750-1,200 sq ft or 25-50% of the main home, and all four require owner occupancy. Alachua allows up to 1,700 sq ft. Marion has no fixed cap.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Volusia",
@@ -1552,7 +2402,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     },
     {
       "county": "Walton",
@@ -1590,7 +2472,39 @@
       "zoning_dept_url": "",
       "zoning_dept_phone": "",
       "source": "Rural baseline - Florida state ADU law; county-specific ADU ordinance UNCONFIRMED (Jul 2026)",
-      "manufactured_districts": null
+      "manufactured_districts": null,
+      "estimate": {
+        "estimated": true,
+        "confidence": "rough",
+        "region": "Panhandle",
+        "basis_counties": [
+          "Escambia",
+          "Santa Rosa",
+          "Okaloosa",
+          "Walton",
+          "Leon"
+        ],
+        "adu_max_size": {
+          "fixed_sqft_range": [
+            750,
+            1200
+          ],
+          "pct_of_primary_range": [
+            50,
+            50
+          ]
+        },
+        "owner_occupancy": {
+          "neighbors_requiring": 0,
+          "neighbors_compared": 5,
+          "caution": "Unconfirmed neighbors are not the same as 'not required'."
+        },
+        "min_lot_size": null,
+        "min_lot_size_note": "Too little verified data to estimate.",
+        "basis_note": "Santa Rosa allows 50% of the main home, Walton is under 800 sq ft, Leon caps at 1,200 sq ft, Okaloosa says no larger than the main home, Escambia varies by district.",
+        "as_of": "2026-09-26",
+        "review_after": "2026-12-01"
+      }
     }
   ]
 }
