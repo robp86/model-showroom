@@ -50,7 +50,8 @@ export function attributionFields() {
     utm_source: a.utm_source || "",
     utm_medium: a.utm_medium || "",
     utm_campaign: a.utm_campaign || "",
-    referrer: a.referrer || "",
+    // Not "referrer": Netlify overwrites that field with the submitting page's URL.
+    "original-referrer": a.referrer || "",
     "landing-page": a.landing_page || "",
   };
 }

@@ -230,7 +230,7 @@ export default function MannyWidget() {
       .then((res) => (res.ok ? done() : fail()))
       .catch(fail);
     function done() {
-      trackLead("manny_bot");
+      trackLead("manny_bot", { county: a.county });
       said(f.name.value);
       say(`Got it, <b>${esc(f.name.value)}</b> — the team will reach out shortly. In the meantime the floor's open. 🤝`);
       setStep({ type: "options", items: [{ label: "↩ Start over", go: start }] });
