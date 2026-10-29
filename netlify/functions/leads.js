@@ -13,7 +13,7 @@
 //
 // FUNNEL_SITE_ID is optional — if unset, only this site's leads are returned.
 
-const crypto = require("crypto");
+import crypto from "node:crypto";
 
 const API = "https://api.netlify.com/api/v1";
 
@@ -98,7 +98,7 @@ function normalize(s, site) {
   };
 }
 
-exports.handler = async (event) => {
+export const handler = async (event) => {
   const json = (code, body) => ({
     statusCode: code,
     headers: { "Content-Type": "application/json", "Cache-Control": "no-store" },
