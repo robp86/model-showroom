@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="robots" content="noindex, nofollow" />
+<title>Lead Dashboard — Native Sun Homes</title>
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<style>
+  :root{
+    --blue:#1366b4; --blue-d:#0f4e8a; --ink:#17202a; --muted:#667085;
+    --line:#e4e8ee; --bg:#f6f8fb; --card:#fff; --in:#e7f4ea; --out:#fce8e6; --gold:#fff4d6;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--ink)}
+  header{background:var(--blue);color:#fff;padding:14px 20px;display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+  header img{width:28px;height:28px;background:#fff;border-radius:7px;padding:3px}
+  header h1{font-size:17px;margin:0;font-weight:700;letter-spacing:.2px}
+  header .sp{flex:1}
+  button{font:inherit;cursor:pointer;border:0;border-radius:8px;padding:8px 14px;background:var(--blue);color:#fff;font-weight:600}
+  button.ghost{background:rgba(255,255,255,.15)}
+  button:disabled{opacity:.5;cursor:default}
+  .wrap{max-width:1200px;margin:0 auto;padding:18px 16px 60px}
+  /* login */
+  .login{max-width:360px;margin:12vh auto;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:28px;text-align:center;box-shadow:0 8px 30px rgba(20,40,80,.08)}
+  .login img{width:52px;height:52px;margin-bottom:10px}
+  .login h2{margin:.2em 0 1em;font-size:18px}
+  .login input{width:100%;padding:11px 13px;border:1px solid var(--line);border-radius:9px;font:inherit;margin-bottom:12px}
+  .login button{width:100%}
+  .err{color:#b00020;font-size:13px;min-height:18px;margin-top:8px}
+  /* stats */
+  .stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin:4px 0 18px}
+  .stat{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+  .stat .n{font-size:26px;font-weight:800;color:var(--blue)}
+  .stat .l{font-size:12px;color:var(--muted);margin-top:2px}
+  /* controls */
+  .controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:12px;align-items:center}
+  .controls input,.controls select{padding:9px 11px;border:1px solid var(--line);border-radius:9px;font:inherit;background:#fff}
+  .controls input[type=search]{min-width:220px;flex:1}
+  /* table */
+  .tablewrap{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:auto}
+  table{border-collapse:collapse;width:100%;font-size:13px;min-width:860px}
+  th,td{text-align:left;padding:10px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{position:sticky;top:0;background:#f0f5fb;font-size:11px;letter-spacing:.4px;text-transform:uppercase;color:#4a5a6a;cursor:pointer;white-space:nowrap}
+  tr:hover td{background:#fafcff}
+  .pill{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:999px}
+  .pill.Funnel{background:#eaf2fb;color:var(--blue-d)}
+  .pill.Showroom{background:#eef7ee;color:#2e7d32}
+  .chan{font-size:11px;color:var(--muted)}
+  a{color:var(--blue)}
+  td.model{font-weight:600}
+  .muted{color:var(--muted)}
+  .expand{cursor:pointer;color:var(--blue);font-weight:700;user-select:none}
+  .raw{font-family:ui-monospace,Menlo,Consolas,monospace;font-size:11.5px;white-space:pre-wrap;background:#f7f9fc;border-radius:8px;padding:10px;margin-top:6px;color:#334}
+  .empty{padding:40px;text-align:center;color:var(--muted)}
+  .foot{font-size:12px;color:var(--muted);margin-top:10px;text-align:right}
+  @media (max-width:560px){header h1{font-size:15px}}
+</style>
+</head>
+<body>
+<div id="app"></div>
+
+<script>
+const $ = (s,el=document)=>el.querySelector(s);
+const ENDPOINT = "/.netlify/functions/leads";
+let STATE = { leads: [], sort: "date", dir: -1 };
+
+function getPass(){ try{return sessionStorage.getItem("nsh_admin")||""}catch{return ""} }
+function setPass(p){ try{ p?sessionStorage.setItem("nsh_admin",p):sessionStorage.removeItem("nsh_admin") }catch{} }
+
+function loginView(msg){
+  document.body.innerHTML = '';
+  const app = document.createElement('div'); app.id='app'; document.body.appendChild(app);
+  app.innerHTML = `
+    <div class="login">
+      <img src="/favicon.svg" alt="">
+      <h2>Lead Dashboard</h2>
+      <input id="pw" type="password" placeholder="Password" autocomplete="current-password" />
+      <button id="go">Sign in</button>
+      <div class="err">${msg||""}</div>
+    </div>`;
+  const submit = ()=>{ const p=$("#pw").value.trim(); if(!p) return; setPass(p); load(); };
+  $("#go").onclick = submit;
+  $("#pw").addEventListener("keydown",e=>{ if(e.key==="Enter") submit(); });
+  $("#pw").focus();
+}
+
+async function load(){
+  const pass = getPass();
+  if(!pass){ loginView(); return; }
+  document.body.innerHTML = '<div class="wrap"><p class="muted" style="padding:30px;text-align:center">Loading leads…</p></div>';
+  try{
+    const res = await fetch(ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({password:pass})});
+    if(res.status===401){ setPass(""); loginView("Wrong password — try again."); return; }
+    const data = await res.json();
+    if(!res.ok){ dashboard([], data.error||("Error "+res.status)); return; }
+    STATE.leads = data.leads||[];
+    dashboard(STATE.leads, "", data.fetchedAt);
+  }catch(e){ dashboard([], "Could not reach the server: "+e.message); }
+}
+
+function fmtDate(iso){ if(!iso) return ""; const d=new Date(iso); return isNaN(d)?iso:d.toLocaleDateString(undefined,{month:"short",day:"numeric",year:"numeric"})+" "+d.toLocaleTimeString(undefined,{hour:"numeric",minute:"2-digit"}); }
+function uniq(arr){ return [...new Set(arr.filter(Boolean))].sort(); }
+
+function dashboard(leads, errMsg, fetchedAt){
+  const weekAgo = Date.now()-7*864e5;
+  const thisWeek = leads.filter(l=>new Date(l.date)>=weekAgo).length;
+  const showroom = leads.filter(l=>l.site==="Showroom").length;
+  const funnel = leads.filter(l=>l.site==="Funnel").length;
+  document.body.innerHTML = `
+    <header>
+      <img src="/favicon.svg" alt=""><h1>Native Sun — Lead Dashboard</h1><span class="sp"></span>
+      <button class="ghost" id="refresh">↻ Refresh</button>
+      <button class="ghost" id="logout">Sign out</button>
+    </header>
+    <div class="wrap">
+      ${errMsg?`<div class="stat" style="border-color:#f3c2bd;background:#fdeeec;color:#b00020;margin-bottom:14px">${errMsg}</div>`:""}
+      <div class="stats">
+        <div class="stat"><div class="n">${leads.length}</div><div class="l">Total leads</div></div>
+        <div class="stat"><div class="n">${thisWeek}</div><div class="l">Last 7 days</div></div>
+        <div class="stat"><div class="n">${showroom}</div><div class="l">Showroom</div></div>
+        <div class="stat"><div class="n">${funnel}</div><div class="l">Funnel</div></div>
+      </div>
+      <div class="controls">
+        <input type="search" id="q" placeholder="Search name, email, phone, model, county…">
+        <select id="fSite"><option value="">All sites</option>${uniq(leads.map(l=>l.site)).map(s=>`<option>${s}</option>`).join("")}</select>
+        <select id="fSource"><option value="">All sources</option>${uniq(leads.map(l=>l.utm_source||"(none)")).map(s=>`<option>${s}</option>`).join("")}</select>
+        <select id="fCounty"><option value="">All counties</option>${uniq(leads.map(l=>l.county)).map(s=>`<option>${s}</option>`).join("")}</select>
+      </div>
+      <div class="tablewrap"><table id="tbl"></table></div>
+      <div class="foot">${fetchedAt?("Live from Netlify · fetched "+fmtDate(fetchedAt)):""}</div>
+    </div>`;
+  $("#logout").onclick = ()=>{ setPass(""); loginView(); };
+  $("#refresh").onclick = load;
+  ["#q","#fSite","#fSource","#fCounty"].forEach(s=>$(s).addEventListener("input",render));
+  render();
+}
+
+const COLS = [
+  ["date","Date",l=>fmtDate(l.date)],
+  ["site","Site",l=>`<span class="pill ${l.site}">${l.site}</span><div class="chan">${l.form||""}</div>`],
+  ["name","Name",l=>l.name||'<span class="muted">—</span>'],
+  ["contact","Contact",l=>[l.email?`<a href="mailto:${l.email}">${l.email}</a>`:"",l.phone?`<div>${l.phone}</div>`:""].join("")],
+  ["model","Model",l=>`<span class="model">${l.model||""}</span>`],
+  ["interest","Interest",l=>l.interest||""],
+  ["source","Source",l=>[l.utm_source,l.utm_medium,l.utm_campaign].filter(Boolean).join(" / ")||`<span class="muted">${(l.referrer||"").replace(/^https?:\/\//,"").slice(0,28)}</span>`],
+  ["county","County",l=>l.county||""],
+];
+
+function render(){
+  const q=($("#q").value||"").toLowerCase();
+  const fSite=$("#fSite").value, fSource=$("#fSource").value, fCounty=$("#fCounty").value;
+  let rows = STATE.leads.filter(l=>{
+    if(fSite && l.site!==fSite) return false;
+    if(fSource && (l.utm_source||"(none)")!==fSource) return false;
+    if(fCounty && l.county!==fCounty) return false;
+    if(q){ const hay=[l.name,l.email,l.phone,l.model,l.county,l.interest,l.utm_source,l.message].join(" ").toLowerCase(); if(!hay.includes(q)) return false; }
+    return true;
+  });
+  rows.sort((a,b)=>{ const k=STATE.sort; const av=(a[k]||"").toString(), bv=(b[k]||"").toString(); return av.localeCompare(bv)*STATE.dir; });
+  const tbl=$("#tbl");
+  tbl.innerHTML = `<thead><tr>${COLS.map(c=>`<th data-k="${c[0]}">${c[1]}</th>`).join("")}<th></th></tr></thead>
+    <tbody>${rows.length?rows.map((l,i)=>`
+      <tr>${COLS.map(c=>`<td class="${c[0]}">${c[2](l)}</td>`).join("")}
+        <td><span class="expand" data-i="${i}">⋯</span></td></tr>
+      <tr id="raw${i}" style="display:none"><td colspan="${COLS.length+1}"><div class="raw">${escapeHtml(JSON.stringify({message:l.message,landing:l.landing,referrer:l.referrer,financing:l.financing,timeframe:l.timeframe,...l.raw},null,2))}</div></td></tr>
+    `).join(""):`<tr><td colspan="${COLS.length+1}"><div class="empty">No leads match.</div></td></tr>`}</tbody>`;
+  tbl.querySelectorAll("th[data-k]").forEach(th=>th.onclick=()=>{ const k=th.dataset.k; STATE.dir = (STATE.sort===k)?-STATE.dir:-1; STATE.sort=k; render(); });
+  tbl.querySelectorAll(".expand").forEach(x=>x.onclick=()=>{ const r=$("#raw"+x.dataset.i); r.style.display = r.style.display==="none"?"table-row":"none"; });
+  STATE._rows = rows;
+}
+function escapeHtml(s){ return s.replace(/[&<>]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;"}[c])); }
+
+load();
+</script>
+</body>
+</html>

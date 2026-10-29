@@ -1,3 +1,7 @@
+# Pretty URL for the internal lead dashboard (real file is /admin.html).
+# Must come before the SPA fallback so it isn't swallowed by the catch-all.
+/admin   /admin.html   200
+
 # SPA fallback — prerendered files (real paths in dist/) are served first;
 # anything not prerendered falls back to the app shell.
 /*  /index.html  200
