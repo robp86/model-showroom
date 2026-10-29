@@ -178,7 +178,7 @@ function countyPage(c) {
     [`Can I build an ADU in ${name} County, Florida?`, `${allowed}. ${clean(c.adu_conditions, `${name} conditions`)}`],
     [`How big can an ADU be in ${name} County?`, `${sizeRule}.`.replace(/\.\.$/, ".") + (minRow ? ` The minimum ADU size is ${minRow}.` : "")],
     [`Does the owner have to live on the property?`, c.owner_occupancy_required === "true" ? `Yes. ${name} County requires the owner to live on the property, in either the main home or the ADU.` : `Our records don't confirm an owner-occupancy requirement for ${name} County — ask the county zoning department before you buy.`],
-    [`Can a manufactured home be an ADU in ${name} County?`, `Florida's 2025 ADU law counts a manufactured home built on or after January 1, 2025 to HUD standards as an accessory dwelling unit. ${name} County's size, lot, and setback rules still apply.`],
+    [`Can a manufactured home be an ADU in ${name} County?`, `Often yes — many Florida counties allow a manufactured or modular home as an accessory dwelling unit, subject to ${name} County's ADU size, lot, and setback rules. Confirm with the county for your parcel.`],
   ] : [];
 
   const jsonld = [breadcrumb([["Home", `${BASE}/`], ["ADU rules by county", `${BASE}/adu/`], [`${name} County`, url]])];
@@ -193,7 +193,7 @@ function countyPage(c) {
     <h1>ADU Rules in ${esc(name)} County, Florida</h1>
     <p class="lead">${verified
       ? `How big a backyard home (accessory dwelling unit) can be in ${esc(name)} County, who can build one, and who to call to confirm — from the county's published rules.`
-      : `${esc(name)} County hasn't published an ADU size rule we could confirm. Here's what Florida law allows, an estimate from nearby counties, and who to call.`}</p>
+      : `${esc(name)} County hasn't published an ADU size rule we could confirm. Here's an estimate from nearby counties and who to call to get the exact rule.`}</p>
   </div>
 </header>
 
@@ -212,12 +212,12 @@ function countyPage(c) {
     <span class="${verified ? "ver" : "est"}">${verified ? "✓ From the county's published rules" : "≈ Estimate — no published rule found"}</span>
     <h2>${esc(name)} County ADU rules at a glance</h2>
     <table class="facts">
-      <tr><th>ADUs allowed?</th><td>${esc(verified ? allowed : "Florida law requires counties to allow them on single-family lots")}</td></tr>
+      <tr><th>ADUs allowed?</th><td>${esc(verified ? allowed : "Set by county rule — not confirmed for this county yet; see below")}</td></tr>
       <tr><th>Maximum ADU size</th><td>${esc(sizeShort.charAt(0).toUpperCase() + sizeShort.slice(1))}</td></tr>
       ${minRow ? `<tr><th>Minimum ADU size</th><td>${esc(minRow)}</td></tr>` : ""}
       ${lotRow ? `<tr><th>Minimum lot size</th><td>${esc(lotRow)}</td></tr>` : ""}
       <tr><th>Owner must live on site?</th><td>${esc(verified ? owner : "Not confirmed")}</td></tr>
-      <tr><th>Manufactured home as an ADU?</th><td>Yes, if built 2025 or later to HUD standards (Florida law)</td></tr>
+      <tr><th>Manufactured home as an ADU?</th><td>Often allowed, subject to the county's ADU and zoning rules</td></tr>
     </table>
     ${verified
       ? `<div class="quote"><strong>What the county rules say:</strong> &ldquo;${esc(c.max_adu_size_sqft)}&rdquo;</div>
@@ -242,8 +242,8 @@ ${cities.length ? `
 <section class="body${cities.length ? "" : " alt"}">
   <div class="wrap">
     <p class="eyebrow">Before You Build</p>
-    <h2>Rules are changing — confirm first</h2>
-    <p>Florida requires every county and city to adopt an ADU ordinance by <strong>December 1, 2026</strong>, so ${esc(name)} County's rules may change. Short-term rentals (under 30 days) of an ADU are not allowed under state law.</p>
+    <h2>Confirm the rules first</h2>
+    <p>ADU rules are set by each county and city — Florida law (Fla. Stat. 163.31771) lets local governments allow ADUs but doesn't require it — and they can change, so always confirm the current rule with ${esc(name)} County before you build.</p>
     ${contact ? `<p><strong>Confirm with ${esc(name)} County:</strong> ${contact}</p>` : ""}
     <p class="note">${esc(db._meta.disclaimer)}</p>
   </div>
@@ -309,7 +309,7 @@ function hubPage(counties) {
   <div class="wrap">
     <p class="eyebrow">All 67 Counties</p>
     <h2>Maximum ADU size by county</h2>
-    <p>Inside city limits, the city's rules apply instead. Florida requires every county and city to adopt an ADU ordinance by December 1, 2026, so limits may change — always confirm with the local zoning department.</p>
+    <p>Inside city limits, the city's rules apply instead. ADU rules are set locally and can change, so always confirm with the local zoning department.</p>
     <table class="hub">${rows}</table>
     <p class="note">${esc(db._meta.disclaimer)}</p>
   </div>
